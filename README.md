@@ -3,6 +3,13 @@
 This is the repo for [onegoodtutorial.org](https://onegoodtutorial.org/)!
 
 
+## 🚧 Work in Progress 🚧
+
+This repo represents a work in progress. See [this
+blog](https://newton.cx/~peter/2025/one-good-tutorial-plan/) for a vision of
+what it is intended to become.
+
+
 ## Legalities
 
 [One Good Tutorial](https://onegoodtutorial.org/) © 2025 by [Peter K. G.
