@@ -26,14 +26,18 @@ jobs:
     - name: Setup Pages
       uses: actions/configure-pages@v5
 
-    - name: Build with Jekyll
-      uses: actions/jekyll-build-pages@v1
+    - name: Install Zola
+      uses: taiki-e/install-action@v2
       with:
-        source: ./
-        destination: ./_site
+        tool: zola@0.21.0
+
+    - name: Build site
+      run: zola build
 
     - name: Upload artifact
       uses: actions/upload-pages-artifact@v3
+      with:
+        path: "./public"
 
   deploy:
     environment:
