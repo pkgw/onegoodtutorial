@@ -1,12 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 
+{% if page.title %}
+{% set titlesuffix = ": " ~ page.title %}
+{% else %}
+{% set titlesuffix = "" %}
+{% endif %}
+
 <head>
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta charset="utf-8">
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
-  <title>One Good Tutorial</title>
+  <title>One Good Tutorial{{ titlesuffix }}</title>
   <link rel="stylesheet" href='{{ get_url(path="style.css") | safe }}'>
   <link href="https://fonts.googleapis.com/css?family=Bitter|Noto+Serif|Noto+Sans" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -17,7 +23,7 @@
 <body>
   <header>
     <div class="maxwidth">
-      <p id="banner"><a href="{{ get_url(path="", trailing_slash=true) | safe }}">One Good Tutorial</a></p>
+      <p id="banner"><a href="{{ get_url(path="", trailing_slash=true) | safe }}">One Good Tutorial</a>{{ titlesuffix }}</p>
     </div>
   </header>
 

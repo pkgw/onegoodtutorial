@@ -1,0 +1,38 @@
+// The all-important checklist!
+
+.checklist {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  margin: 1rem 0;
+
+  table {
+    flex: 2 1;
+
+    tbody th {
+      text-align: right;
+      font-weight: 400;
+    }
+
+    tbody td {
+      text-align: center;
+      vertical-align: middle;
+    }
+  }
+
+  .cl-infoboxes {
+    flex: 1 1;
+  }
+}
+
+.cl-infobox {
+  display: none;
+}
+
+.cl-infobox-shown {
+  display: inherit;
+}
+
+.cl-cell {
+  cursor: pointer;
+}

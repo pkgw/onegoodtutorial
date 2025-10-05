@@ -1,0 +1,139 @@
+{% extends "base.html" %}
+
+{%- macro regular(item, phase) -%}
+<div id="cell-{{ phase }}-{{ item }}" class="cl-cell" data-phase="{{ phase }}" data-item="{{ item }}">☐</div>
+{%- endmacro regular -%}
+
+{% block content %}
+<p>The <a href="{{ get_url(path="") | safe }}">One Good Tutorial</a> software
+documentation checklist is a matrix. We suggest that you work through each phase
+top-to-bottom, before moving from one phase to the next (left to right). But
+there’s no reason you can’t skip around!</p>
+
+<div class="checklist">
+  <table>
+    <thead>
+      <tr>
+        <th></th>
+        <th>Plan</th>
+        <th>Draft</th>
+        <th>Assess</th>
+        <th>Revise</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th>Synopsis</th>
+        <td>{{ self::regular(phase="p", item="synopsis") }}</td>
+        <td>{{ self::regular(phase="d", item="synopsis") }}</td>
+        <td>{{ self::regular(phase="a", item="synopsis") }}</td>
+        <td>{{ self::regular(phase="r", item="synopsis") }}</td>
+      </tr>
+      <tr>
+        <th>Personas</th>
+        <td>{{ self::regular(phase="p", item="personas") }}</td>
+        <td>{{ self::regular(phase="d", item="personas") }}</td>
+        <td>{{ self::regular(phase="a", item="personas") }}</td>
+        <td>{{ self::regular(phase="r", item="personas") }}</td>
+      </tr>
+      <tr>
+        <th>Tutorial</th>
+        <td>{{ self::regular(phase="p", item="tutorial") }}</td>
+        <td>{{ self::regular(phase="d", item="tutorial") }}</td>
+        <td>{{ self::regular(phase="a", item="tutorial") }}</td>
+        <td>{{ self::regular(phase="r", item="tutorial") }}</td>
+      </tr>
+      <tr>
+        <th>Install Instructions</th>
+        <td>{{ self::regular(phase="p", item="installation") }}</td>
+        <td>{{ self::regular(phase="d", item="installation") }}</td>
+        <td>{{ self::regular(phase="a", item="installation") }}</td>
+        <td>{{ self::regular(phase="r", item="installation") }}</td>
+      </tr>
+      <tr>
+        <th>Citation Instructions</th>
+        <td>{{ self::regular(phase="p", item="citation") }}</td>
+        <td>{{ self::regular(phase="d", item="citation") }}</td>
+        <td>{{ self::regular(phase="a", item="citation") }}</td>
+        <td>{{ self::regular(phase="r", item="citation") }}</td>
+      </tr>
+      <tr>
+        <th>License</th>
+        <td>{{ self::regular(phase="p", item="license") }}</td>
+        <td>{{ self::regular(phase="d", item="license") }}</td>
+        <td>{{ self::regular(phase="a", item="license") }}</td>
+        <td>{{ self::regular(phase="r", item="license") }}</td>
+      </tr>
+      <tr>
+        <th>How to Contribute</th>
+        <td>{{ self::regular(phase="p", item="contributing") }}</td>
+        <td>{{ self::regular(phase="d", item="contributing") }}</td>
+        <td>{{ self::regular(phase="a", item="contributing") }}</td>
+        <td>{{ self::regular(phase="r", item="contributing") }}</td>
+      </tr>
+      <tr>
+        <th>API Reference</th>
+        <td>{{ self::regular(phase="p", item="api-ref") }}</td>
+        <td>{{ self::regular(phase="d", item="api-ref") }}</td>
+        <td>{{ self::regular(phase="a", item="api-ref") }}</td>
+        <td>{{ self::regular(phase="r", item="api-ref") }}</td>
+      </tr>
+      <tr>
+        <th>Other Reference</th>
+        <td>{{ self::regular(phase="p", item="other-ref") }}</td>
+        <td>{{ self::regular(phase="d", item="other-ref") }}</td>
+        <td>{{ self::regular(phase="a", item="other-ref") }}</td>
+        <td>{{ self::regular(phase="r", item="other-ref") }}</td>
+      </tr>
+      <tr>
+        <th>Acknowledgments</th>
+        <td>{{ self::regular(phase="p", item="acknowledgments") }}</td>
+        <td>{{ self::regular(phase="d", item="acknowledgments") }}</td>
+        <td>{{ self::regular(phase="a", item="acknowledgments") }}</td>
+        <td>{{ self::regular(phase="r", item="acknowledgments") }}</td>
+      </tr>
+      <tr>
+        <th>Authoring Tools</th>
+        <td>{{ self::regular(phase="p", item="authoring-tools") }}</td>
+        <td>{{ self::regular(phase="d", item="authoring-tools") }}</td>
+        <td>{{ self::regular(phase="a", item="authoring-tools") }}</td>
+        <td>{{ self::regular(phase="r", item="authoring-tools") }}</td>
+      </tr>
+      <tr>
+        <th>Release Process</th>
+        <td>{{ self::regular(phase="p", item="release-process") }}</td>
+        <td>{{ self::regular(phase="d", item="release-process") }}</td>
+        <td>{{ self::regular(phase="a", item="release-process") }}</td>
+        <td>{{ self::regular(phase="r", item="release-process") }}</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="cl-infoboxes">
+    {# the Markdown content provides the hints/explanations for each step #}
+    {{ page.content | safe }}
+  </div>
+</div>
+
+<script>
+let selectedCellId = "cell-p-synopsis";
+let selectedInfoId = "info-p-synopsis";
+
+function clickCell(phase, item) {
+  const myCellId = `cell-${phase}-${item}`;
+  const myInfoId = `info-${phase}-${item}`;
+
+  if (selectedCellId != myCellId) {
+    document.getElementById(myInfoId).classList.add("cl-infobox-shown");
+    document.getElementById(selectedInfoId).classList.remove("cl-infobox-shown");
+    selectedCellId = myCellId;
+    selectedInfoId = myInfoId;
+    return;
+  }
+}
+
+for (const el of document.getElementsByClassName("cl-cell")) {
+  el.addEventListener("click", (event) => clickCell(el.dataset.phase, el.dataset.item));
+}
+</script>
+{% endblock content %}
