@@ -10,8 +10,9 @@
 
 // Parameters of the layout. In `typography` we set 1 rem = 18 px.
 
-$card-edge-color: #e3e176;
-$card-button-color: #77089c;
+$card-background-color: #f7e4d8;
+$card-highlight-color: #55d41b;
+$card-button-color: #245c2f;
 $card-button-link-color: #ebebeb;
 $card-button-link-hover-color: #ffffff;
 
@@ -19,3 +20,4 @@ $card-button-link-hover-color: #ffffff;
 @import "content";
 @import "layout";
 @import "chrome";
+@import "components";

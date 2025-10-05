@@ -1,0 +1,59 @@
+// Landing page lede
+
+.lede {
+  font-size: 120%;
+}
+
+// Simple flexbox-based "card" layouts
+
+.flex-cards {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  margin: 1rem 0;
+
+  .flex-card {
+    flex: 1 1;
+    min-width: 10rem;
+    margin: 0.8rem;
+
+    display: flex;
+    flex-flow: column;
+
+    font-size: 90%;
+
+    background-color: $card-background-color;
+    border-radius: 8px;
+    padding: 0.6rem;
+
+    p {
+      margin: 0 0 1rem 0;
+      flex-grow: 1;
+    }
+  }
+
+  .button {
+    margin: auto 0 0 auto;
+
+    background-color: $card-button-color;
+    @include border-radius(6px);
+
+    a {
+      display: block;
+      min-width: 7rem;
+      padding: 0.3rem;
+
+      text-align: center;
+      text-decoration: none;
+
+      color: $card-button-link-color;
+      border: 2px solid transparent;
+      @include border-radius(6px);
+
+      &:hover {
+        color: $card-button-link-hover-color;
+        border: 2px solid $card-highlight-color;
+      }
+    }
+  }
+}
