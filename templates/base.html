@@ -2,16 +2,56 @@
 <html lang="en">
 
 <head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta charset="utf-8">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
   <title>One Good Tutorial</title>
+  <link rel="stylesheet" href='{{ get_url(path="sanitize.css") | safe }}'>
+  <link rel="stylesheet" href='{{ get_url(path="style.css") | safe }}'>
+  <link href="https://fonts.googleapis.com/css?family=Bitter|Noto+Serif|Noto+Sans" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <section class="section">
-    <div class="container">
-      {% block content %} {% endblock content %}
+  <header>
+    <div class="maxwidth">
+      <p id="banner"><a href="{{ get_url(path="", trailing_slash=true) | safe }}">One Good Tutorial</a></p>
     </div>
-  </section>
+  </header>
+
+  <!--<nav id="topnav">
+    <div class="maxwidth">
+      <ul>
+        <li><a href='/blah'>Blah blah</a></li>
+      </ul>
+    </div>
+  </nav>-->
+
+  <div class="maxwidth">
+    <main class="content">
+      {% block content %}
+      {% endblock content %}
+    </main>
+  </div>
+
+  <footer>
+    <div class="maxwidth">
+      <p>
+        <a href="{{ get_url(path="", trailing_slash=true) | safe }}">One Good
+        Tutorial</a> © 2025 by
+        <a href="https://newton.cx/~peter/">Peter K. G. Williams</a> is licensed
+        under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA
+        4.0</a>. PKGW’s work on One Good Tutorial was supported by a <a
+        href="https://bssw.io/pages/bssw-fellowship-program">Better Scientific
+        Software Fellowship</a>. Site generated with <a
+        href="https://www.getzola.org/">Zola</a>.
+        <a href="https://github.com/pkgw/onegoodtutorial/">Source code.</a>
+      </p>
+    </div>
+  </footer>
 </body>
 
 </html>

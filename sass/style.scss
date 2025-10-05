@@ -1,0 +1,344 @@
+// SASS variables, mixins, etc.
+
+$dark-color: #290066;
+
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  -ms-border-radius: $radius;
+  border-radius: $radius;
+}
+
+// Breakpoints for responsive CSS media queries. For reference, Boostrap uses:
+//
+// extra-small  < 576px  <~26em  smartphone in portrait
+// small        < 768px  <~35em  smartphone, landscape
+// medium       < 992px  <~45em  tablet (portrait?)
+// large        <1200px  <~55em  reasonable desktop
+// extra-large  >1200px  >~55em  large desktop
+//
+// (Here, the "em" measurements use our adopted fiducial conversion of 1em =
+// 22px; see below.) But we don't care about such fine gradations, so we keep
+// it more reasonable. In fact, right now the only place this is used is in
+// shrinking code blocks so that they don’t run off the screen *too* badly
+// when viewed on a phone.
+
+$break-small: 36em;
+
+// Top-level setup
+
+html {
+  // Default font sizes are too small, I think. At a standard 1em = 16px,
+  // 1.125em becomes 18px.
+  font-size: 1.125em;
+
+  font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+
+  // The viewport width changes slightly if there's a scrollbar or not,
+  // causing the layout to shift when navigating between long and short
+  // pages. There are a few ways to try to deal with this, but here I
+  // just force there to always be a scrollbar.
+  overflow-y: scroll;
+}
+
+// Styling for generic Markdown. I want Markdown-derived HTML to look
+// reasonable without any extra futzing or applying CSS classes, so these
+// rules try to set up a nice, coherent appearance that will work well in a
+// variety of contexts.
+
+p {
+  // Note use of "em" units here.
+  margin: 0.3em 0 1em 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+li {
+  margin: 0.3rem 0 0.3rem 0;
+}
+
+pre {
+  font-size: 70%;
+  padding: 0.2rem;
+
+  @media screen and (max-width: $break-small) {
+    font-size: 50%;
+    padding: 0.1rem;
+  }
+}
+
+blockquote {
+  font-size: 85%;
+  font-family: "Noto Sans";
+}
+
+hr {
+  margin: 1rem 2rem;
+}
+
+a {
+  color: $dark-color;
+}
+
+h1 {
+  // Keep this smaller than `.post-title`
+  font-size: 125%;
+
+  margin: 2.5em 0 0.5em 0;
+}
+
+h2 {
+  // Looks like we need to manually specify these font sizes to cascade down
+  // relative to h1.
+  font-size: 110%;
+}
+
+h3,
+h4,
+h5,
+h6 {
+  // Todo: use techniques other than font-sizing to distinguish h4 and below
+  // from h3.
+  font-size: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1;
+}
+
+// Additional generic rules, for figures. Using `table` and `table-caption`
+// for display types makes it so that the caption never becomes wider than the
+// figure.
+
+figure {
+  display: table;
+  margin: 1.5rem auto 1.5rem auto;
+  max-width: 100%;
+
+  img {
+    max-width: 100%;
+    margin: 0;
+  }
+}
+
+figcaption {
+  display: table-caption;
+  caption-side: bottom;
+  font-size: 70%;
+  font-style: italic;
+  margin-top: 0.2rem;
+}
+
+// Page layout. Thus far, this has ended up being extremely simple! Yay.
+
+div.maxwidth {
+  max-width: 40rem;
+  padding: 0 1.5rem 0 1.5rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+// The universal header and banner. The structure is `header > div.maxwidth >
+// p#banner > a`.
+
+header {
+  // Header, flush to edges of viewport. At least 3 rem high, but maybe higher
+  // if the banner text wraps to multiple lines.
+  width: 100%;
+  min-height: 3rem;
+  background-color: rgb(87, 158, 100);
+}
+
+#banner {
+  // Banner text "One Good Tutorial" overlaying the header image. It's inside
+  // the `maxwidth` div to stay roughly centered when the viewport is wide. It's
+  // a <p> tag (Markdown produces <h1>-<h6> tags so I want to save their styling
+  // to be nice and generic).
+  margin: 0;
+  min-height: 3rem;
+  padding: 0.7rem 0 0 0;
+  font-size: 2rem;
+  font-family: "Newsreader", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 1;
+  color: #FFF;
+
+  a {
+    // The banner link to the main page gets special styling.
+    color: #FFF;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+// The top navigation bar. The structure is: `nav#topnav > div.maxwidth > ul >
+// li > a`.
+
+#topnav {
+  font-family: "Noto Sans";
+  font-size: 80%;
+
+  ul {
+    padding: 0;
+    margin: 0.2rem 0 0.2rem 0;
+  }
+
+  li {
+    display: inline-block;
+  }
+
+  a {
+    padding: 0 0.3rem 0 0.3rem;
+    text-decoration: none;
+    color: #FFF;
+    background-color: $dark-color;
+    border: 2px solid $dark-color;
+
+    &:hover {
+      background-color: #FFF;
+      color: $dark-color;
+    }
+  }
+}
+
+// The universal footer. The structure is `footer > div.maxwidth > p`.
+
+footer {
+  background-color: rgb(186, 207, 190);
+  width: 100%;
+  clear: both;
+  font-size: 80%;
+  margin: 4rem 0 0 0;
+  padding: 0.3rem 0 0.3rem 0;
+
+  p {
+    margin: 0;
+  }
+}
+
+// The main content area of each page. In an inversion of most of the rest of
+// the elements, the structure is `div.maxwidth > div.content`.
+
+main.content {
+  width: 100%;
+  margin-top: 1rem;
+
+  // This line-height is very generous, but the W3C apparently recommends a
+  // value at least this large for body text for accessibility reasons.
+  line-height: 1.5;
+}
+
+// Styling "posts", which perhaps should be called "pages" in the Zola
+// nomenclature. The structure is:
+//
+// <p class="post-title"><a href="{{permalink}}">title</a></p>
+// <p class="post-date">{{date}}</p>  <!-- sometimes this is omitted -->
+// {{content}}
+//
+// We avoid using <hN> tags for these titles, reserving <h1>..<h6> for use
+// within markdown -- such that <h1> should be a bit smaller than
+// `p.post-title`.
+
+.post-title {
+  font-size: 150%;
+  font-weight: 700;
+  line-height: 1;
+  margin: 0 0 0.2rem 0;
+
+  a {
+    text-decoration: none;
+    color: #000;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.post-date {
+  font-size: 80%;
+  line-height: 1;
+  margin: 0 0 1rem 0;
+  padding-left: 0.5rem;
+}
+
+.prev-next-pages {
+  margin-top: 4rem;
+
+  p {
+    // Get a hanging indent (text-indent has a `hanging` keyword but it's not
+    // (yet) stable.
+    text-indent: -2em;
+    padding-left: 2em;
+  }
+}
+
+// We configure Zola to insert anchor links for headers in the Markdown.
+// These show up as `a.zola-anchor` tags inside the <hN> tag to the left
+// of the header text.
+
+a.zola-anchor {
+  visibility: hidden;
+  text-decoration: none;
+  font-size: 80%;
+  margin-left: 0.2em; // note: intentionally `em` here
+}
+
+h1:hover a.zola-anchor,
+h2:hover a.zola-anchor,
+h3:hover a.zola-anchor,
+h4:hover a.zola-anchor,
+h5:hover a.zola-anchor,
+h6:hover a.zola-anchor {
+  visibility: visible;
+}
+
+// Some special bits on the index page
+
+.lede {
+  font-size: 115%;
+}
+
+.index-small-divider {
+  font-size: 70%;
+  font-style: italic;
+  text-align: center;
+  margin: 0.2rem 0 0.5rem 0;
+}
+
+.read-more {
+  font-style: italic;
+  text-align: right;
+}
+
+.recent-post-date {
+  font-weight: 700;
+  width: 10rem;
+  vertical-align: top;
+
+  // If the line-height setting doesn't match the one in .recent-post-title,
+  // the text in the two columns end up with a slightly different vertical
+  // alignment.
+  line-height: 1;
+}
+
+.recent-post-title {
+  line-height: 1;
+  padding-bottom: 1rem;
+}
