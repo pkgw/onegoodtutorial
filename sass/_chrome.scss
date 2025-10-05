@@ -1,0 +1,74 @@
+// Styles for the generic elements included in every page through the templates.
+
+body {
+  // The viewport width changes slightly if there's a scrollbar or not,
+  // causing the layout to shift when navigating between long and short
+  // pages. There are a few ways to try to deal with this, but here I
+  // just force there to always be a scrollbar.
+  overflow-y: scroll;
+}
+
+// The universal header and banner. The structure is `header > div.maxwidth >
+// p#banner > a`
+
+header {
+  // Header, flush to edges of viewport. At least 3 rem high, but maybe higher
+  // if the banner text wraps to multiple lines.
+  width: 100%;
+  min-height: 3rem;
+  background-color: rgb(87, 158, 100);
+}
+
+#banner {
+  // Banner text "One Good Tutorial" overlaying the header image. It's inside
+  // the `maxwidth` div to stay roughly centered when the viewport is wide. It's
+  // a <p> tag (Markdown produces <h1>-<h6> tags so I want to save their styling
+  // to be nice and generic).
+  margin: 0;
+  min-height: 3rem;
+  padding: 0.7rem 0 0 0;
+  font-size: 2rem;
+  font-family: "Newsreader", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 1;
+  color: #FFF;
+
+  a {
+    // The banner link to the main page gets special styling.
+    color: #FFF;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+// The universal footer. The structure is `footer > div.maxwidth > p`.
+
+footer {
+  background-color: rgb(186, 207, 190);
+  width: 100%;
+  clear: both;
+  font-size: 80%;
+  margin: 4rem 0 0 0;
+  padding: 0.3rem 0 0.3rem 0;
+
+  p {
+    margin: 0;
+  }
+}
+
+// The main content area of each page. In an inversion of most of the rest of
+// the elements, the structure is `div.maxwidth > div.content`.
+
+main.content {
+  width: 100%;
+  margin-top: 1rem;
+
+  // This line-height is very generous, but the W3C apparently recommends a
+  // value at least this large for body text for accessibility reasons.
+  line-height: 1.5;
+}

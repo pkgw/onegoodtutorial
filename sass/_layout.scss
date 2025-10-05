@@ -1,0 +1,23 @@
+// Big-picture page layout.
+
+html {
+  height: 100%;
+
+  // The viewport width changes slightly if there's a scrollbar or not,
+  // causing the layout to shift when navigating between long and short
+  // pages. There are a few ways to try to deal with this, but here I
+  // just force there to always be a scrollbar.
+  overflow-y: scroll;
+}
+
+body {
+  margin: 0;
+  height: 100%;
+}
+
+div.maxwidth {
+  max-width: 40rem;
+  padding: 0 1.5rem 0 1.5rem;
+  margin-left: auto;
+  margin-right: auto;
+}

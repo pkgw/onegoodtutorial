@@ -1,0 +1,155 @@
+// Styling for generic Markdown. I want Markdown-derived HTML to look
+// reasonable without any extra futzing or applying CSS classes, so these
+// rules try to set up a nice, coherent appearance that will work well in a
+// variety of contexts.
+
+.content {
+  p {
+    // Note use of "em", not "rem", units here.
+    margin: 0.3em 0 1em 0;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  li {
+    margin: 0.3rem 0;
+  }
+
+  pre {
+    font-size: 70%;
+    padding: 0.2rem;
+  }
+
+  blockquote {
+    font-size: 85%;
+    font-family: "Noto Sans";
+  }
+
+  hr {
+    margin: 1rem 2rem;
+  }
+
+  h1 {
+    font-size: 150%;
+    margin: 3rem 0 0.6rem 0;
+  }
+
+  h2 {
+    // Looks like we need to manually specify these font sizes to cascade down
+    // relative to h1.
+    font-size: 110%;
+    margin: 1.2rem 0 1rem 0;
+  }
+
+  h3, h4, h5, h6 {
+    // Todo: use techniques other than font-sizing to distinguish h4 and below
+    // from h3.
+    font-size: 100%;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    line-height: 1;
+  }
+
+  // We configure Zola to insert anchor links for headers in the Markdown.
+  // These show up as `a.zola-anchor` tags inside the <hN> tag to the left
+  // of the header text.
+
+  a.zola-anchor {
+    visibility: hidden;
+    text-decoration: none;
+    font-size: 80%;
+    margin-left: 0.2em; // note: intentionally `em` here
+  }
+
+  h1:hover a.zola-anchor,
+  h2:hover a.zola-anchor,
+  h3:hover a.zola-anchor,
+  h4:hover a.zola-anchor,
+  h5:hover a.zola-anchor,
+  h6:hover a.zola-anchor {
+    visibility: visible;
+  }
+
+  // Flexboxes for our "card" layout
+
+  .flex-cards {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+
+    .flex-card {
+      flex: 1 1;
+      min-width: 10rem;
+      margin: 0.8rem;
+
+      display: flex;
+      flex-flow: column;
+
+      font-size: 90%;
+      line-height: 1.3;
+      border-left: 2px solid $card-edge-color;
+      padding-left: 0.5rem;
+
+      p {
+        margin: 0 0 1rem 0;
+        flex-grow: 1;
+      }
+
+      img {
+        // ~hack for use/everyone/index.md
+        margin: 0 0 1rem 0;
+      }
+    }
+
+    .button {
+      width: 100%;
+      margin-top: auto;
+
+      background-color: $card-button-color;
+      @include border-radius(6px);
+
+      a {
+        display: block;
+        width: 100%;
+        padding: 0.3rem;
+
+        text-align: center;
+        text-decoration: none;
+
+        color: $card-button-link-color;
+        border: 2px solid transparent;
+        @include border-radius(6px);
+
+        &:hover {
+          color: $card-button-link-hover-color;
+          border: 2px solid $card-edge-color;
+        }
+      }
+    }
+  }
+
+  .big-button {
+    text-align: center;
+
+    a {
+      display: inline-block;
+      margin: 0.3rem auto;
+      padding: 0.2rem;
+
+      font-weight: 700;
+      text-decoration: none;
+      background-color: $card-button-color;
+      color: $card-button-link-color;
+      border: 2px solid transparent;
+      @include border-radius(6px);
+
+      &:hover {
+        color: $card-button-link-hover-color;
+        border: 2px solid $card-edge-color;
+      }
+    }
+  }
+}
