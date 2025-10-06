@@ -4,5 +4,5 @@
 {% set extraclass="" %}
 {% endif %}
 <div id="info-{{ phase }}-{{ item }}" class="cl-infobox{{ extraclass }}">
-{{ body  | markdown(inline=true) }}
+{{ body | markdown(inline=true) | safe }}
 </div>

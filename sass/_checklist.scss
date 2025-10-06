@@ -4,10 +4,11 @@
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
+  gap: 1rem;
   margin: 1rem 0;
 
   table {
-    flex: 2 1;
+    flex: 1 1;
 
     tbody th {
       text-align: right;
@@ -17,6 +18,14 @@
     tbody td {
       text-align: center;
       vertical-align: middle;
+      line-height: 0;
+    }
+
+    .boxcol {
+      min-width: 1rem;
+      writing-mode: sideways-lr;
+      text-orientation: mixed;
+      text-align: left;
     }
   }
 
@@ -26,7 +35,10 @@
 }
 
 .cl-infobox {
+  // overridden by .cl-infobox-shown for whichever is shown
   display: none;
+
+  margin-top: 5rem;
 }
 
 .cl-infobox-shown {
@@ -35,4 +47,43 @@
 
 .cl-cell {
   cursor: pointer;
+  width: 27px;
+  height: 27px;
+  @include border-radius(3px);
+  line-height: 27px;
+  display: inline-block;
+}
+
+.cl-cell-selected {
+  background-color: rgb(255, 246, 145);
+}
+
+.cl-next-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: right;
+}
+
+.cl-button {
+  background-color: $card-button-color;
+  @include border-radius(6px);
+  margin: 0.8rem;
+  font-size: 90%;
+  border-radius: 8px;
+  padding: 0.6rem;
+
+  min-width: 7rem;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  font-weight: 700;
+
+  color: $card-button-link-color;
+  border: 2px solid transparent;
+  @include border-radius(6px);
+
+  &:hover {
+    color: $card-button-link-hover-color;
+    border: 2px solid $card-highlight-color;
+  }
 }

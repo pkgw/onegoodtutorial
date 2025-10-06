@@ -38,6 +38,8 @@
     background-color: $card-button-color;
     @include border-radius(6px);
 
+    font-weight: 700;
+
     a {
       display: block;
       min-width: 7rem;
