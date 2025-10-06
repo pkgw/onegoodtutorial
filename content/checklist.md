@@ -6,16 +6,41 @@ template = "checklist.html"
 <!-- A lot of action is in the HTML template, but here is where we define the info text -->
 
 {% checklist_info(phase="p", item="synopsis") %}
-**Planning: Synopsis.** Jot down 1–3 sentences describing your project.
+**This Step:** *Planning / Synopsis*
+
+**Summary:** Jot down 1–3 *draft* sentences summarizing your software.
+
+**Why:** Your final synopsis will end up everywhere: at the top of your README
+or website, in announcements, maybe even grant proposals. Best to get a rough
+draft ASAP!
+
 {% end %}
 
 {% checklist_info(phase="p", item="personas") %}
-**Planning: Personas.** Imagine 1–3 “personas” of users who might
-be reading your documentation.
+**This Step:** *Planning / Personas*
+
+**Summary:** Imagine 1–3 “personas” of people who might be reading your
+documentation.
+
+**Why:** As you’re thinking about the different documents you’ll need to write,
+it can be helpful to keep these user archetypes in mind. “Hmm, Postdoc Pete is
+in too much of a hurry to follow this 20-step recipe!”
+
 {% end %}
 
 {% checklist_info(phase="p", item="tutorial") %}
-TKTK: `plan-tutorial`.
+**This Step:** *Planning / Tutorial*
+
+**Summary:** Plan out a tutorial that will show new users how to accomplish
+something cool using your software.
+
+**Why:** *People learn by doing.* If someone has read your synopsis and is still
+interested in your software, they’re not going to want to read pages of
+additional text about it — they’re going to want to run your code ASAP and learn
+what it “feels like”. The goal of your *one good tutorial* is deliver this
+experience as painlessly as possible. Your tutorial is your software’s
+make-or-break moment — so invest in it accordingly!
+
 {% end %}
 
 {% checklist_info(phase="p", item="installation") %}
