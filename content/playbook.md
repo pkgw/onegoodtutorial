@@ -17,9 +17,55 @@ template = "playbook.html"
 </section>
 
 <section>
+  <h1>Part 0: Preliminaries</h1>
+  
+  <p class="tctr">A few points to mention before we get started.</p>
+</section>
+
+<section>
+  <h2>Intended Audience (1)</h2>
+  
+  <p>This playbook is aimed at authors of small, DIY-style software projects. We’d like
+  to think that it will still have something to offer to participants in larger,
+  more formalized projects, but to keep things simple we’ve avoided even
+  mentioning some of the challenges that arise in bigger efforts.</p>
+</section>
+
+<section>
+  <h2>Intended Audience (2)</h2>
+  
+  <p>This playbook is also aimed at authors of <i>scientific</i> software projects.
+  We talk about a few issues, like citation, that other kinds of projects may not
+  be concerned with. But most steps will be relevant to virtually any kind of
+  software.</p>
+</section>
+
+<section>
+  <h2>Terminology</h2>
+  
+  <p>We assume that your documentation will be eventually published as HTML
+  on the web, so we’ll refer to documentation <i>pages</i> and your overall documentation
+  <i>site</i>. Reinterpret accordingly if you’re targeting a different medium.</p>
+
+  <p>(Arguably, writing docs in the 21st century requires you to become a
+  bit of a web developer. Fortunately, hosting services like <a href="https://readthedocs.org">ReadTheDocs.org</a>
+  can take care of a lot of the hard parts for you.)</p>
+</section>
+
+<section>
+  <h2>The Prime Directive</h2>
+  
+  <p>Above all else: this playbook is a set of <i>recommendations</i>, not commandments.
+  Take inspiration from the parts that you like, ignore the ones that you don’t, and
+  always trust your intuition. There’s no one
+  “right” way to write docs, any more than there’s one right way to do anything
+  else creative.</p>
+</section>
+
+<section>
   <h1>Part 1: Planning</h1>
   
-  <p class="tctr">We’ll start with some planning activities. A bit of
+  <p class="tctr">We’ll start with a few planning activities. A bit of
   preparation now can save a lot of time down the road!</p>
 </section>
 
@@ -121,7 +167,7 @@ template = "playbook.html"
 
   <p><i>Example:</i> “This project is licensed under the <a href="https://opensource.org/license/mit">MIT License</a>.”
 
-  <p><i>Why:</i> Formally, no one is allowed to download your software if you don’t provide
+  <p><i>Why:</i> Formally, people aren’t even allowed to download your software if you don’t provide
   certain basic information about its legal status. Don’t panic, though — in most cases, you
   just need to provide a few boilerplate sentences. But you should understand what they mean.</p>
 </section>
@@ -151,33 +197,57 @@ template = "playbook.html"
 </section>
 
 <section>
-  <h1>Part 3: Tools</h1>
+  <h1>Part 3: Scaffolding</h1>
   
-  <p class="tctr">Your documentation is starting to take shape. The next task is to choose
-  the tools that you’ll use to turn your plans into reality.</p>
+  <p class="tctr">It’s time to start turning your documentation from plans into reality — which means
+  committing to some specifics.</p>
 </section>
 
 <section>
-  <h2>Step 10: Set Up Authoring Workflow</h2>
+  <h2>Step 10: Scope Out Remaining Material</h2>
 
-  <p>Select the tools you’ll use to <b>author</b> your project’s documentation and integrate them into your project’s
-  codebase. Depending on your needs, a single tool may suffice, or you might need a multi-faceted approach
-  integrating different tools that support multiple types of documents.</p>
+  <p>Make a list of other materials that are required for your “minimum viable product” documentation.
+  Most new software probably only needs one more element: some <b>reference material</b>
+  supporting more-experienced users, like API documentation. Use your personas and the <a href="https://diataxis.fr/">Diátaxis</a>
+  model to guide your thinking.</p>
 
-  <p>Validate the workflow by stubbing out your tutorial with a placeholder that literally
-  just says, “Tutorial goes here”.</p>
+  <p><i>Example:</i> “Beyond a Python API reference, Developer Danielle is really going to want to 
+  see a schema for the JSON file that my analysis tool emits.”</p>
+
+  <p><i>Why:</i> You probably have a lot of other things to do besides write documentation.
+  Set a scope now and focus on just getting
+  <i>something</i> out into the world — if it’s a success, you can always write more later.</p>
+</section>
+
+<section>
+  <h2>Step 11: Figure Out Authoring Tools</h2>
+
+  <p>Select the tool(s) you’ll use to <b>author</b> your project’s documentation and integrate
+  them into your project’s codebase. This may be quick if you’ve done this before, time-consuming if not.</p>
+
+  <p><i>Example:</i> your entire documentation might fit comfortably in a single <code>README.md</code> file.</p>
 
   <p><i>Example:</i> <a href="https://www.sphinx-doc.org/">Sphinx</a>.</p>
 </section>
 
+<section>
+  <h2>Step 12: Stub Out Your Documents</h2>
+
+  <p>Create minimal placeholders for all of your planned documents (“Tutorial goes here”).
+  Look over the skeleton of your site.</p>
+
+  <p><i>Why:</i> Now is a good time to experiment with the organization and style of
+  your site. Is anything essential missing?</p>
+</section>
 
 <section>
-  <h2>Step 11: Set Up Publishing Workflow</h2>
+  <h2>Step 13: Figure Out Publishing Tools</h2>
 
-  <p>Select the tools you’ll use to <b>publish</b> your project’s documentation and integrate them into
-  your project’s codebase.</p>
+  <p>Select the tool(s) you’ll use to <b>publish</b> your project’s documentation and integrate them into
+  your project’s codebase. Once again, this may be a time-consuming step if you haven’t set up
+  this kind of workflow before.</p>
 
-  <p>Validate the workflow by publishing your tutorial placeholder.</p>
+  <p>Validate the workflow by publishing your skeleton docs.</p>
 
   <p><i>Example:</i> <a href="https://docs.readthedocs.com/platform/stable/continuous-deployment.html">Continuous deployment</a>
   to <a href="https://readthedocs.org">readthedocs.org</a>.</p>
