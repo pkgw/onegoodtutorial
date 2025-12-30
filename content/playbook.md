@@ -233,8 +233,10 @@ template = "playbook.html"
 <section>
   <h2>Step 12: Stub Out Your Documents</h2>
 
-  <p>Create minimal placeholders for all of your planned documents (“Tutorial goes here”).
-  Look over the skeleton of your site.</p>
+  <p>Copy your “easy” draft texts into their intended places in your repository, and make 
+  minimal <b>placeholders</b> for the remaining documents that you’ve planned (“Tutorial goes here”).</p>
+
+  <p>Look over the skeleton of your site.</p>
 
   <p><i>Why:</i> Now is a good time to experiment with the organization and style of
   your site. Is anything essential missing?</p>
@@ -253,9 +255,36 @@ template = "playbook.html"
   to <a href="https://readthedocs.org">readthedocs.org</a>.</p>
 </section>
 
+<section>
+  <h1>Part 4: Time to Write</h1>
+  
+  <p class="tctr">The structure is all in place.</p>
+</section>
 
 <section>
-  <h2></h2>
+  <h2>Step 14: Draft The Tutorial</h2>
 
-  <p><i>Example:</i></p>
+  <p>Write a first draft of your <b>tutorial</b>.</p>
+</section>
+
+<section>
+  <h2>Step 15: Draft The Rest</h2>
+
+  <p>Write up your <b>API reference</b> materials and any other documents
+  that are still placeholders.</p>
+</section>
+
+<section>
+  <h2>Step 16: Review and Revise</h2>
+
+  <p>You knew this step was coming: take some time to <b>review</b> what you’ve written and
+  <b>revise</b> anything that’s unclear or inaccurate.</p>
+
+  <p><i>Why:</i> TKTK</p>
+</section>
+
+<section>
+  <h2>Step 17: Publish!</h2>
+
+  <p>TKTK.</p>
 </section>
