@@ -158,6 +158,8 @@ template = "playbook.html"
   appropriately. Software citation practices also vary widely between fields, so even those who
   know to cite your software will need to be told how to do so. Everybody wins if you provide
   easy, prominent, and firm guidance.</p>
+
+  <p><i>In-Depth Guidance:</i> <a href="/in-depth/software-citation">Software Citation</a>.</p>
 </section>
 
 <section>
