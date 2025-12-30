@@ -23,11 +23,21 @@
 
   blockquote {
     font-size: 85%;
-    font-family: "Noto Sans";
+    font-family: "serif";
+    line-height: 1.2;
   }
 
   hr {
     margin: 1rem 2rem;
+  }
+
+  // It's most convenient to save <h1> for major content sections since
+  // that's what you get from a Markdown `# Blah`; so use a class for
+  // the page title (as distinguished from the nav header title).
+  .title {
+    font-size: 220%;
+    font-weight: bold;
+    margin: 1rem 0 1rem 0;
   }
 
   h1 {

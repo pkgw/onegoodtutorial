@@ -55,7 +55,7 @@ template = "playbook.html"
 <section>
   <h2>The Prime Directive</h2>
   
-  <p>Above all else: this playbook is a set of <i>recommendations</i>, not commandments.
+  <p>Above all else: this playbook is a set of <i>recommendations</i>, nothing more.
   Take inspiration from the parts that you like, ignore the ones that you don’t, and
   always trust your intuition. There’s no one
   “right” way to write docs, any more than there’s one right way to do anything
@@ -159,7 +159,7 @@ template = "playbook.html"
   know to cite your software will need to be told how to do so. Everybody wins if you provide
   easy, prominent, and firm guidance.</p>
 
-  <p><i>In-Depth Guidance:</i> <a href="/in-depth/software-citation">Software Citation</a>.</p>
+  <p><i>In-Depth Guide:</i> <a href="/in-depth/software-citation">Software Citation</a>.</p>
 </section>
 
 <section>
@@ -196,6 +196,8 @@ template = "playbook.html"
   <p><i>Why:</i> You should help other people understand if and how they can contribute to your
   software. New projects may not need more than an encouraging sentence or two. Popular
   projects might offer a more substantial Contribution Guide.</p>
+
+  <p><i>In-Depth Guide:</i> <a href="/in-depth/contribution-statements">Contribution Statements</a>.</p>
 </section>
 
 <section>

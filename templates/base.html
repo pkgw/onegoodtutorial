@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 
-{% if page.title %}
+{% if page.extra.section %}
+{% set titlesuffix = ": " ~ page.extra.section %}
+{% elif page.title %}
 {% set titlesuffix = ": " ~ page.title %}
 {% else %}
 {% set titlesuffix = "" %}
