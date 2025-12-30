@@ -144,6 +144,8 @@ template = "playbook.html"
   your instructions are complicated, you probably ought to pause your docs work and spend
   some time figuring out how to integrate your software with one or more of these tools. It takes
   effort but it is <i>incredibly</i> worthwhile.</p>
+
+  <p><i>In-Depth Guide:</i> <a href="/in-depth/installation-instructions/">Installation Instructions</a>.</p>
 </section>
 
 <section>
@@ -159,7 +161,7 @@ template = "playbook.html"
   know to cite your software will need to be told how to do so. Everybody wins if you provide
   easy, prominent, and firm guidance.</p>
 
-  <p><i>In-Depth Guide:</i> <a href="/in-depth/software-citation">Software Citation</a>.</p>
+  <p><i>In-Depth Guide:</i> <a href="/in-depth/software-citation/">Software Citation</a>.</p>
 </section>
 
 <section>
@@ -197,7 +199,7 @@ template = "playbook.html"
   software. New projects may not need more than an encouraging sentence or two. Popular
   projects might offer a more substantial Contribution Guide.</p>
 
-  <p><i>In-Depth Guide:</i> <a href="/in-depth/contribution-statements">Contribution Statements</a>.</p>
+  <p><i>In-Depth Guide:</i> <a href="/in-depth/contribution-statements/">Contribution Statements</a>.</p>
 </section>
 
 <section>
