@@ -14,7 +14,7 @@ modern technology ecosystem, every piece of software can and should be easy to
 install*. In most cases, your installation instructions can be just a few
 sentences, and need not live on their own page.
 
-The trick is that making your software easy to install might require a fair
+The catch is that making your software easy to install might require a fair
 amount of effort on your part — especially if you’re not familiar with modern
 software packaging systems. We contend, however, that investing time in
 mastering these systems is one of the best ways you can spend your time as a
@@ -124,7 +124,7 @@ remains extremely worthwhile if a language-specific package manager won’t meet
 your needs.
 
 
-# Example: Application with Conda
+# Case Study: daschlab
 
 There’s a risk if you tell users to go ahead and `conda install mypackage`: if
 your package is a complex application with many dependencies, and they’re
@@ -134,7 +134,7 @@ their environment altogether.
 
 The [daschlab] visualization and analysis package integrates tightly with
 [JupyterLab], which is often finicky to install. So its installation instructions
-guide users towards installing it into its own environment, use a web-hosted
+guide users towards installing it into its own environment, using a web-hosted
 `requirements.txt` file to avoid a download step:
 
 [daschlab]: https://dasch.cfa.harvard.edu/dr7/install-daschlab/

@@ -6,11 +6,11 @@ template = "playbook.html"
 <!-- HTML template provides the reveal.js scaffolding -->
 
 <section>
-  <h2>Welcome!</h2>
+  <h2 class="tctr"><i>Welcome!</i></h2>
 
-  <p>This <b>playbook</b> walks you through a <i>suggested</i> set of steps to build up 
-  documentation for your software project, in a way that will fill out
-  <a href="/checklist/">the One Good Tutorial Checklist</a>.</p>
+  <p>This <b>playbook</b> walks you through a method for creating
+  documentation for your software project. It hits all of the items on
+  <a href="..">the One Good Tutorial Checklist</a>.</p>
 
   <p>The playbook is delivered as a slide deck. Navigate using the buttons in the
   lower-right, the arrow keys on your keyboard, or swipe gestures.</p>
@@ -19,7 +19,7 @@ template = "playbook.html"
 <section>
   <h1>Part 0: Preliminaries</h1>
   
-  <p class="tctr">A few points to mention before we get started.</p>
+  <p class="tctr">A few points to address before we really get started.</p>
 </section>
 
 <section>
@@ -27,7 +27,7 @@ template = "playbook.html"
   
   <p>This playbook is aimed at authors of small, DIY-style software projects. We’d like
   to think that it will still have something to offer to participants in larger,
-  more formalized projects, but to keep things simple we’ve avoided even
+  more formalized projects, but to keep things focused we’ve avoided even
   mentioning some of the challenges that arise in bigger efforts.</p>
 </section>
 
@@ -55,7 +55,7 @@ template = "playbook.html"
 <section>
   <h2>The Prime Directive</h2>
   
-  <p>Above all else: this playbook is a set of <i>recommendations</i>, nothing more.
+  <p>Above all else: this playbook is a <i>recommendation</i>, nothing more.
   Take inspiration from the parts that you like, ignore the ones that you don’t, and
   always trust your intuition. There’s no one
   “right” way to write docs, any more than there’s one right way to do anything
@@ -65,8 +65,7 @@ template = "playbook.html"
 <section>
   <h1>Part 1: Planning</h1>
   
-  <p class="tctr">We’ll start with a few planning activities. A bit of
-  preparation now can save a lot of time down the road!</p>
+  <p class="tctr"><i>“Plans are worthless, but planning is everything.”</i> —&nbsp;Dwight&nbsp;Eisenhower<sup><a href="https://en.wikiquote.org/wiki/Dwight_D._Eisenhower">*</a></sup></p>
 </section>
 
 <section>
@@ -140,10 +139,8 @@ template = "playbook.html"
   command line using pip: <code>pip install plasmapy</code>”
 
   <p><i>Why:</i> Your instructions should be <i>extremely short</i> — the modern
-  computing world has tons of tools that make it easy to install all kinds of software. If
-  your instructions are complicated, you probably ought to pause your docs work and spend
-  some time figuring out how to integrate your software with one or more of these tools. It takes
-  effort but it is <i>incredibly</i> worthwhile.</p>
+  computing world has tons of tools that make it easy to install all kinds of software.
+  Complicated install instructions are a sign that you’ve got engineering work to do.</p>
 
   <p><i>In-Depth Guide:</i> <a href="/in-depth/installation-instructions/">Installation Instructions</a>.</p>
 </section>
@@ -264,7 +261,7 @@ template = "playbook.html"
 <section>
   <h1>Part 4: Time to Write</h1>
   
-  <p class="tctr">The structure is all in place.</p>
+  <p class="tctr">The pieces are all in place!</p>
 </section>
 
 <section>

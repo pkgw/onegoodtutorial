@@ -2,22 +2,42 @@
 
 {% block content %}
 <p class="lede">
-  Are you setting up documentation for new piece of software? If so,
-  <b>One Good Tutorial</b> aims to help.</p>
+  Are you setting up documentation for new piece of scientific software? If so,
+  make sure to include <b>One Good Tutorial</b>.
+</p>
+
+<p class="lede">
+  But you don’t need much more than that. According to the <b>One Good Tutorial
+  software documentation checklist</b> (version 1.0), your documentation is good
+  enough if it contains these eight major items:
+</p>
+
+<div class="checklist">
+  <table>
+    <tr><td>☐</td><td>🗺️ <b>Synopsis:</b> 1–3 sentence summary of your project</td></tr>
+    <tr><td>☐</td><td>📑 <b>Tutorial:</b> ✨ Show people what your software can do! ✨</td></tr>
+    <tr><td>☐</td><td>🚀 <b>Install Instructions:</b> How to install your software</td></tr>
+    <tr><td>☐</td><td>📜 <b>Citation Instructions:</b> How to cite your software</td></tr>
+    <tr><td>☐</td><td>🙌 <b>Contribution Statement:</b> How users can contribute to your project</td></tr>
+    <tr><td>☐</td><td>📚 <b>Reference Materials:</b> Precise specifications of APIs, etc.</td></tr>
+    <tr><td>☐</td><td>⚖️ <b>Licensing Information:</b> The legal status of your code</td></tr>
+    <tr><td>☐</td><td>🙏 <b>Acknowledgments:</b> Credit your funders</td></tr>
+  </table>
+</div>
+
+<p>
+  The philosophy of One Good Tutorial is that while it would be wonderful if
+  every project could have great docs, most new projects realistically have to
+  aim for <i>good enough</i>. And what’s <i>good enough</i>? One good tutorial,
+  and the bare minimum of everything else. Write that minimum and go get your
+  project out into the world! You can always add more later.
 </p>
 
 <div class="flex-cards">
   <div class="flex-card">
-    <p>✅ TKTK <b>One Good Tutorial
-    checklist.</b></p>
-
-    <div class="button">
-      <a href="{{ get_url(path="@/checklist.md") | safe }}">TKTK</a>
-    </div>
-  </div>
-
-  <div class="flex-card">
-    <p>TKTK <b>playbook!</b></p>
+    <p>📒 The <b>One Good Tutorial Playbook</b> walks you through a tried-and-true
+    workflow that helps you prepare these eight items with a minimum of
+    angst.</p>
 
     <div class="button">
       <a href="{{ get_url(path="@/playbook.md") | safe }}">Let’s go!</a>
@@ -25,20 +45,14 @@
   </div>
 
   <div class="flex-card">
-    <p>📖 Along with the checklist, this site provides <b>guidelines and
-    links</b> to help you set up your docs with a minimum of fuss.</p>
+    <p>🗃️ Along with the playbook, this site provides <b>in-depth guides and
+    links</b> to help you along your documentation journey.</p>
 
     <div class="button">
       <a href="{{ get_url(path="") | safe }}">TKTK</a>
     </div>
   </div>
 </div>
-
-<p>The big idea behind One Good Tutorial is right there in the name. The OGT
-philosophy says: it would be wonderful if every project could have truly great
-documentation, but rarely do the stars align to make that possible. Most of us
-are going to have to start with documentation that’s “good enough”. And what’s
-good enough? <i><b>One good tutorial.</b></i></p>
 
 <p>One Good Tutorial was developed specifically to support the authors of
 scientific software, but we hope that it will be helpful to people who work on
