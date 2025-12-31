@@ -26,12 +26,14 @@ you need to figure out what to do about it.
 # Case Study: FiPy
 
 In many fields, the standard practice is to publish a “regular” article about
-your software, and tell users of your software to cite that separate entity:
+your software, and tell users of your software to cite that separate entity,
+as seen with [FiPy]:
+
+[FiPy]: https://pages.nist.gov/fipy/en/stable/
 
 > If you use FiPy in your research, please cite:
 > [(bibtex)](https://pages.nist.gov/fipy/en/latest/_static/fipy.bib)
-> [(endnote)](https://pages.nist.gov/fipy/en/latest/_static/fipy.ris)
-> [(pdf)](http://www.nist.gov/cgi-bin/get_pdf.cgi?pub_id=854461):
+> [(endnote)](https://pages.nist.gov/fipy/en/latest/_static/fipy.ris):
 >
 > J. E. Guyer, D. Wheeler & J. A. Warren, "FiPy: Partial Differential Equations
 > with Python," Computing in Science & Engineering 11(3) pp. 6—15 (2009),

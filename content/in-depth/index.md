@@ -13,3 +13,4 @@ documentation. They cover the following topics:
 - [Citation Instructions and Software Citation](@/in-depth/software-citation.md)
 - [Contribution Statements](@/in-depth/contribution-statements.md)
 - [Installation Instructions](@/in-depth/installation-instructions.md)
+- [Licensing Statements](@/in-depth/licensing-statements.md)

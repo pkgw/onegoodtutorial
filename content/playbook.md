@@ -41,6 +41,13 @@ template = "playbook.html"
 </section>
 
 <section>
+  <h2>Intended Audience (3)</h2>
+  
+  <p>We’re also assuming that you’re working with open-source software! Once
+  again, most of the material should be relevant even if you’re not.</p>
+</section>
+
+<section>
   <h2>Terminology</h2>
   
   <p>We assume that your documentation will be eventually published as HTML
@@ -171,6 +178,8 @@ template = "playbook.html"
   <p><i>Why:</i> Formally, people aren’t even allowed to download your software if you don’t provide
   certain basic information about its legal status. Don’t panic, though — in most cases, you
   just need to provide a few boilerplate sentences. But you should understand what they mean.</p>
+
+  <p><i>In-Depth Guide:</i> <a href="/in-depth/licensing-statements/">Licensing Statements</a>.</p>
 </section>
 
 <section>
