@@ -14,5 +14,14 @@
       text-align: left;
       vertical-align: middle;
     }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
   }
 }
