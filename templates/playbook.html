@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block head %}
+<link rel="stylesheet" href="/revealjs/dist/reveal.css">
+<link rel="stylesheet" href="/revealjs/ogt.css">
+{% endblock head %}
+
+{% block content %}
+
+<div class="reveal">
+  <div class="slides">
+    {{ page.content | safe }}
+  </div>
+</div>
+
+<script src="/revealjs/dist/reveal.js"></script>
+<script>
+  Reveal.initialize({
+    embedded: false,
+    slideNumber: "c/t",
+    hash: true,
+    plugins: []
+  });
+</script>
+{% endblock content %}
