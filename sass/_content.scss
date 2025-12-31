@@ -25,6 +25,10 @@
     font-size: 85%;
     font-family: "serif";
     line-height: 1.2;
+
+    margin: 1rem 0.5rem;
+    padding-left: 0.5rem;
+    border-left: 1px solid #000;
   }
 
   hr {
@@ -52,13 +56,21 @@
     margin: 1.2rem 0 1rem 0;
   }
 
-  h3, h4, h5, h6 {
+  h3,
+  h4,
+  h5,
+  h6 {
     // Todo: use techniques other than font-sizing to distinguish h4 and below
     // from h3.
     font-size: 100%;
   }
 
-  h1, h2, h3, h4, h5, h6 {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
     line-height: 1;
   }
 
