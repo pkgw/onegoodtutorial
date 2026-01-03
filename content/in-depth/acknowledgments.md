@@ -20,6 +20,9 @@ without any external support, you can skip the acknowledgments section.
 Your acknowledgments section should also, of course, include any other
 recognitions that you deem necessary and/or appropriate.
 
+For most software, the acknowledgment statement will be short, and it needs not
+live on its own page.
+
 
 # Spelling
 
