@@ -10,7 +10,8 @@ Playbook](@/playbook.md), we’ve prepared a number of **in-depth guides** that 
 into the details about how to prepare different standard elements of software
 documentation. They cover the following topics:
 
+- [Acknowledgment Statements](@/in-depth/acknowledgments.md)
 - [Citation Instructions and Software Citation](@/in-depth/software-citation.md)
 - [Contribution Statements](@/in-depth/contribution-statements.md)
 - [Installation Instructions](@/in-depth/installation-instructions.md)
-- [Licensing Statements](@/in-depth/licensing-statements.md)
+- [Licensing Statements and Software Copyright](@/in-depth/licensing-statements.md)
