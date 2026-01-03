@@ -15,3 +15,5 @@ documentation. They cover the following topics:
 - [Contribution Statements](@/in-depth/contribution-statements.md)
 - [Installation Instructions](@/in-depth/installation-instructions.md)
 - [Licensing Statements and Software Copyright](@/in-depth/licensing-statements.md)
+- [Personas](@/in-depth/personas.md)
+- [Writing a Project Synopsis](@/in-depth/synopsis.md)

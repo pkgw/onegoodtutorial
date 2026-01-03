@@ -87,6 +87,8 @@ template = "playbook.html"
   <p><i>Why:</i> Your final synopsis will end up everywhere: at the top of your README
   or website, in announcements, maybe even grant proposals. Best to get a rough
   draft ASAP.</p>
+
+  <p><i>In-Depth Guide:</i> <a href="/in-depth/synopsis/">Writing a Project Synopsis</a>.</p>
 </section>
 
 <section>
@@ -97,11 +99,13 @@ template = "playbook.html"
   Give them names, and jot down notes about them.</p>
 
   <p><i>Example:</i> “Postdoc Pete works in my field and saw me give a talk about
-  my software that computes model exoplanet spectra. He has observational data and wants
+  my software that computes model exoplanet spectra. He has observational data and is curious
   to see if my models can reproduce them.”
 
   <p><i>Why:</i> The design of your documentation (and your whole project) will be stronger
   if it targets specific kinds of people, not just a vague, generic “user”.</p>
+
+  <p><i>In-Depth Guide:</i> <a href="/in-depth/personas/">Personas</a>.</p>
 </section>
 
 <section>
