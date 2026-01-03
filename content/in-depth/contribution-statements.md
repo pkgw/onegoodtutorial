@@ -93,7 +93,7 @@ Astropy also prominently links contribution with abidance by the project’s
 > We always welcome contributors who will abide by the [Astropy Community Code
 > of Conduct][apcoc].
 
-[apcoc]: https://www.astropy.org/about.html#codeofconduct
+[apcoc]: https://www.astropy.org/code_of_conduct.html
 
 If your project has gotten enough traction to need a non-trivial contribution
 statement, it almost certainly needs a Code of Conduct as well. The project

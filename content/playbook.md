@@ -23,21 +23,20 @@ template = "playbook.html"
 </section>
 
 <section>
-  <h2>Intended Audience (1)</h2>
+  <h2>Intended Audience</h2>
   
-  <p>This playbook is aimed at authors of small, DIY-style software projects. We’d like
-  to think that it will still have something to offer to participants in larger,
-  more formalized projects, but to keep things focused we’ve avoided even
-  mentioning some of the challenges that arise in bigger efforts.</p>
-</section>
+  <p>This playbook is aimed at authors of software projects that are:</p>
+  
+  <ul>
+    <li>Small, DIY-style</li>
+    <li>Open source</li>
+    <li>Scientific</li>
+  </ul>
 
-<section>
-  <h2>Intended Audience (2)</h2>
-  
-  <p>This playbook is also aimed at authors of <i>scientific</i> software projects.
-  We talk about a few issues, like citation, that other kinds of projects may not
-  be concerned with. But most steps will be relevant to virtually any kind of
-  software.</p>
+  <p>We’d like to think that it will still have much to offer to participants
+  in projects that do <i>not</i> meet these descriptions. But to keep 
+  focused we’ve avoided even mentioning some of the issues that arise in other
+  circumstances.</p>
 </section>
 
 <section>
@@ -171,6 +170,8 @@ template = "playbook.html"
   <p><i>Why:</i> Formally, people aren’t even allowed to download your software if you don’t provide
   certain basic information about its legal status. Don’t panic, though — in most cases, you
   just need to provide a few boilerplate sentences. But you should understand what they mean.</p>
+
+  <p><i>In-Depth Guide:</i> <a href="/in-depth/licensing-statements/">Licensing Statements</a>.</p>
 </section>
 
 <section>
@@ -183,6 +184,8 @@ template = "playbook.html"
   <p><i>Why:</i> If a funder supported work on a software project, they almost surely should 
   be acknowledged somewhere in your documentation. Take a few minutes to make sure that all
   funding sources are listed properly.</p>
+
+  <p><i>In-Depth Guide:</i> <a href="/in-depth/acknowledgments/">Acknowledgments</a>.</p>
 </section>
 
 <section>

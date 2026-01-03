@@ -1,8 +1,0 @@
-{% if phase == "p" and item == "synopsis" %}
-{% set extraclass=" cl-infobox-shown" %}
-{% else %}
-{% set extraclass="" %}
-{% endif %}
-<div id="info-{{ phase }}-{{ item }}" class="cl-infobox{{ extraclass }}">
-{{ body | markdown(inline=true) | safe }}
-</div>
