@@ -104,6 +104,8 @@ template = "playbook.html"
 
   <p><i>Why:</i> The design of your documentation (and your whole project) will be stronger
   if it targets specific kinds of people, not just a vague, generic “user”.</p>
+
+  <p><i>In-Depth Guide:</i> <a href="/in-depth/personas/">Personas</a>.</p>
 </section>
 
 <section>
