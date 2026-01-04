@@ -1,13 +1,5 @@
 // Styles for the generic elements included in every page through the templates.
 
-body {
-  // The viewport width changes slightly if there's a scrollbar or not,
-  // causing the layout to shift when navigating between long and short
-  // pages. There are a few ways to try to deal with this, but here I
-  // just force there to always be a scrollbar.
-  overflow-y: scroll;
-}
-
 // The universal header and banner. The structure is `header > div.maxwidth >
 // p#banner > a`
 
@@ -50,11 +42,20 @@ header {
 
 footer {
   background-color: rgb(186, 207, 190);
+
+  // This causes the footer to visually extend all the way to the viewport
+  // bottom if the total page content is shorter than that.
+  box-shadow: 0 50vh 0 50vh rgb(186, 207, 190);
+
   width: 100%;
   clear: both;
   font-size: 80%;
   margin: 4rem 0 0 0;
   padding: 0.3rem 0 0.3rem 0;
+
+  &.symmetric {
+    margin-top: 1rem;
+  }
 
   p {
     margin: 0;

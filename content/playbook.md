@@ -1,6 +1,9 @@
 +++
 title = "The Playbook"
 template = "playbook.html"
+
+[extra]
+footerclass = "symmetric"
 +++
 
 <!-- HTML template provides the reveal.js scaffolding -->
@@ -12,11 +15,13 @@ template = "playbook.html"
   documentation for your software project. It hits all of the items on
   <a href="..">the One Good Tutorial Checklist</a>.</p>
 
-  <p>The playbook is delivered as a slide deck. Navigate using the buttons in the
+  <p>The playbook is delivered as a slide deck. On larger screens, navigate using the buttons in the
   lower-right, the arrow keys on your keyboard, or swipe gestures.</p>
+
+  <p>On smaller screens, scroll vertically in the usual way.</p>
 </section>
 
-<section>
+<section data-background-color="rgb(227, 244, 254)">
   <h1>Part 0: Preliminaries</h1>
   
   <p class="tctr">A few points to address before we really get started.</p>
@@ -61,7 +66,7 @@ template = "playbook.html"
   else creative.</p>
 </section>
 
-<section>
+<section data-background-color="rgb(227, 244, 254)">
   <h1>Part 1: Planning</h1>
   
   <p class="tctr"><i>“Plans are worthless, but planning is everything.”</i> —&nbsp;Dwight&nbsp;Eisenhower<sup><a href="https://en.wikiquote.org/wiki/Dwight_D._Eisenhower">*</a></sup></p>
@@ -125,7 +130,7 @@ template = "playbook.html"
   run in the background while she installs the code.”</p>
 </section>
 
-<section>
+<section data-background-color="rgb(227, 244, 254)">
   <h1>Part 2: “Easy” Drafts</h1>
   
   <p class="tctr">Next, we’ll focus on drafting some of the “easy stuff“. These are bits
@@ -206,8 +211,8 @@ template = "playbook.html"
   <p><i>In-Depth Guide:</i> <a href="/in-depth/contribution-statements/">Contribution Statements</a>.</p>
 </section>
 
-<section>
-  <h1>Part 3: Scaffolding</h1>
+<section data-background-color="rgb(227, 244, 254)">
+  <h1>Part 3: First Build</h1>
   
   <p class="tctr">It’s time to start turning your documentation from plans into reality — which means
   committing to some specifics.</p>
@@ -265,7 +270,7 @@ template = "playbook.html"
   to <a href="https://readthedocs.org">readthedocs.org</a>.</p>
 </section>
 
-<section>
+<section data-background-color="rgb(227, 244, 254)">
   <h1>Part 4: Time to Write</h1>
   
   <p class="tctr">The pieces are all in place!</p>

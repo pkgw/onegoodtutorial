@@ -6,13 +6,20 @@ html {
   // The viewport width changes slightly if there's a scrollbar or not,
   // causing the layout to shift when navigating between long and short
   // pages. There are a few ways to try to deal with this, but here I
-  // just force there to always be a scrollbar.
+  // just force page layout to always factor in a scrollbar.
   overflow-y: scroll;
+
+  // Disable scroll "bounce"
+  overscroll-behavior-y: none;
 }
 
 body {
   margin: 0;
+
+  // Belt-and-suspenders duplication of some <html> settings:
   height: 100%;
+  overflow-y: scroll;
+  overscroll-behavior-y: none;
 }
 
 div.maxwidth {
