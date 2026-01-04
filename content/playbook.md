@@ -126,7 +126,7 @@ footerclass = "symmetric"
   data file for my tutorial. I need to figure out where
   to host it and tell her to kick off the download to run while she’s installing the code.”</p>
 
-  <p><i>In-Depth Guide:</i> <a href="#">Planning a Tutorial (TK)</a>.</p>
+  <p><i>In-Depth Guide:</i> <a href="/in-depth/tutorial-planning/">Planning a Tutorial</a>.</p>
 </section>
 
 <section data-background-color="rgb(227, 244, 254)">
@@ -232,7 +232,7 @@ footerclass = "symmetric"
   <p><i>Example:</i> “Beyond API docs, Developer Danielle is going to want to
   understand the schema of the JSON file that my tool emits.”</p>
 
-  <p><i>In-Depth Guide:</i> <a href="#">Other Common Documentation Elements (TK)</a>.</p>
+  <p><i>In-Depth Guide:</i> <a href="/in-depth/other-elements/">Other Common Documentation Elements</a>.</p>
 </section>
 
 <section>
@@ -245,7 +245,7 @@ footerclass = "symmetric"
 
   <p><i>Example:</i> <a href="https://www.sphinx-doc.org/">Sphinx</a>.</p>
 
-  <p><i>In-Depth Guide:</i> <a href="#">Authoring Tools (TK)</a>.</p>
+  <p><i>In-Depth Guide:</i> <a href="/in-depth/authoring-tools/">Authoring Tools</a>.</p>
 </section>
 
 <section>
@@ -272,7 +272,7 @@ footerclass = "symmetric"
   <p><i>Example:</i> <a href="https://docs.readthedocs.com/platform/stable/continuous-deployment.html">Continuous deployment</a>
   to <a href="https://readthedocs.org">readthedocs.org</a>.</p>
 
-  <p><i>In-Depth Guide:</i> <a href="#">Publishing Tools (TK)</a>.</p>
+  <p><i>In-Depth Guide:</i> <a href="/in-depth/publishing-tools/">Publishing Tools</a>.</p>
 </section>
 
 <section data-background-color="rgb(227, 244, 254)">
@@ -291,7 +291,7 @@ footerclass = "symmetric"
   your tools and site layout. It’s time to take on a more open-ended
   writing project.</p>
 
-  <p><i>In-Depth Guide:</i> <a href="#">Writing a Tutorial (TK)</a>.</p>
+  <p><i>In-Depth Guide:</i> <a href="/in-depth/tutorial-writing/">Writing a Tutorial</a>.</p>
 </section>
 
 <section>
@@ -304,7 +304,7 @@ footerclass = "symmetric"
   helped you get a better understanding of which support materials are
   the most important, and what your examples should look like.</p>
 
-  <p><i>In-Depth Guide:</i> <a href="#">Writing Reference Material (TK)</a>.</p>
+  <p><i>In-Depth Guide:</i> <a href="/in-depth/reference-material/">Writing Reference Material</a>.</p>
 </section>
 
 <section>
@@ -318,7 +318,7 @@ footerclass = "symmetric"
   and identifying the trees. When you’re done, you have to step back and
   look at the forest.” ―&nbsp;Stephen&nbsp;King<sup><a href="https://www.goodreads.com/quotes/370731-when-you-write-a-book-you-spend-day-after-day">*</a></sup></p>
 
-  <p><i>In-Depth Guide:</i> <a href="#">Documentation “Smells” (TK)</a>.</p>
+  <p><i>In-Depth Guide:</i> <a href="/in-depth/smells/">Documentation “Smells”</a>.</p>
 </section>
 
 <section>
