@@ -23,15 +23,15 @@ footerclass = "symmetric"
 
 <section data-background-color="rgb(227, 244, 254)">
   <h1>Part 0: Preliminaries</h1>
-  
+
   <p class="tctr">A few points to address before we really get started.</p>
 </section>
 
 <section>
   <h2>Intended Audience</h2>
-  
+
   <p>This playbook is aimed at authors of software projects that are:</p>
-  
+
   <ul>
     <li>Small, DIY-style</li>
     <li>Open source</li>
@@ -39,14 +39,14 @@ footerclass = "symmetric"
   </ul>
 
   <p>We’d like to think that it will still have much to offer to participants
-  in projects that do <i>not</i> meet these descriptions. But to keep 
+  in projects that do <i>not</i> meet these descriptions. But to keep
   focused we’ve avoided even mentioning some of the issues that arise in other
   circumstances.</p>
 </section>
 
 <section>
   <h2>Terminology</h2>
-  
+
   <p>We assume that your documentation will be eventually published as HTML
   on the web, so we’ll refer to documentation <i>pages</i> and your overall documentation
   <i>site</i>. Reinterpret accordingly if you’re targeting a different medium.</p>
@@ -58,7 +58,7 @@ footerclass = "symmetric"
 
 <section>
   <h2>The Prime Directive</h2>
-  
+
   <p>Above all else: this playbook is a <i>recommendation</i>, nothing more.
   Take inspiration from the parts that you like, ignore the ones that you don’t, and
   always trust your intuition. There’s no one
@@ -68,13 +68,13 @@ footerclass = "symmetric"
 
 <section data-background-color="rgb(227, 244, 254)">
   <h1>Part 1: Planning</h1>
-  
+
   <p class="tctr"><i>“Plans are worthless, but planning is everything.”</i> —&nbsp;Dwight&nbsp;Eisenhower<sup><a href="https://en.wikiquote.org/wiki/Dwight_D._Eisenhower">*</a></sup></p>
 </section>
 
 <section>
   <h2>Step 1: Start A Notes Doc</h2>
-  
+
   <p>It’ll be helpful to have some place to write down notes as you work on your
   docs — no need for these to be public. A Google Doc is fine. So is paper!</p>
 </section>
@@ -82,7 +82,7 @@ footerclass = "symmetric"
 <section>
   <h2>Step 2: Draft Your Synopsis</h2>
 
-  <p>The <b>synopsis</b> is 1–3 sentences summarizing your software. Jot down 
+  <p>The <b>synopsis</b> is 1–3 sentences summarizing your software. Jot down
   a first draft in your notes.</p>
 
   <p><i>Example:</i> “<a href="https://pages.nist.gov/fipy/en/latest/">FiPy</a>
@@ -100,12 +100,12 @@ footerclass = "symmetric"
   <h2>Step 3: Think Up Some Personas</h2>
 
   <p>A <b>persona</b> is an imaginary, but specific, person who might use
-  your software and read your documenation. Spend just a few minutes making up 2–3 personas.
-  Give them names, and jot down notes about them.</p>
+  your software and documenation. Spend just a few minutes making up 2–3 named
+  personas, and jot down brief profiles in a new section of your notes.</p>
 
-  <p><i>Example:</i> “Postdoc Pete works in my field and saw me give a talk about
-  my software that computes model exoplanet spectra. He has observational data and is curious
-  to see if my models can reproduce them.”
+  <p><i>Example:</i> “Postdoc Pete saw me give a talk about my software that
+  computes model exoplanet spectra. He has observational data and is curious
+  to see if my model matches, but won’t bother if it’s too hard to run.”
 
   <p><i>Why:</i> The design of your documentation (and your whole project) will be stronger
   if it targets specific kinds of people, not just a vague, generic “user”.</p>
@@ -114,25 +114,24 @@ footerclass = "symmetric"
 </section>
 
 <section>
-  <h2>Step 4: Envision Your Tutorial</h2>
+  <h2>Step 4: Outline Your Tutorial</h2>
 
   <p>Plan out a <b>tutorial experience</b> that will show new users how to accomplish
-  something cool using your software. We’re not writing any text yet —
-  just outlining.</p>
+  something cool using your software. Record notes as an outline or storyboard.</p>
 
   <p><i>Why:</i> Your tutorial is your software’s make-or-break moment, so it should
-  be as good as it can be. Outlining first helps us foresee the weak points and think
-  about how we can address them.</p>
+  be as good as it can be. Planning it early helps you foresee any weak points.</p>
 
   <p><i>Example</i>: “Hmm, Undergrad Ursula is going to need to download a three-gigabyte
-  data file in order to follow my tutorial. I need to figure out where
-  to host it and tell her to kick off the download first so it can
-  run in the background while she installs the code.”</p>
+  data file for my tutorial. I need to figure out where
+  to host it and tell her to kick off the download to run while she’s installing the code.”</p>
+
+  <p><i>In-Depth Guide:</i> <a href="#">Planning a Tutorial (TK)</a>.</p>
 </section>
 
 <section data-background-color="rgb(227, 244, 254)">
   <h1>Part 2: “Easy” Drafts</h1>
-  
+
   <p class="tctr">Next, we’ll focus on drafting some of the “easy stuff“. These are bits
   of documentation that your software really ought to have, but tend to be short and self-contained.
   When things go well, some of these might take only a few minutes to write.</p>
@@ -143,7 +142,7 @@ footerclass = "symmetric"
 
   <p>Draft your <b>installation instructions</b> in a new section of your notes document.</p>
 
-  <p><i>Example:</i> “<a href="https://www.plasmapy.org/">PlasmaPy</a> may be installed from the 
+  <p><i>Example:</i> “<a href="https://www.plasmapy.org/">PlasmaPy</a> may be installed from the
   command line using pip: <code>pip install plasmapy</code>”
 
   <p><i>Why:</i> Your instructions should be <i>extremely short</i> — the modern
@@ -158,7 +157,7 @@ footerclass = "symmetric"
 
   <p>Draft your <b>citation instructions</b> in a new section of your notes document.</p>
 
-  <p><i>Example:</i> “<a href="https://doi.org/10.1002/jcc.23981">Libcint: An efficient general 
+  <p><i>Example:</i> “<a href="https://doi.org/10.1002/jcc.23981">Libcint: An efficient general
   integral library for Gaussian basis functions</a>, Q. Sun, J. Comp. Chem. 36, 1664 (2015)”
 
   <p><i>Why:</i> Unfortunately, many users of scientific software need to be reminded to cite it
@@ -186,11 +185,13 @@ footerclass = "symmetric"
 <section>
   <h2>Step 8: Draft Acknowledgments</h2>
 
-  <p>Draft <b>acknowledgments</b> in a new section of your notes document.</p>
+  <p>Draft <b>acknowledgments</b> in a new section of your notes.</p>
+
+  <p>You’re encouraged, but not obligated, to mention One Good Tutorial in your acknowledgments.</p>
 
   <p><i>Example:</i> “The MolSSI is supported by the U.S. National Science Foundation through grant number CHE-2136142.”
 
-  <p><i>Why:</i> If a funder supported work on a software project, they almost surely should 
+  <p><i>Why:</i> If a funder supported work on a software project, they almost surely should
   be acknowledged somewhere in your documentation. Take a few minutes to make sure that all
   funding sources are listed properly.</p>
 
@@ -198,9 +199,9 @@ footerclass = "symmetric"
 </section>
 
 <section>
-  <h2>Step 9: Draft Contribution Instructions</h2>
+  <h2>Step 9: Draft Contribution Statement</h2>
 
-  <p>Draft <b>contribution instructions</b> in a new section of your notes document.</p>
+  <p>Draft a <b>contribution statement</b> in a new section of your notes document.</p>
 
   <p><i>Example:</i> “The <a href="https://www.astropy.org/contribute.html">Astropy</a> project is made both by and for its users, so we accept contributions of many kinds …”
 
@@ -213,42 +214,44 @@ footerclass = "symmetric"
 
 <section data-background-color="rgb(227, 244, 254)">
   <h1>Part 3: First Build</h1>
-  
-  <p class="tctr">It’s time to start turning your documentation from plans into reality — which means
-  committing to some specifics.</p>
+
+  <p class="tctr">It’s time to start turning your documentation from plans
+  into reality — which means committing to some specifics.</p>
 </section>
 
 <section>
   <h2>Step 10: Scope Out Remaining Material</h2>
 
-  <p>Make a list of other materials that are required for your “minimum viable product” documentation.
-  Most new software probably only needs one more element: some <b>reference material</b>
-  supporting more-experienced users, like API documentation. Use your personas and the <a href="https://diataxis.fr/">Diátaxis</a>
-  model to guide your thinking.</p>
+  <p>Make a list of other pages required for your “minimum viable”
+  documentation. <a href="..">The checklist</a> calls for only one more element:
+  <b>reference material</b>, such as API docs.</p>
 
-  <p><i>Example:</i> “Beyond a Python API reference, Developer Danielle is really going to want to 
-  see a schema for the JSON file that my analysis tool emits.”</p>
+  <p><i>Why:</i> One size does not fit all — now is the time to nail down
+  what “good enough documentation” means to your project.</p>
 
-  <p><i>Why:</i> You probably have a lot of other things to do besides write documentation.
-  Set a scope now and focus on just getting
-  <i>something</i> out into the world — if it’s a success, you can always write more later.</p>
+  <p><i>Example:</i> “Beyond API docs, Developer Danielle is going to want to
+  understand the schema of the JSON file that my tool emits.”</p>
+
+  <p><i>In-Depth Guide:</i> <a href="#">Other Common Documentation Elements (TK)</a>.</p>
 </section>
 
 <section>
   <h2>Step 11: Figure Out Authoring Tools</h2>
 
-  <p>Select the tool(s) you’ll use to <b>author</b> your project’s documentation and integrate
+  <p>Select the tool(s) you’ll use to <b>author</b> your project’s documentation; integrate
   them into your project’s codebase. This may be quick if you’ve done this before, time-consuming if not.</p>
 
   <p><i>Example:</i> your entire documentation might fit comfortably in a single <code>README.md</code> file.</p>
 
   <p><i>Example:</i> <a href="https://www.sphinx-doc.org/">Sphinx</a>.</p>
+
+  <p><i>In-Depth Guide:</i> <a href="#">Authoring Tools (TK)</a>.</p>
 </section>
 
 <section>
-  <h2>Step 12: Stub Out Your Documents</h2>
+  <h2>Step 12: Stub Your Documents</h2>
 
-  <p>Copy your “easy” draft texts into their intended places in your repository, and make 
+  <p>Copy your “easy” draft texts into their intended places in your repository, and make
   minimal <b>placeholders</b> for the remaining documents that you’ve planned (“Tutorial goes here”).</p>
 
   <p>Look over the skeleton of your site.</p>
@@ -260,7 +263,7 @@ footerclass = "symmetric"
 <section>
   <h2>Step 13: Figure Out Publishing Tools</h2>
 
-  <p>Select the tool(s) you’ll use to <b>publish</b> your project’s documentation and integrate them into
+  <p>Select the tool(s) you’ll use to <b>publish</b> your project’s documentation; integrate them into
   your project’s codebase. Once again, this may be a time-consuming step if you haven’t set up
   this kind of workflow before.</p>
 
@@ -268,18 +271,27 @@ footerclass = "symmetric"
 
   <p><i>Example:</i> <a href="https://docs.readthedocs.com/platform/stable/continuous-deployment.html">Continuous deployment</a>
   to <a href="https://readthedocs.org">readthedocs.org</a>.</p>
+
+  <p><i>In-Depth Guide:</i> <a href="#">Publishing Tools (TK)</a>.</p>
 </section>
 
 <section data-background-color="rgb(227, 244, 254)">
-  <h1>Part 4: Time to Write</h1>
-  
-  <p class="tctr">The pieces are all in place!</p>
+  <h1>Part 4: Full Steam Ahead</h1>
+
+  <p class="tctr">The foundations are in place, but you still need to
+  draft some of your most important docs. Let’s tackle them.</p>
 </section>
 
 <section>
   <h2>Step 14: Draft The Tutorial</h2>
 
   <p>Write a first draft of your <b>tutorial</b>.</p>
+
+  <p><i>Why:</i> Drafting the “easy” docs first has gotten you used to
+  your tools and site layout. It’s time to take on a more open-ended
+  writing project.</p>
+
+  <p><i>In-Depth Guide:</i> <a href="#">Writing a Tutorial (TK)</a>.</p>
 </section>
 
 <section>
@@ -287,19 +299,50 @@ footerclass = "symmetric"
 
   <p>Write up your <b>API reference</b> materials and any other documents
   that are still placeholders.</p>
+
+  <p><i>Why:</i> Hopefully, the experience of writing the tutorial has
+  helped you get a better understanding of which support materials are
+  the most important, and what your examples should look like.</p>
+
+  <p><i>In-Depth Guide:</i> <a href="#">Writing Reference Material (TK)</a>.</p>
 </section>
 
 <section>
   <h2>Step 16: Review and Revise</h2>
 
-  <p>You knew this step was coming: take some time to <b>review</b> what you’ve written and
-  <b>revise</b> anything that’s unclear or inaccurate.</p>
+  <p>Take some time to <b>review</b> what you’ve written and <b>revise</b>
+  anything that’s unclear or inaccurate. Hard-to-read docs often indicate
+  an underlying engineering problem to address.</p>
 
-  <p><i>Why:</i> TKTK</p>
+  <p><i>Why:</i> “When you write a book, you spend day after day scanning
+  and identifying the trees. When you’re done, you have to step back and
+  look at the forest.” ―&nbsp;Stephen&nbsp;King<sup><a href="https://www.goodreads.com/quotes/370731-when-you-write-a-book-you-spend-day-after-day">*</a></sup></p>
+
+  <p><i>In-Depth Guide:</i> <a href="#">Documentation “Smells” (TK)</a>.</p>
 </section>
 
 <section>
-  <h2>Step 17: Publish!</h2>
+  <h2>Step 17: Publish and Celebrate</h2>
 
-  <p>TKTK.</p>
+  <p>That’s it! You’ve successfully written a set of documentation that will do
+  credit to you and your project. Publish it and find a way to <b>reward
+  yourself</b> for a job well done.</p>
+
+  <p><i>Why:</i> Working on docs can feel like a slog — they’re never
+  “finished,” and you’re probably all too aware of the shortcomings of
+  whatever you’ve just written. This playbook has been designed to lead up
+  to this tangible moment of victory, so go ahead and enjoy it!</p>
+</section>
+
+<section>
+  <h2>Step 18 (Optional): Feedback</h2>
+
+  <p>One Good Tutorial was developed with the support of a <a
+    href="https://bssw.io/pages/bssw-fellowship-program">Better 
+  Scientific Software (BSSw) Fellowship</a>.</p>
+  
+  <p>The BSSw organization
+  would like to collect feedback about the user impact of this
+  resource, so please consider <a href="#">taking this three-minute survey (TK)</a>
+  about your experience.</p>
 </section>
