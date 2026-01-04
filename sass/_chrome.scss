@@ -50,11 +50,20 @@ header {
 
 footer {
   background-color: rgb(186, 207, 190);
+
+  // This causes the footer to visually extend all the way to the viewport
+  // bottom if the total page content is shorter than that.
+  box-shadow: 0 50vh 0 50vh rgb(186, 207, 190);
+
   width: 100%;
   clear: both;
   font-size: 80%;
   margin: 4rem 0 0 0;
   padding: 0.3rem 0 0.3rem 0;
+
+  &.symmetric {
+    margin-top: 1rem;
+  }
 
   p {
     margin: 0;

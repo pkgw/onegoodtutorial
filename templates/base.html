@@ -46,7 +46,11 @@
     </main>
   </div>
 
+{% if page.extra.footerclass %}
+  <footer class="{{ page.extra.footerclass }}">
+{% else %}
   <footer>
+{% endif %}
     <div class="maxwidth">
       <p>
         <a href="{{ get_url(path="", trailing_slash=true) | safe }}">One Good
