@@ -336,3 +336,16 @@ footerclass = "symmetric"
   whatever you’ve just written. This playbook has been designed to lead up
   to this tangible moment of victory, so go ahead and enjoy it!</p>
 </section>
+
+<section>
+  <h2>Step 18 (Optional): Feedback</h2>
+
+  <p>One Good Tutorial was developed with the support of a <a
+    href="https://bssw.io/pages/bssw-fellowship-program">Better 
+  Scientific Software (BSSw) Fellowship</a>.</p>
+  
+  <p>The BSSw organization
+  would like to collect feedback about the user impact of this
+  resource, so please consider <a href="#">taking this three-minute survey (TK)</a>
+  about your experiences.</p>
+</section>
