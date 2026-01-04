@@ -100,12 +100,12 @@ footerclass = "symmetric"
   <h2>Step 3: Think Up Some Personas</h2>
 
   <p>A <b>persona</b> is an imaginary, but specific, person who might use
-  your software and read your documenation. Spend just a few minutes making up 2–3 personas.
-  Give them names, and jot down notes about them.</p>
+  your software and documenation. Spend just a few minutes making up 2–3 named
+  personas, and jot down brief profiles in a new section of your notes.</p>
 
-  <p><i>Example:</i> “Postdoc Pete works in my field and saw me give a talk about
-  my software that computes model exoplanet spectra. He has observational data and is curious
-  to see if my models can reproduce them.”
+  <p><i>Example:</i> “Postdoc Pete saw me give a talk about my software that
+  computes model exoplanet spectra. He has observational data and is curious
+  to see if my model matches, but won’t bother if it’s too hard to run.”
 
   <p><i>Why:</i> The design of your documentation (and your whole project) will be stronger
   if it targets specific kinds of people, not just a vague, generic “user”.</p>
@@ -117,17 +117,14 @@ footerclass = "symmetric"
   <h2>Step 4: Outline Your Tutorial</h2>
 
   <p>Plan out a <b>tutorial experience</b> that will show new users how to accomplish
-  something cool using your software. We’re not writing any text yet —
-  just outlining.</p>
+  something cool using your software. Record notes as an outline or storyboard.</p>
 
   <p><i>Why:</i> Your tutorial is your software’s make-or-break moment, so it should
-  be as good as it can be. Outlining first helps us foresee the weak points and think
-  about how we can address them.</p>
+  be as good as it can be. Planning it early helps you foresee any weak points.</p>
 
   <p><i>Example</i>: “Hmm, Undergrad Ursula is going to need to download a three-gigabyte
-  data file in order to follow my tutorial. I need to figure out where
-  to host it and tell her to kick off the download first so it can
-  run in the background while she installs the code.”</p>
+  data file for my tutorial. I need to figure out where
+  to host it and tell her to kick off the download to run while she’s installing the code.”</p>
 
   <p><i>In-Depth Guide:</i> <a href="#">Planning a Tutorial (TK)</a>.</p>
 </section>
@@ -202,9 +199,9 @@ footerclass = "symmetric"
 </section>
 
 <section>
-  <h2>Step 9: Draft Contribution Instructions</h2>
+  <h2>Step 9: Draft Contribution Statement</h2>
 
-  <p>Draft <b>contribution instructions</b> in a new section of your notes document.</p>
+  <p>Draft a <b>contribution statement</b> in a new section of your notes document.</p>
 
   <p><i>Example:</i> “The <a href="https://www.astropy.org/contribute.html">Astropy</a> project is made both by and for its users, so we accept contributions of many kinds …”
 
@@ -327,9 +324,9 @@ footerclass = "symmetric"
 <section>
   <h2>Step 17: Publish and Celebrate</h2>
 
-  <p>You’ve successfully written a set of documentation that will do
-  credit to you and your project. Publish it and find a way to reward
-  yourself for a job well done.</p>
+  <p>That’s it! You’ve successfully written a set of documentation that will do
+  credit to you and your project. Publish it and find a way to <b>reward
+  yourself</b> for a job well done.</p>
 
   <p><i>Why:</i> Working on docs can feel like a slog — they’re never
   “finished,” and you’re probably all too aware of the shortcomings of
@@ -347,5 +344,5 @@ footerclass = "symmetric"
   <p>The BSSw organization
   would like to collect feedback about the user impact of this
   resource, so please consider <a href="#">taking this three-minute survey (TK)</a>
-  about your experiences.</p>
+  about your experience.</p>
 </section>
