@@ -11,7 +11,8 @@ into the details about how to prepare different standard elements of software
 documentation. They cover the following topics:
 
 - [Acknowledgment Statements](@/in-depth/acknowledgments.md)
-- [Authoring Tools](@/in-depth/authoring-tools.md)
+- [Choosing an Authoring Tool](@/in-depth/authoring-tools.md)
+- [Choosing a Publishing Tool](@/in-depth/publishing-tools.md)
 - [Citation Instructions and Software Citation](@/in-depth/software-citation.md)
 - [Contribution Statements](@/in-depth/contribution-statements.md)
 - [Documentation “Smells”](@/in-depth/smells.md)
@@ -20,7 +21,6 @@ documentation. They cover the following topics:
 - [Other Common Documentation Elements](@/in-depth/other-elements.md)
 - [Personas](@/in-depth/personas.md)
 - [Planning a Tutorial](@/in-depth/tutorial-planning.md)
-- [Publishing Tools](@/in-depth/publishing-tools.md)
 - [Writing a Project Synopsis](@/in-depth/synopsis.md)
 - [Writing Reference Material](@/in-depth/reference-material.md)
 - [Writing a Tutorial](@/in-depth/tutorial-writing.md)
