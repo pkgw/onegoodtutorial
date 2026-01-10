@@ -6,10 +6,9 @@ section = "In-Depth Guides"
 +++
 
 Tools for **authoring** are ones that help you create publishable documentation
-materials, often by processing some set of input **documentation source** files.
-In the modern documentation landscape, this almost always means tools that
-generate **HTML**, since software documentation is almost always delivered as a
-website.
+materials. In the modern documentation landscape, this almost always means tools
+that generate **HTML**, since software documentation is almost always delivered
+as a website.
 
 The aim of this guide is to help you select an appropriate authoring tool (or
 tools) for your project. Authoring tools may or may not integrate with
@@ -37,15 +36,15 @@ find Sphinx frustrating.
 
 If your project does not have a large API surface area and you expect your docs
 to be short overall, it’s totally valid to put everything into a single
-`README.md` [Markdown] file in your code repository. This is by far the easiest
-option if it will meet your needs.
+**README** file in your code repository (probably in [Markdown] format). This is
+by far the easiest option if it will meet your needs.
 
 [Markdown]: https://en.wikipedia.org/wiki/Markdown
 
 If neither of the above options feels right, the next option to consider is a
-[static site generator][ssg] for the superstructure of your content, probably
-with a lot of links to more specialized content (such as API docs, Jupyter
-notebooks, videos, slideshows, etc.).
+**[static site generator][ssg]** for the superstructure of your content,
+probably with a lot of links to more specialized content (such as API docs,
+Jupyter notebooks, videos, slideshows, etc.).
 
 [ssg]: https://about.gitlab.com/blog/comparing-static-site-generators/
 
@@ -56,47 +55,7 @@ and there have never been more tools for creating content than now. The bad news
 is that you’ll be straying off of the beaten path, so the going will be slower.
 
 
-# Language-Specific Tools
-
-Most programming languages are strongly associated with particular documentation
-authoring tools. [Python] is linked with [Sphinx] and [MkDocs], Ruby with [RDoc]
-and [YARD], [Rust] with [rustdoc], [TypeScript] with [typedoc], and so on.
-
-[Python]: https://www.python.org/
-[Ruby]: https://www.ruby-lang.org/
-[RDoc]: https://ruby.github.io/rdoc/
-[YARD]: https://yardoc.org/
-[Rust]: https://rust-lang.org/
-[rustdoc]: https://doc.rust-lang.org/rustdoc/what-is-rustdoc.html
-[TypeScript]: https://www.typescriptlang.org/
-[typedoc]: https://typedoc.org/
-
-Why is this? The key is that for every language there’s an understandable need
-to create API reference documentation, and such material is unique to each
-language (by definition, the semantic structure of an API depends on the
-particular details of its implementation language) and, consequently, likely to
-be complex to format (basic [Markdown]-esque typesetting won’t do the job). So
-virtually every language ends up having at least one bespoke documentation tool.
-
-One of the goals of One Good Tutorial is to underline (taking inspiration from
-[the Diátaxis system][dtx]) that an API reference is just one element of
-good-quality documentation, and in many ways is far from the most important
-element at that. But that being said:
-
-1. Most API documentation tools are able to embed that material in a
-   superstructure that’s suitable for expressing all items on [the One Good
-   Tutorial checklist][cl].
-1. API reference material is likely to be the element of your documentation
-   that’s the most challenging to format and render.
-
-[dtx]: https://diataxis.fr/
-[cl]: ../..
-
-So, in many cases, you can do everything you need within your language-specific
-documentation tool.
-
-
-# Example: README.md
+# Easiest Option: Basic Markdown README
 
 Code-hosting services like [GitHub] generally populate repository landing pages
 with the contents of a `README.md` [Markdown] file if one exists. It is entirely
@@ -117,27 +76,94 @@ screenshots, syntax-highlighted code samples, and [disclosure arrows][discarr].
 [discarr]: https://en.wikipedia.org/wiki/Disclosure_widget
 
 If your project provides one or more APIs, a single Markdown file probably won’t
-do the job. (In [ai/size-limit], there is a “JS API” section, but it’s minimal.)
-In that case, your `README.md` should be relatively terse and focus on topics of
-interest to developers. Such a README should mainly link to your primary
-documentation, but you should reproduce key information ([install
-instructions][install], [legal statement][legal]) if it’s not in danger of
-getting out-of-date.
+do the job, because API definitions usually require (or at least, benefit
+significantly from) complex formatting. (In [ai/size-limit], there is a “JS API”
+section, but it’s minimal.) In that case, your `README.md` should be relatively
+terse and focus on topics of interest to developers. Such a README should mainly
+link to your primary documentation, but you should reproduce key information
+([install instructions][install], [legal statement][legal]) if it’s not in
+danger of getting out-of-date.
 
 [install]: @/in-depth/installation-instructions.md
 [legal]: @/in-depth/licensing-statements.md
 
-## Additional Resources
+## Additional Markdown Resources
 
 - [GitHub Markdown: Basic writing and formatting syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 - [CommonMark.org](https://commonmark.org/) — formalized Markdown specification
 - [matiassingers/awesome-readme: A curated list of awesome READMEs](https://github.com/matiassingers/awesome-readme#readme)
 
 
-# Hierarchical Static Sites
+# Next Option: Language-Specific Tool
 
-Many, many documentation tools ultimately produce output in the form of some
-kind of **hierarchical static site**. That is:
+Most programming languages are strongly associated with particular documentation
+authoring tools. [Python] is linked with [Sphinx] and [MkDocs], Ruby with [RDoc]
+and [YARD], [Rust] with [rustdoc], [TypeScript] with [typedoc], and so on. If
+one or more of these tools are relevant to your project, you should consider
+whether you can adopt one exclusively.
+
+[Python]: https://www.python.org/
+[Ruby]: https://www.ruby-lang.org/
+[RDoc]: https://ruby.github.io/rdoc/
+[YARD]: https://yardoc.org/
+[Rust]: https://rust-lang.org/
+[rustdoc]: https://doc.rust-lang.org/rustdoc/what-is-rustdoc.html
+[TypeScript]: https://www.typescriptlang.org/
+[typedoc]: https://typedoc.org/
+
+Why does each new language seem to get its own new documentation tool? The key
+is that for every language there’s an understandable need to create API
+reference documentation, and such material is unique to each language (by
+definition, the semantic structure of an API depends on the particular details
+of its implementation language) and, relatedly, likely to be complex to format
+as well (basic [Markdown]-esque typesetting won’t do the job). And almost all of
+these tools also include functionality to scan the source code in your
+repository to populate the API documentation directly from code comments,
+another highly language-specific piece of functionality.
+
+One of the goals of One Good Tutorial is to underline (taking inspiration from
+[the Diátaxis system][dtx]) that an API reference is just one element of
+good-quality documentation, and in many ways is far from the most important
+element at that. But, because API reference material is more demanding to
+generate and format than most of the other elements on [the One Good Tutorial
+checklist][cl], it ends up playing an outsized role in the selection of your
+authoring tools.
+
+[dtx]: https://diataxis.fr/
+[cl]: ../..
+
+Indeed, it’s probable that only one other item on the checklist would play a
+major role in your choice of authoring tool. Your tutorial is the main place
+where you might want to try effects more complicated than basic prose
+typesetting: live coding, interactive demos, multimedia slideshows, and so on.
+And, as the very name of this resource emphasizes, the tutorial *is* perhaps the
+most important piece of your documentation. If your language’s API documentation
+tool can’t achieve the effects that you’d like to see in your tutorial, consider
+adopting an additional tool that can.
+
+## Additional Resources: Python
+
+- ReadTheDocs Sphinx Example: [code](https://github.com/readthedocs-examples/example-sphinx-basic), [rendered](https://example-sphinx-basic.readthedocs.io/)
+- ReadTheDocs MkDocs Example: [code](https://github.com/readthedocs-examples/example-mkdocs-basic), [rendered](https://example-mkdocs-basic.readthedocs.io/)
+- [Sphinx Documentation: Build your first project](https://www.sphinx-doc.org/en/master/tutorial/index.html)
+- [Sphinx Documentation: Examples](https://www.sphinx-doc.org/en/master/examples.html) (serves as a theme gallery)
+- [MkDocs Documentation: Getting Started](https://www.mkdocs.org/getting-started/)
+
+## Additional Resources: Other Languages
+
+- [C/C++ (and others): doxygen](https://www.doxygen.nl/)
+- [Go: Godoc](https://go.dev/blog/godoc)
+- [Java: Javadoc](https://www.oracle.com/java/technologies/javase/javadoc-tool.html)
+- [R: roxygen2](https://roxygen2.r-lib.org/)
+- [Ruby: RDoc](https://ruby.github.io/rdoc/)
+- [Rust: rustdoc](https://doc.rust-lang.org/rustdoc/what-is-rustdoc.html)
+- [TypeScript: typedoc](https://typedoc.org/)
+
+
+# Higher-Level Option: Static Site Generator
+
+Virtually all of the language-specific tools mentioned above ultimately produce
+output in the form of some kind of **hierarchical static site**. That is:
 
 - The output is a tree of web content files: HTML, CSS, JavaScript, etc.
 - Furthermore, the content is conceptually organized in a tree-like page
@@ -149,6 +175,29 @@ portable and can be published using virtually any generic webserver; there are
 literally [dozens of options][oneliners].
 
 [oneliners]: https://gist.github.com/willurd/5720255
+
+(For the record: various of these tools can also generate output in other
+formats like PDF as well. Except in special circumstances, you should focus all
+of your effort on the web/HTML manifestation of your documentation. It is by far
+the most convenient for most users, it is what will be indexed by search engines
+and LLMs, and modern web browsers can accomplish any effect that you can
+possibly dream up.)
+
+There are also [dozens][ssg-list], if not hundreds, of tools that will generate
+static site content for you — tools sensibly called static site generators
+(SSGs). If your plan for your documentation calls for a feature not available in
+the appropriate language-specific tool, the chances are good that one or more
+SSGs support it. Or if you want your docs to combine elements from *multiple*
+HTML-generating tools, you can use an SSG to provide the superstructure that
+links them together.
+
+[ssg-list]: https://jamstack.org/generators/
+
+
+
+
+
+# XXXXXXXXX
 
 An hierarchical content organization for software documentation might look like
 this (in part):
@@ -172,28 +221,3 @@ Most of us are very familiar with this approach to organizing content, but it’
 not inevitable. For instance, Wikipedia doesn’t have this structure; instead,
 it’s basically a giant “bag” of millions of articles, with no particular
 ordering or organizational structure imposed on them.
-
-
-# Example: Python with Sphinx
-
-[Sphinx] is the dominant documentation tool for Python projects. Its output
-takes the form of an hierarchical static site.
-
-(For the record: Sphinx and many other documentation tools can generate output
-in other formats like PDF as well. Except in special circumstances, you should
-focus all of your effort on the web/HTML manifestation of your documentation. It
-is by far the most convenient for most users, it is what will be indexed by
-search engines, and modern browsers can accomplish any effect that you can
-possibly dream up.)
-
-Sphinx has competitors (chiefly [MkDocs] as of this writing), but is still
-probably the safest choice for a basic Python project documentation tool.
-
-[Sphinx]: https://www.sphinx-doc.org/
-[MkDocs]: https://www.mkdocs.org/
-
-Sphinx supports two main documentation source formats: [reStructuredText][rst]
-(ReST) and [MyST][myst], a superset of [Markdown]. ReST is older and
-
-[rst]: https://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html
-[myst]: https://mystmd.org/
