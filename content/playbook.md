@@ -317,8 +317,6 @@ footerclass = "symmetric"
   <p><i>Why:</i> “When you write a book, you spend day after day scanning
   and identifying the trees. When you’re done, you have to step back and
   look at the forest.” ―&nbsp;Stephen&nbsp;King<sup><a href="https://www.goodreads.com/quotes/370731-when-you-write-a-book-you-spend-day-after-day">*</a></sup></p>
-
-  <p><i>In-Depth Guide:</i> <a href="/in-depth/smells/">Documentation “Smells”</a>.</p>
 </section>
 
 <section>
