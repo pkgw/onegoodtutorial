@@ -2,7 +2,6 @@ base_url = "https://onegoodtutorial.org"
 compile_sass = true
 build_search_index = false
 
-[markdown]
-highlight_code = true
-
-[extra]
+[markdown.highlighting]
+light_theme = "github-light"
+dark_theme = "github-dark"
