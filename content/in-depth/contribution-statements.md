@@ -96,15 +96,9 @@ Astropy also prominently links contribution with abidance by the project’s
 [apcoc]: https://www.astropy.org/code_of_conduct.html
 
 If your project has gotten enough traction to need a non-trivial contribution
-statement, it almost certainly needs a Code of Conduct as well. The project
-CoC should become part of its documentation, but adopting a CoC is much more
-of a *social* process than a matter of *documentation*. Here are a few resources
-on the topic:
-
-- [Good Docs Project: Code of conduct template guide](https://www.thegooddocsproject.dev/template/code-of-conduct)
-- [GitHub: Adding a code of conduct to your project](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-code-of-conduct-to-your-project)
-- [Contributor Covenant: A code of conduct for digital communities](https://www.contributor-covenant.org/)
-- [Project Include: Guide to writing a code of conduct](https://projectinclude.org/writing_cocs)
+statement, it almost certainly needs a Code of Conduct as well. See [the
+relevant section in the Other Common Documentation Elements
+guide](@/in-depth/other-elements.md#code-of-conduct).
 
 
 # Case Study: PlasmaPy
