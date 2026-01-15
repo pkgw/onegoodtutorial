@@ -7,62 +7,87 @@ section = "In-Depth Guides"
 
 Tools for **publishing** documentation are ones that make your materials
 publicly available in some fashion. In the modern documentation landscape, this
-almost always means tools that set up websites, since that’s how software
-documentation is almost always delivered. The aim of this guide is to help you
-select an appropriate publishing tool (or tools) for your project.
+almost always means tools that create websites, since that’s how software
+documentation is almost always delivered.
 
-Publishing tools may or may not integrate with **[authoring
-tools](@/in-depth/authoring-tools.md)**, which help you create your publishable
-materials in the first place. For instance, the [docs.rs] service automatically
-publishes documentation for any public [Rust] crate that includes [rustdoc]
-source files in the standard configuration. Regardless of the tightness of any
-such integration, your choice of publishing tool(s) will likely be strongly
-influenced by your choice of authoring tool(s).
+Taking an expansive view, there are many, many tools you could use to publish
+your documentation — essentially as many as there are different [web hosting
+services][whs]. But there are a few crowd-favorite options that will meet the
+needs of the vast majority of projects. Unless you have very particular
+requirements, you probably only need to consider a few choices before finding
+one that will work for you.
 
-[docs.rs]: https://docs.rs/
-[Rust]: https://rust-lang.org/
-[rustdoc]: https://doc.rust-lang.org/rustdoc/what-is-rustdoc.html
-
-If you author your documentation using a **[docs as code][dac]** approach, in
-which your project’s documentation source lives in the same repository as its
-source code, it is extremely convenient to automate docs publishing as part of
-your continuous integration and deployment (CI/CD) processes.
-
-[dac]: https://www.writethedocs.org/guide/docs-as-code/
+[whs]: https://en.wikipedia.org/wiki/Web_hosting_service
 
 
-## Executive Summary
+# ReadTheDocs
 
-If you’re authoring your documentation using the standard documentation tool
-associated with your software’s implementation language, it may pair with a
-consensus standard publishing tool you should use if feasible. For Python, the
-dominant choice is to use the [ReadTheDocs][rtd] service.
+Most open-source Python projects publish their documentation using the
+[ReadTheDocs.com][rtd] service. ReadTheDocs has a free usage plan, supports any
+documentation tool (not just Python-based ones), and has good integration with
+continuous integration and deployment (CI/CD) services. This latter point is
+very valuable if, as recommended, you embrace the **[docs as code][dac]**
+paradigm.
 
 [rtd]: https://about.readthedocs.com/
+[dac]: https://www.writethedocs.org/guide/docs-as-code/
 
-If you’re not aware of such a pairing, you almost surely need to publish your
-docs using a “static site” hosting service. There are numerous free options
-available. Ones integrated with code-hosting services such as [GitHub
-Pages][ghp] or [GitLab Pages][glp] may be the most convenient.
+If you’re unsure whether ReadTheDocs would be a good fit for your project,
+consult [its documentation][rtd] to learn more.
+
+Note that ReadTheDocs supports **custom domains** so that, with a relatively
+small amount of effort, your docs can be accessed via a branded URL like
+`https://docs.mycoolproject.org/` even as they’re hosted by the third-party
+service. These days, *most* publishing tools offer this feature.
+
+## Additional Resources
+
+- [ReadTheDocs: Tutorial](https://docs.readthedocs.com/platform/stable/tutorial/index.html)
+- [ReadTheDocs: Sphinx support](https://about.readthedocs.com/tools/sphinx/)
+- [ReadTheDocs: MkDocs support](https://about.readthedocs.com/tools/mkdocs/)
+- [ReadTheDocs: Custom authoring tool support](https://about.readthedocs.com/tools/custom/)
+- [ReadTheDocs: Git integration](https://docs.readthedocs.com/platform/stable/reference/git-integration.html)
+- [ReadTheDocs: Custom domain support](https://docs.readthedocs.com/platform/stable/custom-domains.html)
+
+
+# “Pages” Services
+
+Another extremely popular option is a static website deployment service
+integrated with your code host, such as [GitHub Pages][ghp] or [GitLab
+Pages][glp]. While there are numerous general-purpose [static website hosting
+services][sweb], these integrated options are likely to offer the easiest route
+to convenient docs-as-code CI/CD integration.
 
 [ghp]: https://pages.github.com/
 [glp]: https://docs.gitlab.com/user/project/pages/
+[sweb]: https://izzyreiff.github.io/awesome-static-website-hosting/
 
-Unless you know that you have unusual needs, it is extremely likely that one of
-the above options will work for you. Note that virtually all of these publishing
-services support **custom domains** so that, with a relatively small amount of
-effort, your docs can be accessed via a branded URL like
-`https://docs.mycoolproject.org/` even as they’re hosted by the third-party
-service.
+Broadly speaking, these services offer the same core features as ReadTheDocs:
+support for any choice of authoring tool (but possibly more convenient support
+for certain preferred tools); CI/CD integration; custom domains; and so on.
+
+## Additional Resources
+
+- [Sphinx Docs: Deploying via GitHub Pages](https://www.sphinx-doc.org/en/master/tutorial/deploying.html#id5)
+- [Sphinx Docs: Deploying via GitLab Pages](https://www.sphinx-doc.org/en/master/tutorial/deploying.html#id6)
+- [GitHub Pages: Using custom workflows with GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages)
+- [GitHub Pages: About custom domains and GitHub Pages](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/about-custom-domains-and-github-pages)
+- [GitLab Pages: Getting started](https://docs.gitlab.com/user/project/pages/#getting-started)
+- [GitLab Pages: Custom domains](https://docs.gitlab.com/user/project/pages/custom_domains_ssl_tls_certification/)
 
 
-## Example: ReadTheDocs and GitHub
+# Self-Hosting
 
-If you use [ReadTheDocs][rtd] and [GitHub](https://github.com/), it is not
-difficult to make it so that essentially all parts of your documentation
-publishing workflow are automated. This is hugely convenient, and one of the
-major appeals of the Docs As Code paradigm.
+We’ve highlighted the options above because they are very easy, very popular
+systems for publishing documentation. But if you’re unwilling or unable to rely
+on a third-party service to host your docs, it’s worth emphasizing that it is
+totally possible to host them yourself. Most authoring tools produce static web
+content as their output, and this is the easiest kind of content to self-host.
 
-If you’re using different tools, fear not. In most cases, the setup will be
-equally straightforward, and it should not be difficult to find the relevant
-documentation with some basic web searches.
+It’s beyond the scope of this resource to explore this topic in detail, but
+if you have access to local tech experts, they can almost surely help you out.
+
+## Additional Resources
+
+- [AWS Hands-On Tutorials: Host a static website](https://docs.aws.amazon.com/hands-on/latest/host-static-website/host-static-website.html)
+- [Netlify: Deploying a static site or single-page app](https://www.netlify.com/blog/2016/10/27/a-step-by-step-guide-deploying-a-static-site-or-single-page-app/)
