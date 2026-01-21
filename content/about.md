@@ -34,6 +34,15 @@ acknowledgments section. A suggested statement is:
 *Citation info TKTK once this is deposited to Zenodo!*
 
 
+# Feedback
+
+The BSSw organization would like to collect feedback about the user impact of
+this resource. Please consider [taking this three-minute
+survey](https://www.surveymonkey.com/r/FDDF2ZW) if you have anything you’d like
+to convey; you can specify whether you’d like this feedback to be shared with
+the author, or not. To reach out to the author directly, see the next section.
+
+
 # Contributing to One Good Tutorial
 
 Your contributions are most welcome! Reach out by filing [an
