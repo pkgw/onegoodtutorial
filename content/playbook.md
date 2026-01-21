@@ -341,6 +341,6 @@ footerclass = "symmetric"
   
   <p>The BSSw organization
   would like to collect feedback about the user impact of this
-  resource, so please consider <a href="#">taking this three-minute survey (TK)</a>
+  resource, so please consider <a href="https://www.surveymonkey.com/r/FDDF2ZW">taking this three-minute survey</a>
   about your experience.</p>
 </section>
