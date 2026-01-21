@@ -346,6 +346,6 @@ footerclass = "symmetric"
   about your experience.</p>
 
   <p>You can also reach out by creating an issue or pull request
-  on the <a href="https://github.com/onegoodtutorial/">One Good Tutorial GitHub repository</a>,
+  on the <a href="https://github.com/pkgw/onegoodtutorial/">One Good Tutorial GitHub repository</a>,
   or by <a href="https://newton.cx/~peter/about-me/#contact">contacting the author</a> directly.</p>
 </section>
