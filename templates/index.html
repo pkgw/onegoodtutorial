@@ -60,4 +60,33 @@ all kinds of technical projects.</p>
 
 <p>Learn more about One Good Tutorial on <a href="{{ get_url(path="@/about.md")
 | safe }}">the About page</a>.</p>
+
+<script>
+  // Do something fun if you check all the boxes (see _checklist.scss).
+
+  const checkboxes = document.querySelectorAll("input");
+  const container = document.querySelector(".checklist");
+
+  let check = () => {
+    let unchecked = false;
+
+    checkboxes.forEach((cb) => {
+      if (!cb.checked) {
+        unchecked = true;
+      }
+    });
+
+    if (unchecked) {
+      container.classList.remove("alldone");
+    } else {
+      container.classList.add("alldone");
+    }
+  };
+
+  checkboxes.forEach((cb) => {
+    cb.addEventListener("change", check);
+  });
+
+  check();
+</script>
 {% endblock content %}
