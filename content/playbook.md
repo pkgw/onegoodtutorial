@@ -335,12 +335,17 @@ footerclass = "symmetric"
 <section>
   <h2>Step 18 (Optional): Feedback</h2>
 
-  <p>One Good Tutorial was developed with the support of a <a
-    href="https://bssw.io/pages/bssw-fellowship-program">Better 
+  <p>One Good Tutorial was developed by <a href="https://newton.cx/~peter/">Peter K. G. Williams</a>
+  with the support of a <a
+    href="https://bssw.io/pages/bssw-fellowship-program">Better
   Scientific Software (BSSw) Fellowship</a>.</p>
-  
+
   <p>The BSSw organization
   would like to collect feedback about the user impact of this
   resource, so please consider <a href="https://www.surveymonkey.com/r/FDDF2ZW">taking this three-minute survey</a>
   about your experience.</p>
+
+  <p>You can also reach out by creating an issue or pull request
+  on the <a href="https://github.com/onegoodtutorial/">One Good Tutorial GitHub repository</a>,
+  or by <a href="https://newton.cx/~peter/about-me/#contact">contacting the author</a> directly.</p>
 </section>

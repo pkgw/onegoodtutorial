@@ -1,18 +1,25 @@
 # One Good Tutorial
 
-This is the repo for [onegoodtutorial.org](https://onegoodtutorial.org/)!
+This is the repo for [onegoodtutorial.org]!
 
+[onegoodtutorial.org]: https://onegoodtutorial.org/
 
-## 🚧 Work in Progress 🚧
+[**One Good Tutorial**](https://onegoodtutorial.org/) is a resource for people
+who are documenting scientific software. The main idea is right there in the
+name: the most important thing is that your software’s documentation includes
+*one good tutorial*. You need a bit more than that, but not much more: the [One
+Good Tutorial software documentation checklist](https://onegoodtutorial.org/)
+defines eight core elements of scientific software documentation. The resource
+also includes [a playbook](https://onegoodtutorial.org/playbook/) you can follow
+to prepare these eight elements with a minimum of angst and a number of
+supporting [in-depth guides](https://onegoodtutorial.org/in-depth/).
 
-This repo represents a work in progress. See [this
-blog](https://newton.cx/~peter/2025/one-good-tutorial-plan/) for a vision of
-what it is intended to become.
+Visit [onegoodtutorial.org] for all the details.
 
 
 ## Legalities
 
-[One Good Tutorial](https://onegoodtutorial.org/) © 2025 by [Peter K. G.
+[One Good Tutorial](https://onegoodtutorial.org/) © 2025–2026 by [Peter K. G.
 Williams](https://newton.cx/~peter/) is licensed under [CC BY-SA
 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
 
