@@ -92,6 +92,12 @@ screenshots, syntax-highlighted code samples, and [disclosure arrows][discarr].
 [ai/size-limit]: https://github.com/ai/size-limit#readme
 [discarr]: https://en.wikipedia.org/wiki/Disclosure_widget
 
+## Example: One Good Tutorial Itself
+
+The [One Good Tutorial “About” page](@/about.md) is also a single Markdown page
+that essentially serves as the project’s documentation. It omits a few elements
+such as Installation Instructions that aren’t relevant.
+
 If your project provides one or more APIs, a single Markdown file probably won’t
 do the job, because API definitions usually require (or at least, benefit
 significantly from) complex formatting. (In [ai/size-limit], there is a “JS API”
