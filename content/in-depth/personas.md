@@ -92,4 +92,4 @@ Slurm documentation.
 - [Nielsen Norman Group: Personas make users memorable](https://www.nngroup.com/articles/persona/)
 - [GitLab Product Handbook: Personas](https://handbook.gitlab.com/handbook/product/personas/) (more
   than a dozen personas used by the GitLab product team)
-
+- [The Good Docs Project: Persona template guide](https://www.thegooddocsproject.dev/template/user-personas)
