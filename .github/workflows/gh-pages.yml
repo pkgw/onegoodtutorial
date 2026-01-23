@@ -80,6 +80,9 @@ jobs:
     needs: build
     if: ${{ github.ref_name == 'rc' }}
     steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+
     - name: Install Cranko
       run: |
         set -xeuo pipefail
