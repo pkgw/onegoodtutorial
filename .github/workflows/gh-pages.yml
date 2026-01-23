@@ -48,7 +48,7 @@ jobs:
         git add .
         cranko release-workflow commit
         git show
-        git bundle create release.bundle origin/main..HEAD
+        git bundle create release.bundle HEAD^..
 
     - name: Build site
       run: zola build
