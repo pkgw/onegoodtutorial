@@ -100,7 +100,7 @@ jobs:
       run: |
         set -xeuo pipefail
         git switch -c release
-        git pull --ff-only $release.bundle
+        git pull --ff-only release.bundle
 
     - name: Tag and push
       run: |
