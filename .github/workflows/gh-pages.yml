@@ -21,7 +21,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout
-      uses: actions/checkout@v4
+      uses: actions/checkout@v6
+      with:
+        fetch-depth: 0
 
     - name: Setup Pages
       uses: actions/configure-pages@v5
@@ -81,7 +83,9 @@ jobs:
     if: ${{ github.ref_name == 'rc' }}
     steps:
     - name: Checkout
-      uses: actions/checkout@v4
+      uses: actions/checkout@v6
+      with:
+        fetch-depth: 0
 
     - name: Install Cranko
       run: |
@@ -110,3 +114,5 @@ jobs:
 
     - name: Create GitHub releases
       run: cranko github create-releases
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

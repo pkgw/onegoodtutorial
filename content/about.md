@@ -26,7 +26,7 @@ If you found this resource useful during the preparation of your software’s
 documentation, you are encouraged — but not obligated — to mention it in your
 acknowledgments section. A suggested statement is:
 
-> These materials were initially prepared following version 0.9.1 of the [One
+> These materials were initially prepared following version 0.9.3 of the [One
 > Good Tutorial software documentation checklist][self].
 
 [self]: https://onegoodtutorial.org/
