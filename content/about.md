@@ -5,7 +5,7 @@ title = "About One Good Tutorial"
 section = "About"
 +++
 
-[**One Good Tutorial**](https://onegoodtutorial.org/) is a resource for people
+[**One Good Tutorial**](https://onegoodtutorial.org/) is an instructional resource for people
 who are documenting scientific software. The main idea is right there in the
 name: the most important thing is that your software’s documentation includes
 *one good tutorial*. You need a bit more than that, but not much more: the [One
@@ -32,7 +32,7 @@ acknowledgments section. A suggested statement is:
 
 [self]: https://onegoodtutorial.org/
 
-If you discuss One Good Tutorial in a scholarly context, you should also cite
+If you discuss One Good Tutorial in a scholarly context, you should cite
 it. You are reading version {dev} and its DOI is
 [xx.xxxx/dev-build.onegoodtutorial.version][vdoi]. Cite it with the following
 BibTeX entry:
@@ -56,7 +56,7 @@ See the “Export” section of [the Zenodo page][vdoi] for additional formats.
 
 # Feedback
 
-The BSSw organization would like to collect feedback about the user impact of
+The BSSw team would like to collect feedback about the user impact of
 this resource. Please consider [taking this three-minute
 survey](https://www.surveymonkey.com/r/FDDF2ZW) if you have anything you’d like
 to convey; you can specify whether you’d like this feedback to be shared with
@@ -74,6 +74,16 @@ directly](https://newton.cx/~peter/about-me/#contact).
 The One Good Tutorial website is built with a static site engine called
 [Zola](https://getzola.org/). To preview site changes in a local checkout of the
 source code, install Zola and use the command `zola serve`.
+
+
+# Changelog
+
+You can find this project’s release notes by looking at [the `CHANGELOG.md` file
+on the `release` branch of its repository][branch] or its [GitHub release
+history][gh-releases].
+
+[branch]: https://github.com/pkgw/onegoodtutorial/blob/release/CHANGELOG.md
+[gh-releases]: https://github.com/pkgw/onegoodtutorial/releases
 
 
 # Legalities
