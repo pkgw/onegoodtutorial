@@ -76,6 +76,16 @@ The One Good Tutorial website is built with a static site engine called
 source code, install Zola and use the command `zola serve`.
 
 
+# Changelog
+
+You can find this project’s release notes by looking at [the `CHANGELOG.md` file
+on the `release` branch of its repository][branch] or its [GitHub release
+history][gh-releases].
+
+[branch]: https://github.com/pkgw/onegoodtutorial/blob/release/CHANGELOG.md
+[gh-releases]: https://github.com/pkgw/onegoodtutorial/releases
+
+
 # Legalities
 
 [One Good Tutorial](https://onegoodtutorial.org/) © 2025–2026 by [Peter K. G.
