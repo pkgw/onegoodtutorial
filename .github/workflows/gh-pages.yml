@@ -1,8 +1,13 @@
-name: Build and deploy to GitHub Pages
+name: Build and maybe deploy
 
 on:
+  # Note that we only deploy on pushes to the `rc` branch, as per
+  # the Cranko design.
+
   push:
     branches: ["main", "rc"]
+
+  pull_request:
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -155,19 +160,3 @@ jobs:
       run: cranko zenodo publish --metadata=zenodo.json5
       env:
         ZENODO_TOKEN: ${{ secrets.ZENODO_TOKEN }}
-
-  TEMP-ARTIFACT-DEBUG:
-    runs-on: ubuntu-latest
-    needs: build
-
-    steps:
-    - name: Checkout
-      uses: actions/checkout@v6
-      with:
-        fetch-depth: 0
-
-    - name: Retrieve artifacts
-      uses: actions/download-artifact@v5
-
-    - name: TEMP ARTIFACT DEBUG
-      run: find -type f |sort

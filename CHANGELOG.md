@@ -1,5 +1,23 @@
 # rc: micro bump
 
+- Add sample citation BibTeX
+- Embed release version in global footer
+- Decouple checklist version from project version
+
+The DOI of this release is [xx.xxxx/dev-build.onegoodtutorial.version][vdoi].
+
+[vdoi]: https://doi.org/xx.xxxx/dev-build.onegoodtutorial.version
+
+<!-- boilerplate:
+
+The DOI of this release is [xx.!xxxx/dev-build.onegoodtutorial.version][vdoi].
+
+[vdoi]: https://doi.org/xx.!xxxx/dev-build.onegoodtutorial.version
+
+-->
+
+# onegoodtutorial 0.9.5 (2026-01-24)
+
 Now attempting to get Zenodo DOI deposition working as part of the release
 process.
 
