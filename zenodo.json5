@@ -1,0 +1,27 @@
+{
+  "conceptrecid": "18362470",
+  "metadata": {
+    "access_right": "open",
+    "creators": [
+      {
+        "affiliation": "Center for Astrophysics | Harvard & Smithsonian",
+        "name": "Williams, Peter K. G.",
+        "orcid": "0000-0003-3734-3587"
+      }
+    ],
+    "description": "<b>One Good Tutorial</b> is a resource for people who are documenting scientific software. The main idea is right there in the name: the most important thing is that your software’s documentation includes <i>one good tutorial</i>. You need a bit more than that, but not much more: the <i>One Good Tutorial software documentation checklist</i> defines eight core elements of scientific software documentation. The resource also includes a <i>playbook</i> you can follow to prepare these eight elements with a minimum of angst and a number of supporting <i>in-depth guides</i>. The materials deposited with Zenodo include the built One Good Tutorial static website and its underlying source code.",
+    "keywords": [
+      "Documentation"
+    ],
+    "language": "eng",
+    "license": "CC-BY-SA-4.0",
+    "publication_date": "2026-01-24",
+    "title": "onegoodtutorial 0.9.5",
+    "upload_type": "publication",
+    "version": "0.9.5"
+  },
+  "conceptdoi": "10.5281/zenodo.18362470",
+  "record_id": "18362471",
+  "doi": "10.5281/zenodo.18362471",
+  "bucket_link": "https://zenodo.org/api/files/3c4cabb8-8028-4b65-b06e-e3f84f801e42"
+}

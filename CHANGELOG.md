@@ -1,3 +1,9 @@
+# onegoodtutorial 0.9.5 (2026-01-24)
+
+Now attempting to get Zenodo DOI deposition working as part of the release
+process.
+
+
 # onegoodtutorial 0.9.4 (2026-01-24)
 
 Still working on Cranko release automation. I think the first part might be

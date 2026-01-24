@@ -26,12 +26,17 @@ If you found this resource useful during the preparation of your software’s
 documentation, you are encouraged — but not obligated — to mention it in your
 acknowledgments section. A suggested statement is:
 
-> These materials were initially prepared following version 0.9.4 of the [One
+> These materials were initially prepared following version 0.9.5 of the [One
 > Good Tutorial software documentation checklist][self].
 
 [self]: https://onegoodtutorial.org/
 
-*Citation info TKTK once this is deposited to Zenodo!*
+If you discuss One Good Tutorial in a scholarly context, you should also cite
+it. You are reading version 0.9.5 and its DOI is
+[10.5281/zenodo.18362471][vdoi]. **More TKTK after initial DOI
+plumbing is worked out.**
+
+[vdoi]: https://doi.org/10.5281/zenodo.18362471
 
 
 # Feedback
