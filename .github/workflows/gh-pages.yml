@@ -78,7 +78,7 @@ jobs:
         path: ./public
 
     - name: Generate built site Zip
-      run: zip -r opengoodtutorial-built.zip public
+      run: zip -r onegoodtutorial-built.zip public
 
     - name: Upload other artifacts
       uses: actions/upload-artifact@v4
@@ -121,22 +121,19 @@ jobs:
     - name: Retrieve artifacts
       uses: actions/download-artifact@v5
 
-    - name: TEMP ARTIFACT DEBUG
-      run: find -type f |sort
-
     - name: Restore release commit
       run: |
         set -xeuo pipefail
         git switch -c release
-        git pull --ff-only onegoodtutorial-source.bundle
+        git pull --ff-only artifacts/onegoodtutorial-source.bundle
 
     - name: Retrieve and apply project version
       run: |
         set -xeuo pipefail
         v=$(cranko show version)
-        mv onegoodtutorial-source.bundle onegoodtutorial-${v}-source.bundle
-        mv onegoodtutorial-source.zip onegoodtutorial-${v}-source.zip
-        mv onegoodtutorial-built.zip onegoodtutorial-${v}-built.zip
+        mv artifacts/onegoodtutorial-source.bundle onegoodtutorial-${v}-source.bundle
+        mv artifacts/onegoodtutorial-source.zip onegoodtutorial-${v}-source.zip
+        mv artifacts/onegoodtutorial-built.zip onegoodtutorial-${v}-built.zip
 
     - name: Tag and push
       run: |
@@ -150,7 +147,7 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
     - name: Upload Zenodo artifacts
-      run: cranko zenodo upload-artifacts --metadata=zenodo.json5 onegoodtutorial-*-built.zip onegoodtutorial-*-source.*
+      run: cranko zenodo upload-artifacts --metadata=zenodo.json5 onegoodtutorial-*
       env:
         ZENODO_TOKEN: ${{ secrets.ZENODO_TOKEN }}
 
