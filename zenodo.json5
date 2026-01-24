@@ -1,0 +1,39 @@
+// See https://pkgw.github.io/cranko/book/latest/integrations/zenodo.html
+// and https://developers.zenodo.org/#representation
+
+{
+  conceptrecid: 'new-for:0.9.5',
+
+  metadata: {
+    upload_type: 'publication',
+    language: 'eng',
+
+    creators: [
+      {
+        affiliation: 'Center for Astrophysics | Harvard & Smithsonian',
+        name: 'Williams, Peter K. G.',
+        orcid: '0000-0003-3734-3587',
+      },
+    ],
+
+    // Subset of HTML allowed here:
+    description: '<b>One Good Tutorial</b> is a resource for people \
+who are documenting scientific software. The main idea is right there in the \
+name: the most important thing is that your software’s documentation includes \
+<i>one good tutorial</i>. You need a bit more than that, but not much more: the \
+<i>One Good Tutorial software documentation checklist</i> defines eight core \
+elements of scientific software documentation. The resource also includes a \
+<i>playbook</i> you can follow to prepare these eight elements with a minimum \
+of angst and a number of supporting <i>in-depth guides</i>. The materials \
+deposited with Zenodo include the built One Good Tutorial static website and \
+its underlying source code.',
+
+    access_right: 'open',
+    license: 'CC-BY-SA-4.0', // see https://spdx.org/licenses/
+
+    // Keywords use an uncontrolled vocabulary (and so are of limited usefulness):
+    keywords: [
+      'Documentation',
+    ],
+  },
+}
