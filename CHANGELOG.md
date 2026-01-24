@@ -1,6 +1,7 @@
 # rc: micro bump
 
-First draft of Zenodo CI/CD integration. Will it work?
+Now attempting to get Zenodo DOI deposition working as part of the release
+process.
 
 
 # onegoodtutorial 0.9.4 (2026-01-24)

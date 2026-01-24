@@ -44,6 +44,10 @@ jobs:
     - name: Apply versions with Cranko
       run: cranko release-workflow apply-versions
 
+    # Cranko is strict and doesn't want to see ZENODO_TOKEN set except on RC
+    # builds, but GitHub Actions will expose it on trusted pull requests and
+    # main-branch builds. This is the best way I can figure out how to limit
+    # its exposure to make Cranko happy:
     - name: Maybe expose ZENODO_TOKEN
       if: ${{ github.ref_name == 'rc' }}
       run: 'echo "ZENODO_TOKEN=${ZENODO_TOKEN}" >>"${GITHUB_ENV}"'
@@ -73,23 +77,14 @@ jobs:
       with:
         path: ./public
 
-    - name: Upload built site as regular artifact
-      uses: actions/upload-artifact@v4
-      with:
-        name: onegoodtutorial-built.zip
-        path: ./public
+    - name: Generate built site Zip
+      run: zip -r onegoodtutorial-built.zip public
 
-    - name: Upload repo bundle artifact
+    - name: Upload other artifacts
       uses: actions/upload-artifact@v4
       with:
-        name: onegoodtutorial-source.bundle
-        path: onegoodtutorial-source.bundle
-
-    - name: Upload source Zip artifact
-      uses: actions/upload-artifact@v4
-      with:
-        name: onegoodtutorial-source.zip
-        path: onegoodtutorial-source.zip
+        name: artifacts
+        path: 'onegoodtutorial-*'
 
   deploy-pages:
     environment:
@@ -130,15 +125,15 @@ jobs:
       run: |
         set -xeuo pipefail
         git switch -c release
-        git pull --ff-only onegoodtutorial-source.bundle
+        git pull --ff-only artifacts/onegoodtutorial-source.bundle
 
     - name: Retrieve and apply project version
       run: |
         set -xeuo pipefail
         v=$(cranko show version)
-        mv onegoodtutorial-source.bundle onegoodtutorial-${v}-source.bundle
-        mv onegoodtutorial-source.zip onegoodtutorial-${v}-source.zip
-        mv onegoodtutorial-built.zip onegoodtutorial-${v}-built.zip
+        mv artifacts/onegoodtutorial-source.bundle onegoodtutorial-${v}-source.bundle
+        mv artifacts/onegoodtutorial-source.zip onegoodtutorial-${v}-source.zip
+        mv artifacts/onegoodtutorial-built.zip onegoodtutorial-${v}-built.zip
 
     - name: Tag and push
       run: |
@@ -152,7 +147,7 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
     - name: Upload Zenodo artifacts
-      run: cranko zenodo upload-artifacts --metadata=zenodo.json5 onegoodtutorial-*-built.zip onegoodtutorial-*-source.*
+      run: cranko zenodo upload-artifacts --metadata=zenodo.json5 onegoodtutorial-*
       env:
         ZENODO_TOKEN: ${{ secrets.ZENODO_TOKEN }}
 
@@ -160,3 +155,19 @@ jobs:
       run: cranko zenodo publish --metadata=zenodo.json5
       env:
         ZENODO_TOKEN: ${{ secrets.ZENODO_TOKEN }}
+
+  TEMP-ARTIFACT-DEBUG:
+    runs-on: ubuntu-latest
+    needs: build
+
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v6
+      with:
+        fetch-depth: 0
+
+    - name: Retrieve artifacts
+      uses: actions/download-artifact@v5
+
+    - name: TEMP ARTIFACT DEBUG
+      run: find -type f |sort
