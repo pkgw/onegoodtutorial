@@ -1,3 +1,21 @@
+# onegoodtutorial 0.9.6 (2026-01-24)
+
+- Add sample citation BibTeX
+- Embed release version in global footer
+- Decouple checklist version from project version
+
+The DOI of this release is [10.5281/zenodo.18362834][vdoi].
+
+[vdoi]: https://doi.org/10.5281/zenodo.18362834
+
+<!-- boilerplate:
+
+The DOI of this release is [xx.!xxxx/dev-build.onegoodtutorial.version][vdoi].
+
+[vdoi]: https://doi.org/xx.!xxxx/dev-build.onegoodtutorial.version
+
+-->
+
 # onegoodtutorial 0.9.5 (2026-01-24)
 
 Now attempting to get Zenodo DOI deposition working as part of the release

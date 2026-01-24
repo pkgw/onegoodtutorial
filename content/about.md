@@ -26,17 +26,32 @@ If you found this resource useful during the preparation of your software’s
 documentation, you are encouraged — but not obligated — to mention it in your
 acknowledgments section. A suggested statement is:
 
-> These materials were initially prepared following version 0.9.5 of the [One
-> Good Tutorial software documentation checklist][self].
+> These materials were initially prepared following version
+> {{ checklist_version() }} of the [One Good Tutorial software
+> documentation checklist][self].
 
 [self]: https://onegoodtutorial.org/
 
 If you discuss One Good Tutorial in a scholarly context, you should also cite
-it. You are reading version 0.9.5 and its DOI is
-[10.5281/zenodo.18362471][vdoi]. **More TKTK after initial DOI
-plumbing is worked out.**
+it. You are reading version 0.9.6 and its DOI is
+[10.5281/zenodo.18362834][vdoi]. Cite it with the following
+BibTeX entry:
 
-[vdoi]: https://doi.org/10.5281/zenodo.18362471
+[vdoi]: https://doi.org/10.5281/zenodo.18362834
+
+```bibtex
+@misc{onegoodtutorial0.9.6,
+  author       = {Williams, Peter K. G.},
+  title        = {onegoodtutorial 0.9.6},
+  year         = 2026,
+  publisher    = {Zenodo},
+  version      = {0.9.6},
+  doi          = {10.5281/zenodo.18362834},
+  url          = {https://doi.org/10.5281/zenodo.18362834}
+}
+```
+
+See the “Export” section of [the Zenodo page][vdoi] for additional formats.
 
 
 # Feedback

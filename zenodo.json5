@@ -9,19 +9,19 @@
         "orcid": "0000-0003-3734-3587"
       }
     ],
-    "description": "<b>One Good Tutorial</b> is a resource for people who are documenting scientific software. The main idea is right there in the name: the most important thing is that your software’s documentation includes <i>one good tutorial</i>. You need a bit more than that, but not much more: the <i>One Good Tutorial software documentation checklist</i> defines eight core elements of scientific software documentation. The resource also includes a <i>playbook</i> you can follow to prepare these eight elements with a minimum of angst and a number of supporting <i>in-depth guides</i>. The materials deposited with Zenodo include the built One Good Tutorial static website and its underlying source code.",
+    "description": "<p><b>One Good Tutorial</b> is a learning resource for people who are documenting scientific software. It’s delivered as a static website canonically served at <a href=\"https://onegoodtutorial.org/\">https://onegoodtutorial.org</a>.</p><p>The main idea is right there in the name: the most important thing is that your software’s documentation includes <i>one good tutorial</i>. You need a bit more than that, but not much more: the <i>One Good Tutorial software documentation checklist</i> defines eight core elements of scientific software documentation. The resource also includes a <i>playbook</i> you can follow to prepare these eight elements with a minimum of angst and a number of supporting <i>in-depth guides</i>.</p><p>The materials deposited with Zenodo include the built One Good Tutorial static website and its underlying source code.</p>",
     "keywords": [
       "Documentation"
     ],
     "language": "eng",
     "license": "CC-BY-SA-4.0",
     "publication_date": "2026-01-24",
-    "title": "onegoodtutorial 0.9.5",
+    "title": "onegoodtutorial 0.9.6",
     "upload_type": "publication",
-    "version": "0.9.5"
+    "version": "0.9.6"
   },
   "conceptdoi": "10.5281/zenodo.18362470",
-  "record_id": "18362471",
-  "doi": "10.5281/zenodo.18362471",
-  "bucket_link": "https://zenodo.org/api/files/3c4cabb8-8028-4b65-b06e-e3f84f801e42"
+  "record_id": "18362834",
+  "doi": "10.5281/zenodo.18362834",
+  "bucket_link": "https://zenodo.org/api/files/219e1444-8c1f-4abb-8ca2-612bea95e317"
 }

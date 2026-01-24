@@ -1,6 +1,6 @@
 name = "onegoodtutorial"
-version = "0.9.5"
+version = "0.9.6"
 
 [[rewrite]]
 version_placeholder = "{dev}"
-files = ["content/about.md", "templates/index.html"]
+files = ["content/about.md", "templates/base.html"]
