@@ -1,7 +1,7 @@
-# rc: force 0.9.2
+# rc: force 0.9.3
 
-Cranko's tag version wasn't right; one-time mistake due to GitHub Actions
-issues?
+Working on Cranko release automation.
+
 
 # onegoodtutorial 0.9.1 (2026-01-24)
 
