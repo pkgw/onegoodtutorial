@@ -77,23 +77,14 @@ jobs:
       with:
         path: ./public
 
-    - name: Upload built site as regular artifact
-      uses: actions/upload-artifact@v4
-      with:
-        name: onegoodtutorial-built.zip
-        path: ./public
+    - name: Generate built site Zip
+      run: zip -r opengoodtutorial-built.zip public
 
-    - name: Upload repo bundle artifact
+    - name: Upload other artifacts
       uses: actions/upload-artifact@v4
       with:
-        name: onegoodtutorial-source.bundle
-        path: onegoodtutorial-source.bundle
-
-    - name: Upload source Zip artifact
-      uses: actions/upload-artifact@v4
-      with:
-        name: onegoodtutorial-source.zip
-        path: onegoodtutorial-source.zip
+        name: artifacts
+        path: 'onegoodtutorial-*'
 
   deploy-pages:
     environment:
