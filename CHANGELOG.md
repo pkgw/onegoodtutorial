@@ -1,3 +1,13 @@
+# onegoodtutorial 0.9.7 (2026-01-24)
+
+- Add a Changelog section to the About page
+- Miscellaneous language tweaks
+
+The DOI of this release is [10.5281/zenodo.18363061][vdoi].
+
+[vdoi]: https://doi.org/10.5281/zenodo.18363061
+
+
 # onegoodtutorial 0.9.6 (2026-01-24)
 
 - Add sample citation BibTeX
