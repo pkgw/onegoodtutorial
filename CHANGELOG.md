@@ -1,4 +1,4 @@
-# rc: micro bump
+# onegoodtutorial 0.9.1 (2026-01-24)
 
 First "release"; developing release automation integration with Cranko. Will add
 Zenodo deposition once the basic workflow is working.
