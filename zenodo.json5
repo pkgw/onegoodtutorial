@@ -1,5 +1,8 @@
 // See https://pkgw.github.io/cranko/book/latest/integrations/zenodo.html
 // and https://developers.zenodo.org/#representation
+//
+// Updates here should be reflected in the BibTeX in content/about.md if
+// needed.
 
 {
   conceptrecid: '18362470',

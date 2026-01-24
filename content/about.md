@@ -34,10 +34,24 @@ acknowledgments section. A suggested statement is:
 
 If you discuss One Good Tutorial in a scholarly context, you should also cite
 it. You are reading version {dev} and its DOI is
-[xx.xxxx/dev-build.onegoodtutorial.version][vdoi]. **More TKTK after initial DOI
-plumbing is worked out.**
+[xx.xxxx/dev-build.onegoodtutorial.version][vdoi]. Cite it with the following
+BibTeX entry:
 
 [vdoi]: https://doi.org/xx.xxxx/dev-build.onegoodtutorial.version
+
+```bibtex
+@misc{onegoodtutorial{dev},
+  author       = {Williams, Peter K. G.},
+  title        = {onegoodtutorial {dev}},
+  year         = 2026,
+  publisher    = {Zenodo},
+  version      = {{dev}},
+  doi          = {xx.xxxx/dev-build.onegoodtutorial.version},
+  url          = {https://doi.org/xx.xxxx/dev-build.onegoodtutorial.version}
+}
+```
+
+See the “Export” section of [the Zenodo page][vdoi] for additional formats.
 
 
 # Feedback
