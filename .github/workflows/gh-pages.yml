@@ -44,6 +44,10 @@ jobs:
     - name: Apply versions with Cranko
       run: cranko release-workflow apply-versions
 
+    # Cranko is strict and doesn't want to see ZENODO_TOKEN set except on RC
+    # builds, but GitHub Actions will expose it on trusted pull requests and
+    # main-branch builds. This is the best way I can figure out how to limit
+    # its exposure to make Cranko happy:
     - name: Maybe expose ZENODO_TOKEN
       if: ${{ github.ref_name == 'rc' }}
       run: 'echo "ZENODO_TOKEN=${ZENODO_TOKEN}" >>"${GITHUB_ENV}"'
@@ -125,6 +129,9 @@ jobs:
 
     - name: Retrieve artifacts
       uses: actions/download-artifact@v5
+
+    - name: TEMP ARTIFACT DEBUG
+      run: find -type f |sort
 
     - name: Restore release commit
       run: |
