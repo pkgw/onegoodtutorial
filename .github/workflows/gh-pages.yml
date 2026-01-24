@@ -110,3 +110,5 @@ jobs:
 
     - name: Create GitHub releases
       run: cranko github create-releases
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
