@@ -340,7 +340,7 @@ footerclass = "symmetric"
     href="https://bssw.io/pages/bssw-fellowship-program">Better
   Scientific Software (BSSw) Fellowship</a>.</p>
 
-  <p>The BSSw organization
+  <p>The BSSw team
   would like to collect feedback about the user impact of this
   resource, so please consider <a href="https://www.surveymonkey.com/r/FDDF2ZW">taking this three-minute survey</a>
   about your experience.</p>

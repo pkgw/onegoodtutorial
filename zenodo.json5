@@ -20,7 +20,7 @@
     ],
 
     // Subset of HTML allowed here:
-    description: '<p><b>One Good Tutorial</b> is a learning resource for people \
+    description: '<p><b>One Good Tutorial</b> is an instructional resource for people \
 who are documenting scientific software. It’s delivered as a static website \
 canonically served at \
 <a href="https://onegoodtutorial.org/">https://onegoodtutorial.org</a>.</p><p>\
