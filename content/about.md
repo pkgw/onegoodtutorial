@@ -31,7 +31,12 @@ acknowledgments section. A suggested statement is:
 
 [self]: https://onegoodtutorial.org/
 
-*Citation info TKTK once this is deposited to Zenodo!*
+If you discuss One Good Tutorial in a scholarly context, you should also cite
+it. You are reading version {dev} and its DOI is
+[xx.xxxx/dev-build.onegoodtutorial.version][vdoi]. **More TKTK after initial DOI
+plumbing is worked out.**
+
+[vdoi]: https://doi.org/xx.xxxx/dev-build.onegoodtutorial.version
 
 
 # Feedback

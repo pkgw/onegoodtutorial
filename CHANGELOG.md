@@ -1,4 +1,9 @@
-# rc: force 0.9.4
+# rc: micro bump
+
+First draft of Zenodo CI/CD integration. Will it work?
+
+
+# onegoodtutorial 0.9.4 (2026-01-24)
 
 Still working on Cranko release automation. I think the first part might be
 working now.
