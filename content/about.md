@@ -32,17 +32,17 @@ acknowledgments section. A suggested statement is:
 
 [self]: https://onegoodtutorial.org/
 
-If you discuss One Good Tutorial in a scholarly context, you should cite
-it. You are reading version {dev} and its DOI is
-[xx.xxxx/dev-build.onegoodtutorial.version][vdoi]. Cite it with the following
-BibTeX entry:
+If you discuss One Good Tutorial in a scholarly context, you should cite it. You
+are reading version {dev} and its DOI is
+[xx.xxxx/dev-build.onegoodtutorial.version][vdoi]. Cite it with a BibTeX entry
+like this:
 
 [vdoi]: https://doi.org/xx.xxxx/dev-build.onegoodtutorial.version
 
 ```bibtex
 @misc{onegoodtutorial{dev},
   author       = {Williams, Peter K. G.},
-  title        = {onegoodtutorial {dev}},
+  title        = {One Good Tutorial (version {dev})},
   year         = 2026,
   publisher    = {Zenodo},
   version      = {{dev}},
@@ -51,7 +51,9 @@ BibTeX entry:
 }
 ```
 
-See the “Export” section of [the Zenodo page][vdoi] for additional formats.
+(You may need to tweak the BibTeX content to get the correct citation text for
+your particular publication venue — this is fine.) See the “Export” section of
+[the Zenodo page][vdoi] for additional formats.
 
 
 # Feedback
@@ -95,5 +97,16 @@ Williams](https://newton.cx/~peter/) is licensed under [CC BY-SA
 
 # Acknowledgments
 
-PKGW’s work on One Good Tutorial was supported by a [Better Scientific Software
-Fellowship](https://bssw.io/pages/bssw-fellowship-program).
+This work was supported by the [Better Scientific Software Fellowship
+Program](https://bssw.io/pages/bssw-fellowship-program), a collaborative effort
+of the [U.S. Department of Energy (DOE)](https://www.energy.gov/), Office of
+Advanced Scientific Computing Research via [ANL](https://www.anl.gov/) under
+Contract
+[DE-AC02-06CH11357](https://www.usaspending.gov/award/CONT_AWD_DEAC0206CH11357_8900_-NONE-_-NONE-)
+and the National Nuclear Security Administration [Advanced Simulation and
+Computing Program](https://asc.llnl.gov/) via [LLNL](https://www.llnl.gov/)
+under Contract
+[DE-AC52-07NA27344](https://www.usaspending.gov/award/CONT_AWD_DEAC5207NA27344_8900_-NONE-_-NONE-);
+and by the [National Science Foundation (NSF)](https://www.nsf.gov/) via
+[SHI](https://shinstitute.org/) under Grant No.
+[2435328](https://www.nsf.gov/awardsearch/show-award?AWD_ID=2435328).
