@@ -1,3 +1,13 @@
+# onegoodtutorial 0.9.8 (2026-02-04)
+
+- Use the official BSSwF acknowledgment language on the About page
+- Improve the BibTeX citation example and recommendations
+
+The DOI of this release is [10.5281/zenodo.18488794][vdoi].
+
+[vdoi]: https://doi.org/10.5281/zenodo.18488794
+
+
 # onegoodtutorial 0.9.7 (2026-01-24)
 
 - Add a Changelog section to the About page

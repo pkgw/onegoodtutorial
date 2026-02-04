@@ -1,5 +1,5 @@
 name = "onegoodtutorial"
-version = "0.9.7"
+version = "0.9.8"
 
 [[rewrite]]
 version_placeholder = "{dev}"
