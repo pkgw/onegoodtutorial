@@ -32,17 +32,17 @@ acknowledgments section. A suggested statement is:
 
 [self]: https://onegoodtutorial.org/
 
-If you discuss One Good Tutorial in a scholarly context, you should cite
-it. You are reading version {dev} and its DOI is
-[xx.xxxx/dev-build.onegoodtutorial.version][vdoi]. Cite it with the following
-BibTeX entry:
+If you discuss One Good Tutorial in a scholarly context, you should cite it. You
+are reading version {dev} and its DOI is
+[xx.xxxx/dev-build.onegoodtutorial.version][vdoi]. Cite it with a BibTeX entry
+like this:
 
 [vdoi]: https://doi.org/xx.xxxx/dev-build.onegoodtutorial.version
 
 ```bibtex
 @misc{onegoodtutorial{dev},
   author       = {Williams, Peter K. G.},
-  title        = {onegoodtutorial {dev}},
+  title        = {One Good Tutorial (version {dev})},
   year         = 2026,
   publisher    = {Zenodo},
   version      = {{dev}},
@@ -51,7 +51,9 @@ BibTeX entry:
 }
 ```
 
-See the “Export” section of [the Zenodo page][vdoi] for additional formats.
+(You may need to tweak the BibTeX content to get the correct citation text for
+your particular publication venue — this is fine.) See the “Export” section of
+[the Zenodo page][vdoi] for additional formats.
 
 
 # Feedback
