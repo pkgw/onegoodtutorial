@@ -34,8 +34,10 @@
   <meta property="og:type" content="website" />
   <meta property="og:url" content="{{ current_url | safe }}" />
   <meta property="og:description" content="{{ description }}" />
+  <meta name="author" content="Peter K. G. Williams">
 
   <link rel="stylesheet" href='{{ get_url(path="style.css") | safe }}'>
+  <link rel="icon" href='{{ get_url(path="/favicon.ico") | safe }}'>
   <link href="https://fonts.googleapis.com/css?family=Bitter|Noto+Serif|Noto+Sans" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -47,7 +49,7 @@
 <body>
   <header>
     <div class="maxwidth">
-      <p id="banner"><a href="{{ get_url(path="", trailing_slash=true) | safe }}">One Good Tutorial</a>{{ bannersuffix }}</p>
+      <p id="banner"><img class="logo" src="{{ get_url(path="/logo128.png") | safe }}"><a href="{{ get_url(path="", trailing_slash=true) | safe }}">One Good Tutorial</a>{{ bannersuffix }}</p>
     </div>
   </header>
 
