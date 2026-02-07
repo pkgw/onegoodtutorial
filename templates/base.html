@@ -3,11 +3,22 @@
 <html lang="en">
 
 {% if page.extra.section %}
-{% set titlesuffix = ": " ~ page.extra.section %}
+{% set bannersuffix = ": " ~ page.extra.section %}
+{% set qualtitle = "One Good Tutorial: " ~ page.extra.section ~ ": " ~ page.title %}
 {% elif page.title %}
-{% set titlesuffix = ": " ~ page.title %}
+{% set bannersuffix = ": " ~ page.title %}
+{% set qualtitle = "One Good Tutorial: " ~ page.title %}
 {% else %}
-{% set titlesuffix = "" %}
+{% set bannersuffix = "" %}
+{% set qualtitle = "One Good Tutorial" %}
+{% endif %}
+
+{% if section.description %}
+{% set description = section.description %}
+{% elif page.description %}
+{% set description = page.description %}
+{% else %}
+{{ throw(message="description needed for OpenGraph") }}
 {% endif %}
 
 <head>
@@ -15,7 +26,15 @@
   <meta charset="utf-8">
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
-  <title>One Good Tutorial{{ titlesuffix }}</title>
+
+  <title>{{ qualtitle }}</title>
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:site_name" content="One Good Tutorial" />
+  <meta property="og:title" content="{{ qualtitle }}" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="{{ current_url | safe }}" />
+  <meta property="og:description" content="{{ description }}" />
+
   <link rel="stylesheet" href='{{ get_url(path="style.css") | safe }}'>
   <link href="https://fonts.googleapis.com/css?family=Bitter|Noto+Serif|Noto+Sans" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -28,7 +47,7 @@
 <body>
   <header>
     <div class="maxwidth">
-      <p id="banner"><a href="{{ get_url(path="", trailing_slash=true) | safe }}">One Good Tutorial</a>{{ titlesuffix }}</p>
+      <p id="banner"><a href="{{ get_url(path="", trailing_slash=true) | safe }}">One Good Tutorial</a>{{ bannersuffix }}</p>
     </div>
   </header>
 
