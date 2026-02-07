@@ -1,5 +1,11 @@
 +++
 title = "Software Citation"
+description = """\
+  How to prepare software citation instructions for your scientific software’s \
+  documentation. \
+  This guide is part of One Good Tutorial, a resource for people who are \
+  documenting scientific software.\
+"""
 
 [extra]
 section = "In-Depth Guides"

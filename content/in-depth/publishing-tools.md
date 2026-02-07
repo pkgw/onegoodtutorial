@@ -1,5 +1,10 @@
 +++
 title = "Choosing a Publishing Tool"
+description = """\
+  How to choose a publishing tool for your scientific software’s documentation. \
+  This guide is part of One Good Tutorial, a resource for people who are \
+  documenting scientific software.\
+"""
 
 [extra]
 section = "In-Depth Guides"
