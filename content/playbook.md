@@ -1,6 +1,12 @@
 +++
 title = "The Playbook"
 template = "playbook.html"
+description = """\
+  The One Good Tutorial Playbook is a suggested set of steps to follow to \
+  prepare documentation for a new scientific software project. The method \
+  is based on the One Good Tutorial Checklist, which defines a “minimum \
+  viable documentation product” appropriate for scientific software.\
+"""
 
 [extra]
 footerclass = "symmetric"

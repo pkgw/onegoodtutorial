@@ -1,5 +1,11 @@
 +++
 title = "Other Common Documentation Elements"
+description = """\
+  A list of common elements that you might wish to include in the documentation \
+  of your scientific software, and discussion of when they should be used. \
+  This guide is part of One Good Tutorial, a resource for people who are \
+  documenting scientific software.\
+"""
 
 [extra]
 section = "In-Depth Guides"

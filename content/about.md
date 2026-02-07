@@ -1,5 +1,12 @@
 +++
 title = "About One Good Tutorial"
+description = """\
+  One Good Tutorial is a resource for people who are documenting scientific \
+  software. It provides a checklist that defines a “minimum viable \
+  documentation product” for scientific software projects, a playbook for preparing \
+  checklist-compliant documentation from scratch, and a set of supporting in-depth \
+  guides.\
+"""
 
 [extra]
 section = "About"
@@ -33,21 +40,21 @@ acknowledgments section. A suggested statement is:
 [self]: https://onegoodtutorial.org/
 
 If you discuss One Good Tutorial in a scholarly context, you should cite it. You
-are reading version 0.9.8 and its DOI is
-[10.5281/zenodo.18488794][vdoi]. Cite it with a BibTeX entry
+are reading version 0.9.9 and its DOI is
+[10.5281/zenodo.18513089][vdoi]. Cite it with a BibTeX entry
 like this:
 
-[vdoi]: https://doi.org/10.5281/zenodo.18488794
+[vdoi]: https://doi.org/10.5281/zenodo.18513089
 
 ```bibtex
-@misc{onegoodtutorial0.9.8,
+@misc{onegoodtutorial0.9.9,
   author       = {Williams, Peter K. G.},
-  title        = {One Good Tutorial (version 0.9.8)},
+  title        = {One Good Tutorial (version 0.9.9)},
   year         = 2026,
   publisher    = {Zenodo},
-  version      = {0.9.8},
-  doi          = {10.5281/zenodo.18488794},
-  url          = {https://doi.org/10.5281/zenodo.18488794}
+  version      = {0.9.9},
+  doi          = {10.5281/zenodo.18513089},
+  url          = {https://doi.org/10.5281/zenodo.18513089}
 }
 ```
 

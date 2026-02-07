@@ -1,5 +1,10 @@
 +++
 title = "In-Depth Guides"
+description = """\
+  One Good Tutorial is a resource for people who are documenting scientific \
+  software. Its in-depth guides provide information about specific topics \
+  such as making software citable and licensing statements.\
+"""
 
 [extra]
 section = "The Guides"
