@@ -1,5 +1,10 @@
 +++
 title = "Writing a Tutorial"
+description = """\
+  How to write a scientific software tutorial. \
+  This guide is part of One Good Tutorial, a resource for people who are \
+  documenting scientific software.\
+"""
 
 [extra]
 section = "In-Depth Guides"

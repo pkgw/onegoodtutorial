@@ -1,5 +1,11 @@
 +++
 title = "Personas"
+description = """\
+  How to devise user personas, and why they are a useful tool when planning \
+  your scientific software’s documentation. \
+  This guide is part of One Good Tutorial, a resource for people who are \
+  documenting scientific software.\
+"""
 
 [extra]
 section = "In-Depth Guides"

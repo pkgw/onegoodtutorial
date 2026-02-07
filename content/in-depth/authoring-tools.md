@@ -1,5 +1,10 @@
 +++
 title = "Choosing an Authoring Tool"
+description = """\
+  How to choose an authoring tool for your scientific software’s documentation. \
+  This guide is part of One Good Tutorial, a resource for people who are \
+  documenting scientific software.\
+"""
 
 [extra]
 section = "In-Depth Guides"
