@@ -11,7 +11,7 @@ description = """\
 section = "In-Depth Guides"
 +++
 
-[The One Good Tutorial software documentation checklist](/) specifies eight core
+[The One Good Tutorial software documentation checklist](/) specifies nine core
 **documentation elements** that should be present in the docs for nearly any
 piece of scientific software. There are, however, many other elements that might
 make sense to include in a project’s documentation, such as:

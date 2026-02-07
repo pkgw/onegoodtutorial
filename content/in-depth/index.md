@@ -18,6 +18,7 @@ documentation. They cover the following topics:
 - [Acknowledgment Statements](@/in-depth/acknowledgments.md)
 - [Choosing an Authoring Tool](@/in-depth/authoring-tools.md)
 - [Choosing a Publishing Tool](@/in-depth/publishing-tools.md)
+- [Contact Information](@/in-depth/contact-information.md)
 - [Citation Instructions and Software Citation](@/in-depth/software-citation.md)
 - [Contribution Statements](@/in-depth/contribution-statements.md)
 - [Installation Instructions](@/in-depth/installation-instructions.md)

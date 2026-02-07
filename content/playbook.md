@@ -144,7 +144,20 @@ footerclass = "symmetric"
 </section>
 
 <section>
-  <h2>Step 5: Draft Install Instructions</h2>
+  <h2>Step 5: Draft Contact Information</h2>
+
+  <p>Draft your project’s <b>contact information</b> in a new section of your notes document.</p>
+
+  <p><i>Example:</i> “For questions, bug reports, or feedback, email the author at …”
+
+  <p><i>Why:</i> There are lots of reasons that people will want to reach out to you about
+  your project. Tell them how!</p>
+
+  <p><i>In-Depth Guide:</i> <a href="/in-depth/contact-information/">Contact Information</a>.</p>
+</section>
+
+<section>
+  <h2>Step 6: Draft Install Instructions</h2>
 
   <p>Draft your <b>installation instructions</b> in a new section of your notes document.</p>
 
@@ -159,7 +172,7 @@ footerclass = "symmetric"
 </section>
 
 <section>
-  <h2>Step 6: Draft Citation Instructions</h2>
+  <h2>Step 7: Draft Citation Instructions</h2>
 
   <p>Draft your <b>citation instructions</b> in a new section of your notes document.</p>
 
@@ -175,7 +188,7 @@ footerclass = "symmetric"
 </section>
 
 <section>
-  <h2>Step 7: Draft Licensing Statement</h2>
+  <h2>Step 8: Draft Licensing Statement</h2>
 
   <p>Draft a <b>licensing statement</b> in a new section of your notes document.</p>
 
@@ -189,7 +202,7 @@ footerclass = "symmetric"
 </section>
 
 <section>
-  <h2>Step 8: Draft Acknowledgments</h2>
+  <h2>Step 9: Draft Acknowledgments</h2>
 
   <p>Draft <b>acknowledgments</b> in a new section of your notes.</p>
 
@@ -205,7 +218,7 @@ footerclass = "symmetric"
 </section>
 
 <section>
-  <h2>Step 9: Draft Contribution Statement</h2>
+  <h2>Step 10: Draft Contribution Statement</h2>
 
   <p>Draft a <b>contribution statement</b> in a new section of your notes document.</p>
 
@@ -226,7 +239,7 @@ footerclass = "symmetric"
 </section>
 
 <section>
-  <h2>Step 10: Scope Out Remaining Material</h2>
+  <h2>Step 11: Scope Out Remaining Material</h2>
 
   <p>Make a list of other pages required for your “minimum viable”
   documentation. <a href="..">The checklist</a> calls for only one more element:
@@ -242,7 +255,7 @@ footerclass = "symmetric"
 </section>
 
 <section>
-  <h2>Step 11: Figure Out Authoring Tools</h2>
+  <h2>Step 12: Figure Out Authoring Tools</h2>
 
   <p>Select the tool(s) you’ll use to <b>author</b> your project’s documentation; integrate
   them into your project’s codebase. This may be quick if you’ve done this before, time-consuming if not.</p>
@@ -255,7 +268,7 @@ footerclass = "symmetric"
 </section>
 
 <section>
-  <h2>Step 12: Stub Your Documents</h2>
+  <h2>Step 13: Stub Your Documents</h2>
 
   <p>Copy your “easy” draft texts into their intended places in your repository, and make
   minimal <b>placeholders</b> for the remaining documents that you’ve planned (“Tutorial goes here”).</p>
@@ -267,7 +280,7 @@ footerclass = "symmetric"
 </section>
 
 <section>
-  <h2>Step 13: Figure Out Publishing Tools</h2>
+  <h2>Step 14: Figure Out Publishing Tools</h2>
 
   <p>Select the tool(s) you’ll use to <b>publish</b> your project’s documentation; integrate them into
   your project’s codebase. Once again, this may be a time-consuming step if you haven’t set up
@@ -289,7 +302,7 @@ footerclass = "symmetric"
 </section>
 
 <section>
-  <h2>Step 14: Draft The Tutorial</h2>
+  <h2>Step 15: Draft The Tutorial</h2>
 
   <p>Write a first draft of your <b>tutorial</b>.</p>
 
@@ -301,7 +314,7 @@ footerclass = "symmetric"
 </section>
 
 <section>
-  <h2>Step 15: Draft The Rest</h2>
+  <h2>Step 16: Draft The Rest</h2>
 
   <p>Write up your <b>API reference</b> materials and any other documents
   that are still placeholders.</p>
@@ -314,7 +327,7 @@ footerclass = "symmetric"
 </section>
 
 <section>
-  <h2>Step 16: Review and Revise</h2>
+  <h2>Step 17: Review and Revise</h2>
 
   <p>Take some time to <b>review</b> what you’ve written and <b>revise</b>
   anything that’s unclear or inaccurate. Hard-to-read docs often indicate
@@ -326,7 +339,7 @@ footerclass = "symmetric"
 </section>
 
 <section>
-  <h2>Step 17: Publish and Celebrate</h2>
+  <h2>Step 18: Publish and Celebrate</h2>
 
   <p>That’s it! You’ve successfully written a set of documentation that will do
   credit to you and your project. Publish it and find a way to <b>reward
@@ -339,7 +352,7 @@ footerclass = "symmetric"
 </section>
 
 <section>
-  <h2>Step 18 (Optional): Feedback</h2>
+  <h2>Step 19 (Optional): Feedback</h2>
 
   <p>One Good Tutorial was developed by <a href="https://newton.cx/~peter/">Peter K. G. Williams</a>
   with the support of a <a
