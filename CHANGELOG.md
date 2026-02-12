@@ -1,11 +1,22 @@
-# rc: micro bump
+# rc: minor bump
 
-- Add a basic logo
-- Add OpenGraph metadata tags and descriptions everywhere
+- Make a somewhat significant change: add "Contact Information:
+  as a ninth element on the checklist. Call this version 1 of
+  the checklist.
 
 The DOI of this release is [xx.xxxx/dev-build.onegoodtutorial.version][vdoi].
 
 [vdoi]: https://doi.org/xx.xxxx/dev-build.onegoodtutorial.version
+
+
+# onegoodtutorial 0.9.9 (2026-02-07)
+
+- Add a basic logo
+- Add OpenGraph metadata tags and descriptions everywhere
+
+The DOI of this release is [10.5281/zenodo.18513089][vdoi].
+
+[vdoi]: https://doi.org/10.5281/zenodo.18513089
 
 
 # onegoodtutorial 0.9.8 (2026-02-04)
