@@ -1,10 +1,20 @@
 # rc: micro bump
 
-- Add some miscellaneous textual polish.
+- Add a [GoatCounter](https://www.goatcounter.com/) analytics tag. This will
+  hopefully give some basic insights without adding invasive tracking.
 
 The DOI of this release is [xx.xxxx/dev-build.onegoodtutorial.version][vdoi].
 
 [vdoi]: https://doi.org/xx.xxxx/dev-build.onegoodtutorial.version
+
+
+# onegoodtutorial 0.10.1 (2026-02-12)
+
+- Add some miscellaneous textual polish.
+
+The DOI of this release is [10.5281/zenodo.18624283][vdoi].
+
+[vdoi]: https://doi.org/10.5281/zenodo.18624283
 
 
 # onegoodtutorial 0.10.0 (2026-02-12)
