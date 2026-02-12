@@ -61,21 +61,21 @@ acknowledgments section. A suggested statement is:
 [self]: https://onegoodtutorial.org/
 
 If you discuss One Good Tutorial in a scholarly context, you should cite it. You
-are reading version 0.10.1 and its DOI is
-[10.5281/zenodo.18624283][vdoi]. Cite it with a BibTeX entry
+are reading version 0.10.2 and its DOI is
+[10.5281/zenodo.18625648][vdoi]. Cite it with a BibTeX entry
 like this:
 
-[vdoi]: https://doi.org/10.5281/zenodo.18624283
+[vdoi]: https://doi.org/10.5281/zenodo.18625648
 
 ```bibtex
-@misc{onegoodtutorial0.10.1,
+@misc{onegoodtutorial0.10.2,
   author       = {Williams, Peter K. G.},
-  title        = {One Good Tutorial (version 0.10.1)},
+  title        = {One Good Tutorial (version 0.10.2)},
   year         = 2026,
   publisher    = {Zenodo},
-  version      = {0.10.1},
-  doi          = {10.5281/zenodo.18624283},
-  url          = {https://doi.org/10.5281/zenodo.18624283}
+  version      = {0.10.2},
+  doi          = {10.5281/zenodo.18625648},
+  url          = {https://doi.org/10.5281/zenodo.18625648}
 }
 ```
 
