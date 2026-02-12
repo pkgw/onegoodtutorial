@@ -9,9 +9,9 @@ who are documenting scientific software. The main idea is right there in the
 name: the most important thing is that your software’s documentation includes
 *one good tutorial*. You need a bit more than that, but not much more: the [One
 Good Tutorial software documentation checklist](https://onegoodtutorial.org/)
-defines eight core elements of scientific software documentation. The resource
+defines nine core elements of scientific software documentation. The resource
 also includes [a playbook](https://onegoodtutorial.org/playbook/) you can follow
-to prepare these eight elements with a minimum of angst and a number of
+to prepare these nine elements with a minimum of angst and a number of
 supporting [in-depth guides](https://onegoodtutorial.org/in-depth/).
 
 Visit [onegoodtutorial.org] for all the details.

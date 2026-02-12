@@ -157,6 +157,10 @@ manuscript PDF is basically an adapter to help JOSS interface with legacy
 scholarly-publishing workflows (and people) that have trouble understanding that
 it’s possible to cite things that aren’t articles.
 
+Note that JOSS therefore doesn’t do versioning: they’ll only mint a single DOI
+for your software publication, not a [version DOI][doiv] for every release like
+Zenodo.
+
 
 # Citation Instructions for Software In-And-Of-Itself
 

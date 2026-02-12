@@ -17,14 +17,35 @@ who are documenting scientific software. The main idea is right there in the
 name: the most important thing is that your software’s documentation includes
 *one good tutorial*. You need a bit more than that, but not much more: the [One
 Good Tutorial software documentation checklist](https://onegoodtutorial.org/)
-defines eight core elements of scientific software documentation. The resource
+defines nine core elements of scientific software documentation. The resource
 also includes [a playbook](https://onegoodtutorial.org/playbook/) you can follow
-to prepare these eight elements with a minimum of angst and a number of
+to prepare these nine elements with a minimum of angst and a number of
 supporting [in-depth guides](https://onegoodtutorial.org/in-depth/).
 
 One Good Tutorial was developed by [Peter K. G.
-Williams](https://newton.cx/~peter/) with the support of a [Better Scientific
+Williams][pkgw] with the support of a [Better Scientific
 Software Fellowship](https://bssw.io/pages/bssw-fellowship-program).
+
+[pkgw]: https://newton.cx/~peter/
+
+
+# Getting in Touch & Feedback
+
+To report issues or propose improvements to One Good Tutorial, you are invited
+to start a conversation by filing [an issue][ghissue] or [a pull request][ghpr]
+on the One Good Tutorial source code repository on GitHub.
+
+[ghissue]: https://github.com/pkgw/onegoodtutorial/issues/new
+[ghpr]: https://github.com/pkgw/onegoodtutorial/pulls
+
+The BSSw team would like to collect feedback about the user impact of this
+resource. Please consider [taking this three-minute
+survey](https://www.surveymonkey.com/r/FDDF2ZW) if you have anything you’d like
+to convey; you can specify whether you’d like this feedback to be shared with
+the author, or not.
+
+To reach out to the author directly, or for any other needs, contact him at
+<pwilliams@cfa.harvard.edu>.
 
 
 # Citing or Acknowledging One Good Tutorial
@@ -40,21 +61,21 @@ acknowledgments section. A suggested statement is:
 [self]: https://onegoodtutorial.org/
 
 If you discuss One Good Tutorial in a scholarly context, you should cite it. You
-are reading version 0.9.9 and its DOI is
-[10.5281/zenodo.18513089][vdoi]. Cite it with a BibTeX entry
+are reading version 0.10.0 and its DOI is
+[10.5281/zenodo.18624087][vdoi]. Cite it with a BibTeX entry
 like this:
 
-[vdoi]: https://doi.org/10.5281/zenodo.18513089
+[vdoi]: https://doi.org/10.5281/zenodo.18624087
 
 ```bibtex
-@misc{onegoodtutorial0.9.9,
+@misc{onegoodtutorial0.10.0,
   author       = {Williams, Peter K. G.},
-  title        = {One Good Tutorial (version 0.9.9)},
+  title        = {One Good Tutorial (version 0.10.0)},
   year         = 2026,
   publisher    = {Zenodo},
-  version      = {0.9.9},
-  doi          = {10.5281/zenodo.18513089},
-  url          = {https://doi.org/10.5281/zenodo.18513089}
+  version      = {0.10.0},
+  doi          = {10.5281/zenodo.18624087},
+  url          = {https://doi.org/10.5281/zenodo.18624087}
 }
 ```
 
@@ -63,22 +84,12 @@ your particular publication venue — this is fine.) See the “Export” sectio
 [the Zenodo page][vdoi] for additional formats.
 
 
-# Feedback
-
-The BSSw team would like to collect feedback about the user impact of
-this resource. Please consider [taking this three-minute
-survey](https://www.surveymonkey.com/r/FDDF2ZW) if you have anything you’d like
-to convey; you can specify whether you’d like this feedback to be shared with
-the author, or not. To reach out to the author directly, see the next section.
-
-
 # Contributing to One Good Tutorial
 
-Your contributions are most welcome! Reach out by filing [an
-issue](https://github.com/pkgw/onegoodtutorial/issues/new) or even [a pull
-request](https://github.com/pkgw/onegoodtutorial/pulls) on the One Good Tutorial
-source code repository on GitHub, or [contact to the author
-directly](https://newton.cx/~peter/about-me/#contact).
+Your contributions are most welcome! The best way to start contributing is by
+filing [an issue][ghissue] or even [a pull request][ghpr] on the One Good
+Tutorial source code repository on GitHub, but you can use any of the contact
+methods [mentioned above](#getting-in-touch-feedback).
 
 The One Good Tutorial website is built with a static site engine called
 [Zola](https://getzola.org/). To preview site changes in a local checkout of the

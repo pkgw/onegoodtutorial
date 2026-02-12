@@ -14,9 +14,15 @@ section = "In-Depth Guides"
 A **contribution statement** is some text that tells users of your software how
 they can contribute to your project.
 
-While we believe that it’s important for every project’s documentation to
-include a contribution statement, it can be *extremely* short, and need not live
-on its own page.
+Contribution statements are important because they signal how responsive a
+project will (or won’t) be to users’ feedback. Imagine that you are choosing
+between adopting two very similar pieces of software. One makes a point of
+explaining how you can file bugs or patches, while the other makes no mention of
+this at all. Which feels like the safer bet to you?
+
+Your contribution statement it can be *extremely* short, and need not live on
+its own page. The statement will likely refer to, or overlap with, the material
+in your project’s [contact information](@/in-depth/contact-information.md).
 
 If you do want or need to include a lengthier contribution statement in your
 documentation, it is the kind of document that you should absolutely feel free
@@ -45,12 +51,12 @@ wanting to get involved.
 
 # Example: Private Communication
 
-You might also ask people to reach out to you directly:
+You might also ask potential contributors to reach out to you directly:
 
 > ## Getting Involved
 >
-> If you’d like to get involved in this project, email **{Your Name}**
-> at **{your@email.address}**.
+> If you’d like to get involved in this project, email the author as
+> per [the Getting In Touch section](#).
 
 But we encourage the GitHub approach since it’s more public. For instance, if
 one user posts a pull request to your project on GitHub, another user might see

@@ -11,7 +11,7 @@ description = """\
 section = "In-Depth Guides"
 +++
 
-[The One Good Tutorial software documentation checklist](/) specifies eight core
+[The One Good Tutorial software documentation checklist](/) specifies nine core
 **documentation elements** that should be present in the docs for nearly any
 piece of scientific software. There are, however, many other elements that might
 make sense to include in a project’s documentation, such as:
@@ -20,7 +20,7 @@ make sense to include in a project’s documentation, such as:
 - [Donations / Support / Sponsorship](#donations-support-sponsorship)
 - [Explainers](#explainers)
 - [Frequently Asked Questions (FAQ)](#frequently-asked-questions-faq)
-- [Getting Help / Support / Contact](#getting-help-support-contact)
+- [Getting Help / Support](#getting-help-support)
 - [How-To Guides](#how-to-guides)
 - [People / Contributors](#people-contributors)
 - [Quickstart / Getting Started](#quickstart-getting-started)
@@ -78,7 +78,7 @@ your users for money, be prepared to spend a lot of time figuring out if you’r
 even allowed to do so, and jumping through bureaucratic hoops if so.
 
 Note that the word “support” can be ambiguous; it might mean financial support,
-or [user assistance](#getting-help-support-contact).
+or [user assistance](#getting-help-support).
 
 ## Additional Resources
 
@@ -137,18 +137,17 @@ One trick: if you do add a FAQ to your documentation, try to ensure that every
 FAQ item is linked to from at least one other location in your documentation.
 
 
-# Getting Help / Support / Contact
+# Getting Help / Support
 
-If it is not abundantly clear from an existing part of your software’s web
-presence, you should include a documentation element telling users how to get in
-touch with a human, i.e., you and/or your colleagues.
+Your documentation should already have a section providing clear [contact
+information](@/in-depth/contact-information.md). For small projects, it should
+be made clear that users should get in touch with you if they need help.
 
-Your project probably doesn’t need a distinct “Getting Help” or “Support” page
-unless it has grown to the point where it has a special mechanism for handling
-user support requests, like a helpdesk system or special mailing list, that’s
-distinct from a generic project bug-tracker. Tech-savvy users will know to look
-for systems like GitHub Issues; other users will email you directly, no matter
-how prominently you ask them to file requests using a project issue tracker.
+Once a has grown to the point where it has a special mechanism for handling user
+support requests, like a helpdesk system or special mailing list, it is likely
+time to add a distinct “Getting Help” or “Support” documentation page. Some
+users will know to look for systems like GitHub Issues, but not everyone, and
+not everyone has a GitHub account.
 
 Note that the word “support” can be ambiguous; it might mean help for users, or
 it might mean [financial contributions](#donations-support-sponsorship).
@@ -170,7 +169,8 @@ The documentation for mature software should almost surely include a substantial
 collection of how-to guides. And if you have the time and energy to write one or
 more how-to guides for a new piece of software, so much the better. However,
 when a project is just getting started, you can get away without having any — so
-long as your [contact information](#getting-help-support-contact) is prominent.
+long as your [contact information](@/in-depth/contact-information.md) is
+prominent.
 
 Some “how-to” content might be very short, about a paragraph’s worth of
 guidance. The [FAQ](#frequently-asked-questions-faq) form-factor can be a
@@ -186,11 +186,14 @@ micromanaging the page hierarchy of your project’s documentation.
 
 # People / Contributors
 
-Many projects include a page in their documentation that list project authors
-and/or personnel. In the academic context, it is especially important that
-project contributors get their fair share of credit.
+Many projects include a page in their documentation that lists project authors
+and/or personnel. For a small project, the [contact
+information](@/in-depth/contact-information.md) page can serve that purpose
+well. For larger projects, it can become worthwhile to document project
+personnel separately, especially project leadership.
 
-But, presuming that you have [made your software
+In the academic context, it is especially important that project contributors
+get their fair share of credit. But, presuming that you have [made your software
 citeable](@/in-depth/software-citation.md), you *already* have a way to give
 credit to your contributors: by including them on the author list of the
 citeable object associated with your project. It’s fair to say that these author
