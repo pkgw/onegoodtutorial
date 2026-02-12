@@ -31,8 +31,8 @@ it is probably best to direct users to that person’s email address.
 
 > ## Getting in Touch
 >
-> If you have questions or feedback, reach out to [Peter K. G. Williams][pkgw].
-> His email address is [pwilliams@cfa.harvard.edu][pkgwemail].
+> If you have questions or feedback, reach out to [Peter K. G. Williams][pkgw]
+> at [pwilliams@cfa.harvard.edu][pkgwemail].
 
 [pkgw]: https://newton.cx/~peter/about-me/#contact
 [pkgwemail]: mailto:pwilliams@cfa.harvard.edu
@@ -56,7 +56,7 @@ to get help when it’s needed. And the kind of help that people prefer above
 all others is help from a person.
 
 An important additional purpose of this documentation element, however, is to
-identify who’s in charge — to allow people to **contact leadership**. This is
+make it clear who’s in charge — to **identify leadership**. This is
 especially relevant for scientific software where current or potential users
 might need to reach out with inquiries about formalizing collaborations, grant
 proposals, and so on. (Ironically, while the *product* of scientific research is
@@ -80,7 +80,7 @@ remains important to provide a “Contact Information” section that identifies
 who’s in charge.
 
 
-# Example: Issue Tracker
+# Example: Issue Tracker and Email
 
 If your project’s source code is hosted on a platform like [GitHub] that comes
 with an associated issue tracker (e.g., [GitHub Issues][ghi]), you may wish to
@@ -124,10 +124,8 @@ personally.
 # Case Study: Bioconductor
 
 For larger projects, the notion of “contact information“ starts becoming
-somewhat ill-defined. The problem becomes that there are *too many*
-communications channels out there, all of which are potentially ways to contact
-someone about the project. For instance, as of this writing, the [Bioconductor]
-homepage lists the following:
+ill-defined.  For instance, as of this writing, the [Bioconductor] homepage
+lists the following:
 
 [Bioconductor]: https://www.bioconductor.org/
 
@@ -144,17 +142,22 @@ homepage lists the following:
 > - [Bioconductor Related Events](https://www.bioconductor.org/help/events/)
 > - [Bioconductor Seminar Series](https://www.bioconductor.org/help/seminar-series/)
 
-The unfortunate thing is that *you can’t control what communications channels
-your project needs to use*. If people start posting questions about your project
-on StackExchange, it’s strongly in your interest to start monitoring and
-answering them there, even if you’d rather not add yet another discussion venue
-to the mix. Between that and the fact that “place for people to communicate with
-each other” is a kind of website that’s launched every day, popular projects
-should expect to constantly be shifting communications across different
-platforms, as a simple fact of life.
+One way to think about the problem is that there are too many communications
+channels out there, all of which are potentially ways to contact someone about
+the project. The unfortunate thing is that *you can’t control what
+communications channels your project needs to use*. If people start posting
+questions about your project on StackExchange, it’s strongly in your interest to
+start monitoring and answering them there, even if you’d rather not add yet
+another discussion venue to the mix. Between that and the fact that “place for
+people to communicate with each other” is a kind of website that’s launched
+every day, popular projects should expect to constantly be shifting
+communications across different platforms, as a simple fact of life.
 
-When it comes to documentating project communication channels, it can be helpful
-to focus on users’ needs. These can be sorted into a few broad bins, such as:
+Another way to think about the issue is that there become too many different
+kinds of communication to support: user help, project news, leadership
+discussions, conduct issues, and more. When it comes to documentating project
+communication channels, it can be helpful to take this perspective and focus on
+users’ needs. These can be sorted into a few broad bins, such as:
 
 - I have a question
 - I want to get involved
