@@ -1,3 +1,12 @@
+# onegoodtutorial 0.10.1 (2026-02-12)
+
+- Add some miscellaneous textual polish.
+
+The DOI of this release is [10.5281/zenodo.18624283][vdoi].
+
+[vdoi]: https://doi.org/10.5281/zenodo.18624283
+
+
 # onegoodtutorial 0.10.0 (2026-02-12)
 
 - Make a somewhat significant change: add "Contact Information:
