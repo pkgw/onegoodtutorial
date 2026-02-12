@@ -86,10 +86,11 @@ your particular publication venue — this is fine.) See the “Export” sectio
 
 # Contributing to One Good Tutorial
 
-Your contributions are most welcome! The best way to start contributing is by
-filing [an issue][ghissue] or even [a pull request][ghpr] on the One Good
-Tutorial source code repository on GitHub, but you can use any of the contact
-methods [mentioned above](#getting-in-touch-feedback).
+Your contributions are most welcome! Start by exploring [the One Good Tutorial
+source code repository on GitHub](https://github.com/pkgw/onegoodtutorial/),
+where you can file [an issue][ghissue] or [a pull request][ghpr]. Or if you’re
+not sure exactly where to start, go ahead and [get in
+touch](#getting-in-touch-feedback) with the author.
 
 The One Good Tutorial website is built with a static site engine called
 [Zola](https://getzola.org/). To preview site changes in a local checkout of the

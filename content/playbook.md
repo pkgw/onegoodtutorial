@@ -39,7 +39,7 @@ footerclass = "symmetric"
   <p>This playbook is aimed at authors of software projects that are:</p>
 
   <ul>
-    <li>Small, DIY-style</li>
+    <li>Small / informally-managed</li>
     <li>Open source</li>
     <li>Scientific</li>
   </ul>
