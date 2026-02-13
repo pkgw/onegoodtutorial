@@ -11,7 +11,7 @@
    inkscape:export-xdpi="24"
    inkscape:export-ydpi="24"
    inkscape:version="1.4.3 (0d15f75042, 2025-12-25)"
-   sodipodi:docname="drawing.svg"
+   sodipodi:docname="logo.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -27,9 +27,9 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="px"
      showgrid="true"
-     inkscape:zoom="6.859375"
-     inkscape:cx="63.927107"
-     inkscape:cy="64"
+     inkscape:zoom="1.2894953"
+     inkscape:cx="84.916943"
+     inkscape:cy="160.52792"
      inkscape:current-layer="layer1">
     <inkscape:grid
        id="grid1"
@@ -77,12 +77,5 @@
        height="128"
        x="0"
        y="0" />
-    <rect
-       style="color:#000000;overflow:visible;fill:#f7e5d9;fill-opacity:0;stroke:none;stroke-width:3;paint-order:markers fill stroke"
-       id="rect2"
-       width="39.507973"
-       height="62.542141"
-       x="-6.8519363"
-       y="21.867882" />
   </g>
 </svg>

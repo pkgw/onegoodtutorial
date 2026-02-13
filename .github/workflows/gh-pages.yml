@@ -61,7 +61,7 @@ jobs:
 
     - name: Preregister Zenodo DOI
       run: |
-        cranko zenodo preregister --metadata=zenodo.json5 onegoodtutorial CHANGELOG.md content/about.md
+        cranko zenodo preregister --metadata=zenodo.json5 onegoodtutorial CHANGELOG.md content/about/index.md
 
     - name: Generate release commit repo bundle
       run: |

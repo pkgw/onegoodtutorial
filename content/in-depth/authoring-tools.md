@@ -99,7 +99,7 @@ screenshots, syntax-highlighted code samples, and [disclosure arrows][discarr].
 
 ## Example: One Good Tutorial Itself
 
-The [One Good Tutorial “About” page](@/about.md) is also a single Markdown page
+The [One Good Tutorial “About” page](@/about/index.md) is also a single Markdown page
 that essentially serves as the project’s documentation. It omits a few elements
 such as Installation Instructions that aren’t relevant.
 

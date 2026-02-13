@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="278.31448"
+   height="20"
+   role="img"
+   aria-label="One Good Tutorial docs checklist v1: adopted"
+   version="1.1"
+   id="svg8"
+   sodipodi:docname="adopted-v1.svg"
+   inkscape:version="1.4.3 (0d15f75042, 2025-12-25)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <defs
+     id="defs8">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath11">
+      <rect
+         width="278.31448"
+         height="20"
+         rx="3.1626644"
+         fill="#ffffff"
+         id="rect11"
+         x="-14.314484"
+         y="0"
+         style="stroke-width:1.02675" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath12">
+      <rect
+         width="278.31448"
+         height="20"
+         rx="3.1626644"
+         fill="#ffffff"
+         id="rect12"
+         x="-14.314484"
+         y="0"
+         style="stroke-width:1.02675" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath13">
+      <rect
+         width="278.31448"
+         height="20"
+         rx="3.1626644"
+         fill="#ffffff"
+         id="rect13"
+         x="-14.314484"
+         y="0"
+         style="stroke-width:1.02675" />
+    </clipPath>
+  </defs>
+  <sodipodi:namedview
+     id="namedview8"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="4.1787261"
+     inkscape:cx="139.15724"
+     inkscape:cy="10.05091"
+     inkscape:current-layer="svg8" />
+  <title
+     id="title1">One Good Tutorial docs checklist v1: adopted</title>
+  <linearGradient
+     id="s"
+     x2="0"
+     y2="72.663605"
+     gradientTransform="matrix(3.8301769,0,0,0.27524094,-14.314484,0)"
+     x1="0"
+     y1="0"
+     gradientUnits="userSpaceOnUse">
+    <stop
+       offset="0"
+       stop-color="#bbb"
+       stop-opacity=".1"
+       id="stop1" />
+    <stop
+       offset="1"
+       stop-opacity=".1"
+       id="stop2" />
+  </linearGradient>
+  <rect
+     width="220.33229"
+     height="20"
+     fill="#555555"
+     id="rect3"
+     x="-14.314484"
+     y="0"
+     style="fill:#555555;fill-opacity:1;stroke-width:1.02675"
+     clip-path="url(#clipPath13)"
+     transform="matrix(1.0129661,0,0,1,14.500087,0)" />
+  <rect
+     x="206.01781"
+     width="57.982182"
+     height="20"
+     fill="#97ca00"
+     id="rect4"
+     y="0"
+     style="stroke-width:1.02675"
+     clip-path="url(#clipPath12)"
+     transform="matrix(0.95135254,0,0,1,27.157412,0)" />
+  <rect
+     width="278.31448"
+     height="20"
+     fill="url(#s)"
+     id="rect5"
+     style="fill:url(#s);stroke-width:1.0280315;stroke-dasharray:none"
+     x="-14.314484"
+     y="0"
+     clip-path="url(#clipPath11)"
+     transform="translate(14.314484)" />
+  <g
+     fill="#ffffff"
+     text-anchor="middle"
+     font-family="Verdana, Geneva, 'DejaVu Sans', sans-serif"
+     text-rendering="geometricPrecision"
+     font-size="110px"
+     id="g8"
+     transform="translate(14.314484)">
+    <text
+       aria-hidden="true"
+       x="1055"
+       y="150"
+       fill="#010101"
+       fill-opacity="0.3"
+       transform="scale(0.1)"
+       textLength="1990"
+       id="text5"
+       lengthAdjust="spacing">One Good Tutorial docs checklist v1</text>
+    <text
+       x="1055"
+       y="140"
+       transform="scale(0.1)"
+       fill="#ffffff"
+       textLength="1990"
+       id="text6"
+       lengthAdjust="spacing">One Good Tutorial docs checklist v1</text>
+    <text
+       aria-hidden="true"
+       x="2355"
+       y="150"
+       fill="#010101"
+       fill-opacity="0.3"
+       transform="scale(0.1)"
+       textLength="450"
+       id="text7"
+       lengthAdjust="spacing">adopted</text>
+    <text
+       x="2355"
+       y="140"
+       transform="scale(0.1)"
+       fill="#ffffff"
+       textLength="450"
+       id="text8"
+       lengthAdjust="spacing">adopted</text>
+  </g>
+  <rect
+     style="color:#000000;overflow:visible;fill:#f7e5d9;fill-opacity:1;stroke:none;stroke-width:0.933543;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+     id="rect3-2"
+     width="14.762035"
+     height="14.762035"
+     x="2.6189823"
+     y="-17.274296"
+     transform="rotate(90)"
+     rx="2"
+     ry="2" />
+  <path
+     style="fill:#8ecbeb;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.157961px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="M 9.026281,15.97527 9.021535,4.012381 2.9895788,6.2382786 3.6418161,8.2890934 6.628549,7.2993456 6.662816,15.987619 Z"
+     id="path1-9"
+     sodipodi:nodetypes="ccccccc" />
+  <path
+     style="fill:#579e64;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.15454px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="M 16.610391,4.9119669 11.925948,15.976768 7.5025711,11.678616 8.8773816,10.023566 11.111603,12.047815 14.540809,4.0232321 Z"
+     id="path1-9-2"
+     sodipodi:nodetypes="ccccccc" />
+  <rect
+     style="color:#000000;overflow:visible;fill:#f7e5d9;fill-opacity:0;stroke:none;stroke-width:0.345985;paint-order:markers fill stroke"
+     id="rect1"
+     width="14.762035"
+     height="14.762035"
+     x="2.5122609"
+     y="2.6189823" />
+  <metadata
+     id="metadata13">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>One Good Tutorial docs checklist v1: adopted</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>
