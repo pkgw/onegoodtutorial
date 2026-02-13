@@ -43,5 +43,5 @@ prefer.
 If you found this resource useful during the preparation of your software’s
 documentation, you are encouraged — but not obligated — to mention it in your
 acknowledgments section. See [the About
-page](@/about.md#citing-or-acknowledging-one-good-tutorial) for a suggested
+page](@/about/index.md#citing-or-acknowledging-one-good-tutorial) for a suggested
 statement.
