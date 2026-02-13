@@ -342,8 +342,10 @@ footerclass = "symmetric"
   <h2>Step 18: Publish and Celebrate</h2>
 
   <p>That’s it! You’ve successfully written a set of documentation that will do
-  credit to you and your project. Publish it and find a way to <b>reward
-  yourself</b> for a job well done.</p>
+  credit to you and your project. Consider adding <a href="/badge/">a One Good
+  Tutorial badge</a> to your README to proclaim this milestone.</p>
+
+  <p>Publish your docs and find a way to <b>reward yourself</b> for a job well done.</p>
 
   <p><i>Why:</i> Working on docs can feel like a slog — they’re never
   “finished,” and you’re probably all too aware of the shortcomings of

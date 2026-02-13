@@ -1,11 +1,24 @@
-# rc: micro bump
+# rc: minor bump
 
-- Add a [GoatCounter](https://www.goatcounter.com/) analytics tag. This will
-  hopefully give some basic insights without adding invasive tracking.
+- Add a README badge and related plumbing, as suggested in [#13] ([@fjebaker]).
+- Some minor language tidying.
+
+[#13]: https://github.com/pkgw/onegoodtutorial/issues/13
+[@fjebaker]: https://github.com/fjebaker
 
 The DOI of this release is [xx.xxxx/dev-build.onegoodtutorial.version][vdoi].
 
 [vdoi]: https://doi.org/xx.xxxx/dev-build.onegoodtutorial.version
+
+
+# onegoodtutorial 0.10.2 (2026-02-12)
+
+- Add a [GoatCounter](https://www.goatcounter.com/) analytics tag. This will
+  hopefully give some basic insights without adding invasive tracking.
+
+The DOI of this release is [10.5281/zenodo.18625648][vdoi].
+
+[vdoi]: https://doi.org/10.5281/zenodo.18625648
 
 
 # onegoodtutorial 0.10.1 (2026-02-12)

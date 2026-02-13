@@ -52,7 +52,7 @@ To reach out to the author directly, or for any other needs, contact him at
 
 If you found this resource useful during the preparation of your software’s
 documentation, you are encouraged — but not obligated — to mention it in your
-acknowledgments section. A suggested statement is:
+[acknowledgments](@/in-depth/acknowledgments.md) section. A suggested statement is:
 
 > These materials were initially prepared following version
 > {{ checklist_version() }} of the [One Good Tutorial software
@@ -83,6 +83,9 @@ like this:
 your particular publication venue — this is fine.) See the “Export” section of
 [the Zenodo page][vdoi] for additional formats.
 
+Another, less-formal way to acknowledge One Good Tutorial is to [add a
+compliance badge](@/badge/index.md) to your project README or another
+appropriate page.
 
 # Contributing to One Good Tutorial
 
