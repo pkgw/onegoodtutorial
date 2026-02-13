@@ -52,7 +52,7 @@ To reach out to the author directly, or for any other needs, contact him at
 
 If you found this resource useful during the preparation of your software’s
 documentation, you are encouraged — but not obligated — to mention it in your
-acknowledgments section. A suggested statement is:
+[acknowledgments](@/in-depth/acknowledgments.md) section. A suggested statement is:
 
 > These materials were initially prepared following version
 > {{ checklist_version() }} of the [One Good Tutorial software
@@ -61,21 +61,21 @@ acknowledgments section. A suggested statement is:
 [self]: https://onegoodtutorial.org/
 
 If you discuss One Good Tutorial in a scholarly context, you should cite it. You
-are reading version 0.10.2 and its DOI is
-[10.5281/zenodo.18625648][vdoi]. Cite it with a BibTeX entry
+are reading version 0.11.0 and its DOI is
+[10.5281/zenodo.18635124][vdoi]. Cite it with a BibTeX entry
 like this:
 
-[vdoi]: https://doi.org/10.5281/zenodo.18625648
+[vdoi]: https://doi.org/10.5281/zenodo.18635124
 
 ```bibtex
-@misc{onegoodtutorial0.10.2,
+@misc{onegoodtutorial0.11.0,
   author       = {Williams, Peter K. G.},
-  title        = {One Good Tutorial (version 0.10.2)},
+  title        = {One Good Tutorial (version 0.11.0)},
   year         = 2026,
   publisher    = {Zenodo},
-  version      = {0.10.2},
-  doi          = {10.5281/zenodo.18625648},
-  url          = {https://doi.org/10.5281/zenodo.18625648}
+  version      = {0.11.0},
+  doi          = {10.5281/zenodo.18635124},
+  url          = {https://doi.org/10.5281/zenodo.18635124}
 }
 ```
 
@@ -83,6 +83,9 @@ like this:
 your particular publication venue — this is fine.) See the “Export” section of
 [the Zenodo page][vdoi] for additional formats.
 
+Another, less-formal way to acknowledge One Good Tutorial is to [add a
+compliance badge](@/badge/index.md) to your project README or another
+appropriate page.
 
 # Contributing to One Good Tutorial
 

@@ -1,3 +1,16 @@
+# onegoodtutorial 0.11.0 (2026-02-13)
+
+- Add a README badge and related plumbing, as suggested in [#13] ([@fjebaker]).
+- Some minor language tidying.
+
+[#13]: https://github.com/pkgw/onegoodtutorial/issues/13
+[@fjebaker]: https://github.com/fjebaker
+
+The DOI of this release is [10.5281/zenodo.18635124][vdoi].
+
+[vdoi]: https://doi.org/10.5281/zenodo.18635124
+
+
 # onegoodtutorial 0.10.2 (2026-02-12)
 
 - Add a [GoatCounter](https://www.goatcounter.com/) analytics tag. This will

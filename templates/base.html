@@ -28,6 +28,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 
   <title>{{ qualtitle }}</title>
+  <link rel="canonical" href="{{ current_url | safe }}">
   <meta property="og:locale" content="en_US" />
   <meta property="og:site_name" content="One Good Tutorial" />
   <meta property="og:title" content="{{ qualtitle }}" />
@@ -75,7 +76,7 @@
 {% endif %}
     <div class="maxwidth">
       <p>
-        <a href="{{ get_url(path="@/about.md", trailing_slash=true) | safe }}#citing-or-acknowledging-one-good-tutorial">Version 0.10.2</a>
+        <a href="{{ get_url(path="@/about/index.md", trailing_slash=true) | safe }}#citing-or-acknowledging-one-good-tutorial">Version 0.11.0</a>
         of <a href="{{ get_url(path="", trailing_slash=true) | safe }}">One Good Tutorial</a>,
         © 2025–2026 by
         <a href="https://newton.cx/~peter/">Peter K. G. Williams</a> is licensed
