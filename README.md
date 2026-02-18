@@ -1,3 +1,5 @@
+[![One Good Tutorial docs checklist v1: adopted](https://onegoodtutorial.org/badge/adopted-v1.svg)](https://onegoodtutorial.org/about/badge/?v=1)
+
 # One Good Tutorial
 
 This is the repo for [onegoodtutorial.org]!
