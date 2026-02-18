@@ -1,4 +1,7 @@
 [![One Good Tutorial docs checklist v1: adopted](https://onegoodtutorial.org/badge/adopted-v1.svg)](https://onegoodtutorial.org/about/badge/?v=1)
+[![DOI: 10.5281/zenodo.18362470](https://zenodo.org/badge/doi/10.5281/zenodo.18362470.svg)](https://onegoodtutorial.org/about/#citing-or-acknowledging-one-good-tutorial)
+[![GitHub Release](https://img.shields.io/github/v/release/pkgw/onegoodtutorial?label=Latest%20release)](https://github.com/pkgw/onegoodtutorial/releases)
+[![Build and maybe deploy](https://github.com/pkgw/onegoodtutorial/actions/workflows/gh-pages.yml/badge.svg)](https://github.com/pkgw/onegoodtutorial/actions/workflows/gh-pages.yml)
 
 # One Good Tutorial
 
