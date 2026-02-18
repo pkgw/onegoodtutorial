@@ -1,3 +1,14 @@
+# onegoodtutorial 0.11.1 (2026-02-18)
+
+- Fix rendering of inline code blocks. Oops.
+- Add badges to the README, including a self-badge. I've confirmed that the
+  different syntaxes (Markdown, rST, and HTML) seem to all work well.
+
+The DOI of this release is [10.5281/zenodo.18676709][vdoi].
+
+[vdoi]: https://doi.org/10.5281/zenodo.18676709
+
+
 # onegoodtutorial 0.11.0 (2026-02-13)
 
 - Add a README badge and related plumbing, as suggested in [#13] ([@fjebaker]).
