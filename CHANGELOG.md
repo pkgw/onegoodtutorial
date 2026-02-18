@@ -1,4 +1,15 @@
-# rc: minor bump
+# rc: micro bump
+
+- Fix rendering of inline code blocks. Oops.
+- Add badges to the README, including a self-badge. I've confirmed that the
+  different syntaxes (Markdown, rST, and HTML) seem to all work well.
+
+The DOI of this release is [xx.xxxx/dev-build.onegoodtutorial.version][vdoi].
+
+[vdoi]: https://doi.org/xx.xxxx/dev-build.onegoodtutorial.version
+
+
+# onegoodtutorial 0.11.0 (2026-02-13)
 
 - Add a README badge and related plumbing, as suggested in [#13] ([@fjebaker]).
 - Some minor language tidying.
@@ -6,9 +17,9 @@
 [#13]: https://github.com/pkgw/onegoodtutorial/issues/13
 [@fjebaker]: https://github.com/fjebaker
 
-The DOI of this release is [xx.xxxx/dev-build.onegoodtutorial.version][vdoi].
+The DOI of this release is [10.5281/zenodo.18635124][vdoi].
 
-[vdoi]: https://doi.org/xx.xxxx/dev-build.onegoodtutorial.version
+[vdoi]: https://doi.org/10.5281/zenodo.18635124
 
 
 # onegoodtutorial 0.10.2 (2026-02-12)
