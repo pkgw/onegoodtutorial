@@ -19,12 +19,15 @@
   pre {
     font-size: 70%;
     padding: 0.2rem;
-  }
 
-  code {
-    display: block;
-    overflow-x: scroll;
-    padding: 12px 4px;
+    // In our Markdown rendering, triple-backtick code blocks are inside <pre>
+    // elements, while inline ones (single backtick) are not. We only want the
+    // padding and potential horizontal scrollbar for the former.
+    code {
+      display: block;
+      overflow-x: scroll;
+      padding: 12px 4px;
+    }
   }
 
   blockquote {
