@@ -333,6 +333,10 @@ footerclass = "symmetric"
   anything that’s unclear or inaccurate. Hard-to-read docs often indicate
   an underlying engineering problem to address.</p>
 
+  <p>Perhaps the best thing you can do at this point is
+  <a href="/in-depth/tutorial-writing/#user-testing">user testing</a> to
+  get feedback from someone with fresh eyes.</p>
+
   <p><i>Why:</i> “When you write a book, you spend day after day scanning
   and identifying the trees. When you’re done, you have to step back and
   look at the forest.” ―&nbsp;Stephen&nbsp;King<sup><a href="https://www.goodreads.com/quotes/370731-when-you-write-a-book-you-spend-day-after-day">*</a></sup></p>
