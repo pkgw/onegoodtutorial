@@ -106,7 +106,7 @@ footerclass = "symmetric"
   <h2>Step 3: Think Up Some Personas</h2>
 
   <p>A <b>persona</b> is an imaginary, but specific, person who might use
-  your software and documenation. Spend just a few minutes making up 2–3 named
+  your software and documentation. Spend just a few minutes making up 2–3 named
   personas, and jot down brief profiles in a new section of your notes.</p>
 
   <p><i>Example:</i> “Postdoc Pete saw me give a talk about my software that
