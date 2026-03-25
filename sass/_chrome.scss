@@ -11,13 +11,19 @@ header {
   background-color: rgb(87, 158, 100);
 }
 
+.logo {
+  height: 1.4rem;
+  vertical-align: baseline;
+  margin-right: 0.5rem;
+}
+
 #banner {
   // Banner text "One Good Tutorial" overlaying the header image. It's inside
   // the `maxwidth` div to stay roughly centered when the viewport is wide. It's
   // a <p> tag (Markdown produces <h1>-<h6> tags so I want to save their styling
   // to be nice and generic).
   margin: 0;
-  min-height: 3rem;
+  min-height: 2.6rem;
   padding: 0.7rem 0 0 0;
   font-size: 2rem;
   font-family: "Newsreader", serif;
@@ -34,6 +40,38 @@ header {
 
     &:hover {
       text-decoration: underline;
+    }
+  }
+}
+
+// The top navigation bar. The structure is: `nav#topnav > ul > li > a`, within
+// the header maxwidth div.
+
+#topnav {
+  font-size: 70%;
+  font-weight: 700;
+
+  padding-left: 1.9rem;
+  padding-bottom: 0.3rem;
+
+  ul {
+    padding: 0;
+    margin: 0;
+  }
+
+  li {
+    display: inline-block;
+  }
+
+  a {
+    padding: 0 0.2rem;
+    text-decoration: none;
+    color: #F0F0F0;
+    border-radius: 3px;
+
+    &:hover {
+      color: rgb(87, 158, 100);
+      background-color: #FFF;
     }
   }
 }

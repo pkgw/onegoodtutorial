@@ -1,12 +1,30 @@
-# rc: micro bump
+# rc: major bump
+
+- Mention compile/build instructions in the "Other Common Documentation
+  Elements" guide
+- On the About page, add a link and embed to a presentation @pkgw gave
+  at the US-RSE UX working group last month
+- Mention user testing in the review step of the playbook
+- Add a navbar at the top of the site
+- Add the logo image to the OpenGraph HTML tags
+- Fix a typo, courtesy of [@BenjaminRodenberg](https://github.com/BenjaminRodenberg).
+
+Let's call this 1.0!
+
+The DOI of this release is [xx.xxxx/dev-build.onegoodtutorial.version][vdoi].
+
+[vdoi]: https://doi.org/xx.xxxx/dev-build.onegoodtutorial.version
+
+
+# onegoodtutorial 0.11.1 (2026-02-18)
 
 - Fix rendering of inline code blocks. Oops.
 - Add badges to the README, including a self-badge. I've confirmed that the
   different syntaxes (Markdown, rST, and HTML) seem to all work well.
 
-The DOI of this release is [xx.xxxx/dev-build.onegoodtutorial.version][vdoi].
+The DOI of this release is [10.5281/zenodo.18676709][vdoi].
 
-[vdoi]: https://doi.org/xx.xxxx/dev-build.onegoodtutorial.version
+[vdoi]: https://doi.org/10.5281/zenodo.18676709
 
 
 # onegoodtutorial 0.11.0 (2026-02-13)
