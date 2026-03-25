@@ -1,3 +1,21 @@
+# onegoodtutorial 1.0.0 (2026-03-25)
+
+- Mention compile/build instructions in the "Other Common Documentation
+  Elements" guide
+- On the About page, add a link and embed to a presentation @pkgw gave
+  at the US-RSE UX working group last month
+- Mention user testing in the review step of the playbook
+- Add a navbar at the top of the site
+- Add the logo image to the OpenGraph HTML tags
+- Fix a typo, courtesy of [@BenjaminRodenberg](https://github.com/BenjaminRodenberg).
+
+Let's call this 1.0!
+
+The DOI of this release is [10.5281/zenodo.19212776][vdoi].
+
+[vdoi]: https://doi.org/10.5281/zenodo.19212776
+
+
 # onegoodtutorial 0.11.1 (2026-02-18)
 
 - Fix rendering of inline code blocks. Oops.

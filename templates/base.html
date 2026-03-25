@@ -35,6 +35,11 @@
   <meta property="og:type" content="website" />
   <meta property="og:url" content="{{ current_url | safe }}" />
   <meta property="og:description" content="{{ description }}" />
+  <meta property="og:image" content='{{ get_url(path="/logo128.png") | safe }}'>
+  <meta property="og:image:type" content="image/png">
+  <meta property="og:image:width" content="128">
+  <meta property="og:image:height" content="128">
+  <meta property="og:image:alt" content="The One Good Tutorial logo">
   <meta name="author" content="Peter K. G. Williams">
 
   <link rel="stylesheet" href='{{ get_url(path="style.css") | safe }}'>
@@ -51,6 +56,18 @@
   <header>
     <div class="maxwidth">
       <p id="banner"><img class="logo" src="{{ get_url(path="/logo128.png") | safe }}"><a href="{{ get_url(path="", trailing_slash=true) | safe }}">One Good Tutorial</a>{{ bannersuffix }}</p>
+
+      <nav id="topnav">
+        <ul>
+          <li><a href='/'>Home</a></li>
+          <li><a href='{{ get_url(path="@/about/index.md") }}'>About</a></li>
+          <li><a href='{{ get_url(path="@/playbook.md") }}'>Playbook</a></li>
+          <li><a href='{{ get_url(path="@/in-depth/index.md") }}'>Guides</a></li>
+          <li><a href='{{ get_url(path="@/badge/index.md") }}'>Badge</a></li>
+        </ul>
+      </nav>
+    </div>
+  </nav>
     </div>
   </header>
 
@@ -76,7 +93,7 @@
 {% endif %}
     <div class="maxwidth">
       <p>
-        <a href="{{ get_url(path="@/about/index.md", trailing_slash=true) | safe }}#citing-or-acknowledging-one-good-tutorial">Version 0.11.1</a>
+        <a href="{{ get_url(path="@/about/index.md", trailing_slash=true) | safe }}#citing-or-acknowledging-one-good-tutorial">Version 1.0.0</a>
         of <a href="{{ get_url(path="", trailing_slash=true) | safe }}">One Good Tutorial</a>,
         © 2025–2026 by
         <a href="https://newton.cx/~peter/">Peter K. G. Williams</a> is licensed
