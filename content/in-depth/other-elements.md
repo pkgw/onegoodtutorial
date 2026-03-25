@@ -17,6 +17,7 @@ piece of scientific software. There are, however, many other elements that might
 make sense to include in a project’s documentation, such as:
 
 - [Code of Conduct](#code-of-conduct)
+- [Compile / Build Instructions](#compile-build-instructions)
 - [Donations / Support / Sponsorship](#donations-support-sponsorship)
 - [Explainers](#explainers)
 - [Frequently Asked Questions (FAQ)](#frequently-asked-questions-faq)
@@ -67,6 +68,36 @@ to arise before your project considers formalizing a CoC*.
 - [GitHub: Adding a code of conduct to your project](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-code-of-conduct-to-your-project)
 - [Contributor Covenant: A code of conduct for digital communities](https://www.contributor-covenant.org/)
 - [Project Include: Guide to writing a code of conduct](https://projectinclude.org/writing_cocs)
+
+
+# Compile / Build Instructions
+
+If your software is the kind that a user might want or need to compile
+themselves, the process should be documented. Depending on how your software is
+distributed, these instructions might make sense to include as part of your
+[installation instructions](@/in-depth/installation-instructions.md). It might
+also make sense to have the instructions live in a `README.md` file in your
+source repository, in which case the build instructions in your primary
+documentation might just link readers to that file.
+
+If you seriously expect that many users will want to compile your software
+themselves, you’ll save everyone a lot of time if you put some effort into
+making your build system as boring as possible. If your programming language has
+a standard build tool (e.g., [Cargo](https://doc.rust-lang.org/cargo/) for
+[Rust](https://rust-lang.org/)), use it. If you think there’s some showstopper
+preventing you from doing so, you probably need to learn more about the tool. If
+your language doesn’t have a clearly preferred built tool, consider a popular
+language-agnostic tool like [CMake](https://cmake.org/) or
+[Meson](https://mesonbuild.com/). These have their learning curves and rough
+edges, but ignoring them in favor of rolling your own build system is pure
+selfishness.
+
+Your build (and, potentially, installation) instructions should prominently
+spell out any external dependencies needed by your software, if the user will be
+responsible for ensuring that they’re present. Think about what workflow you’ll
+use to ensure that these stay up-to-date with whatever source code files
+actually specify the dependencies during the build process (`package.json`,
+etc.).
 
 
 # Donations / Support / Sponsorship
