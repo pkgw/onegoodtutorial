@@ -51,6 +51,18 @@
   <header>
     <div class="maxwidth">
       <p id="banner"><img class="logo" src="{{ get_url(path="/logo128.png") | safe }}"><a href="{{ get_url(path="", trailing_slash=true) | safe }}">One Good Tutorial</a>{{ bannersuffix }}</p>
+
+      <nav id="topnav">
+        <ul>
+          <li><a href='/'>Home</a></li>
+          <li><a href='{{ get_url(path="@/about/index.md") }}'>About</a></li>
+          <li><a href='{{ get_url(path="@/playbook.md") }}'>Playbook</a></li>
+          <li><a href='{{ get_url(path="@/in-depth/index.md") }}'>Guides</a></li>
+          <li><a href='{{ get_url(path="@/badge/index.md") }}'>Badge</a></li>
+        </ul>
+      </nav>
+    </div>
+  </nav>
     </div>
   </header>
 
