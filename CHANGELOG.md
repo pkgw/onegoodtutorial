@@ -1,4 +1,13 @@
-# rc: major bump
+# rc: micro bump
+
+- Add the now-posted HPC Best Practices webinar video to the About page
+
+The DOI of this release is [xx.xxxx/dev-build.onegoodtutorial.version][vdoi].
+
+[vdoi]: https://doi.org/xx.xxxx/dev-build.onegoodtutorial.version
+
+
+# onegoodtutorial 1.0.0 (2026-03-25)
 
 - Mention compile/build instructions in the "Other Common Documentation
   Elements" guide
@@ -11,9 +20,9 @@
 
 Let's call this 1.0!
 
-The DOI of this release is [xx.xxxx/dev-build.onegoodtutorial.version][vdoi].
+The DOI of this release is [10.5281/zenodo.19212776][vdoi].
 
-[vdoi]: https://doi.org/xx.xxxx/dev-build.onegoodtutorial.version
+[vdoi]: https://doi.org/10.5281/zenodo.19212776
 
 
 # onegoodtutorial 0.11.1 (2026-02-18)

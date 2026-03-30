@@ -31,14 +31,29 @@ Software Fellowship](https://bssw.io/pages/bssw-fellowship-program).
 
 # Presentations
 
-One Good Tutorial was presented at the 2026 Feb 19 meeting of the [US-RSE UX
-working group](https://us-rse.org/wg/ux/):
+One Good Tutorial was presented at the 2026 Mar 18 edition of the
+[IDEAS](https://ideas-productivity.org/) [HPC Best Practices
+webinar](https://ideas-productivity.org/events/hpcbp-097-onegoodtutorial):
 
 <iframe
   class="youtube"
   width="560"
   height="315"
-  src="https://www.youtube-nocookie.com/embed/wrSp4l4icCE?si=XSd_T7Cf_bHO2LUa"
+  src="https://www.youtube-nocookie.com/embed/YnIGpJChx8I"
+  title="YouTube video player"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"
+  allowfullscreen>
+</iframe>
+
+It was also presented at the 2026 Feb 19 meeting of the [US-RSE UX working
+group](https://us-rse.org/wg/ux/):
+
+<iframe
+  class="youtube"
+  width="560"
+  height="315"
+  src="https://www.youtube-nocookie.com/embed/wrSp4l4icCE"
   title="YouTube video player"
   frameborder="0"
   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"
