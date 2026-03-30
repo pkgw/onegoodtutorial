@@ -1,3 +1,12 @@
+# onegoodtutorial 1.0.1 (2026-03-30)
+
+- Add the now-posted HPC Best Practices webinar video to the About page
+
+The DOI of this release is [10.5281/zenodo.19338407][vdoi].
+
+[vdoi]: https://doi.org/10.5281/zenodo.19338407
+
+
 # onegoodtutorial 1.0.0 (2026-03-25)
 
 - Mention compile/build instructions in the "Other Common Documentation

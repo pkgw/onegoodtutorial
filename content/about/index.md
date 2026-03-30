@@ -31,14 +31,29 @@ Software Fellowship](https://bssw.io/pages/bssw-fellowship-program).
 
 # Presentations
 
-One Good Tutorial was presented at the 2026 Feb 19 meeting of the [US-RSE UX
-working group](https://us-rse.org/wg/ux/):
+One Good Tutorial was presented at the 2026 Mar 18 edition of the
+[IDEAS](https://ideas-productivity.org/) [HPC Best Practices
+webinar](https://ideas-productivity.org/events/hpcbp-097-onegoodtutorial):
 
 <iframe
   class="youtube"
   width="560"
   height="315"
-  src="https://www.youtube-nocookie.com/embed/wrSp4l4icCE?si=XSd_T7Cf_bHO2LUa"
+  src="https://www.youtube-nocookie.com/embed/YnIGpJChx8I"
+  title="YouTube video player"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"
+  allowfullscreen>
+</iframe>
+
+It was also presented at the 2026 Feb 19 meeting of the [US-RSE UX working
+group](https://us-rse.org/wg/ux/):
+
+<iframe
+  class="youtube"
+  width="560"
+  height="315"
+  src="https://www.youtube-nocookie.com/embed/wrSp4l4icCE"
   title="YouTube video player"
   frameborder="0"
   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"
@@ -78,21 +93,21 @@ documentation, you are encouraged — but not obligated — to mention it in you
 [self]: https://onegoodtutorial.org/
 
 If you discuss One Good Tutorial in a scholarly context, you should cite it. You
-are reading version 1.0.0 and its DOI is
-[10.5281/zenodo.19212776][vdoi]. Cite it with a BibTeX entry
+are reading version 1.0.1 and its DOI is
+[10.5281/zenodo.19338407][vdoi]. Cite it with a BibTeX entry
 like this:
 
-[vdoi]: https://doi.org/10.5281/zenodo.19212776
+[vdoi]: https://doi.org/10.5281/zenodo.19338407
 
 ```bibtex
-@misc{onegoodtutorial1.0.0,
+@misc{onegoodtutorial1.0.1,
   author       = {Williams, Peter K. G.},
-  title        = {One Good Tutorial (version 1.0.0)},
+  title        = {One Good Tutorial (version 1.0.1)},
   year         = 2026,
   publisher    = {Zenodo},
-  version      = {1.0.0},
-  doi          = {10.5281/zenodo.19212776},
-  url          = {https://doi.org/10.5281/zenodo.19212776}
+  version      = {1.0.1},
+  doi          = {10.5281/zenodo.19338407},
+  url          = {https://doi.org/10.5281/zenodo.19338407}
 }
 ```
 
